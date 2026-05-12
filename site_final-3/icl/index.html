@@ -184,7 +184,7 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
   "@id": "https://www.docteursanak.com/#physician",
   "name": "Dr Serdal Sanak",
   "alternateName": "Docteur Serdal Sanak",
-  "description": "Chirurgien ophtalmologue spécialisé en chirurgie réfractive (Femto-LASIK, PKR, ICL) et chirurgie de la cataracte à Bruxelles. Consultation de dépistage gratuite.",
+  "description": "Chirurgien ophtalmologue spécialisé en chirurgie réfractive (Femto-LASIK, PKR, ICL, PRELEX) et chirurgie de la cataracte à Bruxelles. Bilan préopératoire gratuit.",
   "medicalSpecialty": [
     "http://schema.org/Ophthalmology",
     "Chirurgie réfractive",
@@ -194,19 +194,20 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
   "image": "https://www.docteursanak.com/photo-dr-sanak.jpg",
   "priceRange": "€€",
   "currenciesAccepted": "EUR",
-  "paymentAccepted": "Cash, Credit Card, Bancontact",
-  "telephone": "+3224275985",
+  "paymentAccepted": "Cash, Carte bancaire, Bancontact",
+  "telephone": "+3224348109",
   "email": "contact@docteursanak.com",
-  "hasMap": "https://maps.google.com/?q=Boulevard+du+Triomphe+201+1160+Auderghem",
   "sameAs": [
     "https://rosa.be/fr/hp/serdal-sanak/",
-    "https://www.chirec.be"
+    "https://www.chirec.be",
+    "https://www.focuseyeclinic.be"
   ],
   "location": [
     {
       "@type": "MedicalClinic",
       "@id": "https://www.docteursanak.com/#clinic-delta",
       "name": "Hôpital Delta Chirec — Dr Serdal Sanak",
+      "description": "Lieu de consultation pour les bilans préopératoires en chirurgie réfractive et cataracte.",
       "telephone": "+3224348109",
       "address": {
         "@type": "PostalAddress",
@@ -222,7 +223,12 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
         "longitude": 4.4012
       },
       "openingHoursSpecification": [
-        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:30", "closes": "17:00"}
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "13:45"
+        }
       ],
       "url": "https://rosa.be/fr/hp/serdal-sanak/"
     },
@@ -230,7 +236,8 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
       "@type": "MedicalClinic",
       "@id": "https://www.docteursanak.com/#clinic-wemmel",
       "name": "Focus Eye Clinic Wemmel — Dr Serdal Sanak",
-      "telephone": "+3224275985",
+      "description": "Lieu de consultation pour les bilans préopératoires en chirurgie réfractive et cataracte.",
+      "telephone": "+3224348109",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Kaasmarkt 97",
@@ -245,17 +252,23 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
         "longitude": 4.3118
       },
       "openingHoursSpecification": [
-        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:30", "closes": "17:00"}
-      ]
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "08:30",
+          "closes": "17:00"
+        }
+      ],
+      "url": "https://www.focuseyeclinic.be"
     }
   ],
   "availableService": [
     {"@type": "MedicalProcedure", "name": "Femto-LASIK", "url": "https://www.docteursanak.com/femtolasik/"},
-    {"@type": "MedicalProcedure", "name": "PKR", "url": "https://www.docteursanak.com/pkr/"},
-    {"@type": "MedicalProcedure", "name": "Implants ICL", "url": "https://www.docteursanak.com/icl/"},
-    {"@type": "MedicalProcedure", "name": "PRELEX", "url": "https://www.docteursanak.com/prelex/"},
+    {"@type": "MedicalProcedure", "name": "PKR — Chirurgie laser de surface", "url": "https://www.docteursanak.com/pkr/"},
+    {"@type": "MedicalProcedure", "name": "Implants ICL EVO STAAR Surgical", "url": "https://www.docteursanak.com/icl/"},
+    {"@type": "MedicalProcedure", "name": "PRELEX — Implants multifocaux", "url": "https://www.docteursanak.com/prelex/"},
     {"@type": "MedicalProcedure", "name": "Chirurgie de la cataracte", "url": "https://www.docteursanak.com/cataracte/"},
-    {"@type": "MedicalProcedure", "name": "Bilan préopératoire gratuit", "url": "https://www.docteursanak.com/bilan/"}
+    {"@type": "MedicalProcedure", "name": "Bilan préopératoire gratuit", "url": "https://www.docteursanak.com/rendez-vous/"}
   ],
   "areaServed": [
     {"@type": "City", "name": "Bruxelles"},
@@ -266,7 +279,7 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 }
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Implants ICL Bruxelles : correction myopie forte — Dr Serdal Sanak","url":"https://www.docteursanak.com/icl.html","description":"Implants ICL EVO STAAR Surgical à Bruxelles : correction des fortes myopies sans ablation cornéenne. Réversible. Dr Serdal Sanak, ophtalmologue.","author":{"@type":"Physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
+{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Implants ICL EVO STAAR Surgical Bruxelles — Dr Serdal Sanak","url":"https://www.docteursanak.com/icl/","description":"Implants ICL EVO STAAR Surgical à Bruxelles. Correction myopie forte, réversible. Dr Serdal Sanak, ophtalmologue.","author":{"@type":"Physician","@id":"https://www.docteursanak.com/#physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Les implants ICL sont-ils vraiment réversibles ?","acceptedAnswer":{"@type":"Answer","text":"Oui. L'implant peut être retiré ou échangé à tout moment si les besoins visuels évoluent."}},
