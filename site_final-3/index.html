@@ -543,7 +543,6 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
   .nav-cta-link{display:none;}
 }
 
-
 /* ── DROPDOWN HOVER FIX ─────────────────────────────────────────────── */
 .nav-item{position:relative;}
 .nav-item > a{display:flex;align-items:center;gap:4px;cursor:pointer;}
@@ -586,6 +585,18 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
 .nav-dropdown a:hover{color:var(--blue);background:rgba(20,61,107,.06);}
 .nav-item:hover .nav-dropdown{display:block;}
 </style>
+
+<link rel="canonical" href="https://www.docteursanak.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.docteursanak.com/">
+<meta property="og:title" content="Dr Serdal Sanak · Chirurgien ophtalmologue à Bruxelles">
+<meta property="og:description" content="Dr Serdal Sanak, chirurgien ophtalmologue à Bruxelles. Chirurgie réfractive (Femto-LASIK, PKR, ICL) et cataracte. Consultation de dépistage gratuite. Focus Eye Clinic Wemmel et Hôpital Delta Auderghem.">
+<meta property="og:image" content="https://www.docteursanak.com/og-image.jpg">
+<meta property="og:locale" content="fr_BE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dr Serdal Sanak · Chirurgien ophtalmologue à Bruxelles">
+<meta name="twitter:description" content="Dr Serdal Sanak, chirurgien ophtalmologue à Bruxelles. Chirurgie réfractive (Femto-LASIK, PKR, ICL) et cataracte. Consultation de dépistage gratuite. Focus Eye Clinic Wemmel et Hôpital Delta Auderghem.">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -593,7 +604,7 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
   "@id": "https://www.docteursanak.com/#physician",
   "name": "Dr Serdal Sanak",
   "alternateName": "Docteur Serdal Sanak",
-  "description": "Chirurgien ophtalmologue spécialisé en chirurgie réfractive (Femto-LASIK, PKR, ICL) et chirurgie de la cataracte à Bruxelles. Consultation de dépistage gratuite.",
+  "description": "Chirurgien ophtalmologue spécialisé en chirurgie réfractive (Femto-LASIK, PKR, ICL, PRELEX) et chirurgie de la cataracte à Bruxelles. Bilan préopératoire gratuit.",
   "medicalSpecialty": [
     "http://schema.org/Ophthalmology",
     "Chirurgie réfractive",
@@ -603,19 +614,20 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
   "image": "https://www.docteursanak.com/photo-dr-sanak.jpg",
   "priceRange": "€€",
   "currenciesAccepted": "EUR",
-  "paymentAccepted": "Cash, Credit Card, Bancontact",
-  "telephone": "+3224275985",
+  "paymentAccepted": "Cash, Carte bancaire, Bancontact",
+  "telephone": "+3224348109",
   "email": "contact@docteursanak.com",
-  "hasMap": "https://maps.google.com/?q=Boulevard+du+Triomphe+201+1160+Auderghem",
   "sameAs": [
     "https://rosa.be/fr/hp/serdal-sanak/",
-    "https://www.chirec.be"
+    "https://www.chirec.be",
+    "https://www.focuseyeclinic.be"
   ],
   "location": [
     {
       "@type": "MedicalClinic",
       "@id": "https://www.docteursanak.com/#clinic-delta",
       "name": "Hôpital Delta Chirec — Dr Serdal Sanak",
+      "description": "Lieu de consultation pour les bilans préopératoires en chirurgie réfractive et cataracte.",
       "telephone": "+3224348109",
       "address": {
         "@type": "PostalAddress",
@@ -631,7 +643,12 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
         "longitude": 4.4012
       },
       "openingHoursSpecification": [
-        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:30", "closes": "17:00"}
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "13:45"
+        }
       ],
       "url": "https://rosa.be/fr/hp/serdal-sanak/"
     },
@@ -639,7 +656,8 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
       "@type": "MedicalClinic",
       "@id": "https://www.docteursanak.com/#clinic-wemmel",
       "name": "Focus Eye Clinic Wemmel — Dr Serdal Sanak",
-      "telephone": "+3224275985",
+      "description": "Lieu de consultation pour les bilans préopératoires en chirurgie réfractive et cataracte.",
+      "telephone": "+3224348109",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Kaasmarkt 97",
@@ -654,17 +672,23 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
         "longitude": 4.3118
       },
       "openingHoursSpecification": [
-        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:30", "closes": "17:00"}
-      ]
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "08:30",
+          "closes": "17:00"
+        }
+      ],
+      "url": "https://www.focuseyeclinic.be"
     }
   ],
   "availableService": [
     {"@type": "MedicalProcedure", "name": "Femto-LASIK", "url": "https://www.docteursanak.com/femtolasik/"},
-    {"@type": "MedicalProcedure", "name": "PKR", "url": "https://www.docteursanak.com/pkr/"},
-    {"@type": "MedicalProcedure", "name": "Implants ICL", "url": "https://www.docteursanak.com/icl/"},
-    {"@type": "MedicalProcedure", "name": "PRELEX", "url": "https://www.docteursanak.com/prelex/"},
+    {"@type": "MedicalProcedure", "name": "PKR — Chirurgie laser de surface", "url": "https://www.docteursanak.com/pkr/"},
+    {"@type": "MedicalProcedure", "name": "Implants ICL EVO STAAR Surgical", "url": "https://www.docteursanak.com/icl/"},
+    {"@type": "MedicalProcedure", "name": "PRELEX — Implants multifocaux", "url": "https://www.docteursanak.com/prelex/"},
     {"@type": "MedicalProcedure", "name": "Chirurgie de la cataracte", "url": "https://www.docteursanak.com/cataracte/"},
-    {"@type": "MedicalProcedure", "name": "Bilan préopératoire gratuit", "url": "https://www.docteursanak.com/bilan/"}
+    {"@type": "MedicalProcedure", "name": "Bilan préopératoire gratuit", "url": "https://www.docteursanak.com/rendez-vous/"}
   ],
   "areaServed": [
     {"@type": "City", "name": "Bruxelles"},
@@ -675,22 +699,7 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
 }
 </script>
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalWebPage",
-  "name": "Index",
-  "url": "https://www.docteursanak.com/index.html",
-  "description": "Chirurgien ophtalmologue à Bruxelles spécialisé en chirurgie réfractive et cataracte.",
-  "author": {
-    "@type": "Physician",
-    "name": "Dr Serdal Sanak",
-    "medicalSpecialty": "Ophthalmology"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "docteursanak.com"
-  }
-}
+{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Chirurgien ophtalmologue à Bruxelles — Dr Serdal Sanak","url":"https://www.docteursanak.com/","description":"Dr Serdal Sanak, chirurgien ophtalmologue à Bruxelles. Chirurgie réfractive (Femto-LASIK, PKR, ICL, PRELEX) et cataracte. Bilan préopératoire gratuit. Focus Eye Clinic Wemmel et Hôpital Delta Auderghem.","author":{"@type":"Physician","@id":"https://www.docteursanak.com/#physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
 </script>
 <script type="application/ld+json">
 {
@@ -731,48 +740,6 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
     }
   ]
 }
-</script>
-
-<link rel="canonical" href="https://www.docteursanak.com/">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.docteursanak.com/">
-<meta property="og:title" content="Chirurgien ophtalmologue à Bruxelles Dr Serdal Sanak">
-<meta property="og:description" content="Dr Serdal Sanak, chirurgien ophtalmologue à Bruxelles. Chirurgie réfractive (Femto-LASIK, PKR, ICL) et cataracte. Consultation de dépistage gratuite. Focus Eye Clinic Wemmel et Hôpital Delta Auderghem.">
-<meta property="og:image" content="https://www.docteursanak.com/og-image.jpg">
-<meta property="og:locale" content="fr_BE">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Chirurgien ophtalmologue à Bruxelles Dr Serdal Sanak">
-<meta name="twitter:description" content="Dr Serdal Sanak, chirurgien ophtalmologue à Bruxelles. Chirurgie réfractive (Femto-LASIK, PKR, ICL) et cataracte. Consultation de dépistage gratuite. Focus Eye Clinic Wemmel et Hôpital Delta Auderghem.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Physician",
-  "name": "Dr Serdal Sanak",
-  "description": "Chirurgien ophtalmologue spécialisé en chirurgie réfractive et cataracte à Bruxelles.",
-  "medicalSpecialty": "Ophthalmology",
-  "url": "https://www.docteursanak.com",
-  "telephone": ["+3224275985", "+3224348109"],
-  "address": [
-    {"@type": "PostalAddress", "streetAddress": "Kaasmarkt 97", "addressLocality": "Wemmel", "postalCode": "1780", "addressCountry": "BE"},
-    {"@type": "PostalAddress", "streetAddress": "Boulevard du Triomphe 201", "addressLocality": "Auderghem", "postalCode": "1160", "addressCountry": "BE"}
-  ],
-  "availableService": [
-    {"@type": "MedicalProcedure", "name": "Femto-LASIK"},
-    {"@type": "MedicalProcedure", "name": "PKR"},
-    {"@type": "MedicalProcedure", "name": "Implants ICL"},
-    {"@type": "MedicalProcedure", "name": "PRELEX"},
-    {"@type": "MedicalProcedure", "name": "Chirurgie de la cataracte"}
-  ]
-}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Chirurgien ophtalmologue à Bruxelles — Dr Serdal Sanak","url":"https://www.docteursanak.com/","description":"Dr Serdal Sanak, chirurgien ophtalmologue à Bruxelles. Chirurgie réfractive (Femto-LASIK, PKR, ICL) et cataracte. Consultation de dépistage gratuite. Focus Eye Clinic Wemmel et Hôpital Delta Auderghem.","author":{"@type":"Physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quelle est la différence entre le Femto-LASIK et la PKR ?","acceptedAnswer":{"@type":"Answer","text":"Le Femto-LASIK crée un volet cornéen fin pour accéder au tissu à traiter, ce qui permet une récupération visuelle très rapide — souvent fonctionnelle dès le lendemain. La PKR travaille directement en surface, sans volet : la récupération prend deux à six semaines, mais la cornée reste mécaniquement plus solide. Le choix dépend de l'épaisseur de votre cornée, de votre mode de vie et de vos antécédents. C'est le bilan préopératoire qui tranche."}},
-{"@type":"Question","name":"La consultation de dépistage est-elle vraiment gratuite ?","acceptedAnswer":{"@type":"Answer","text":"Oui. La première consultation pour évaluer si une chirurgie réfractive est envisageable pour vous est gratuite et sans engagement. Elle permet d'obtenir une première réponse sur votre profil avant de décider si un bilan complet est pertinent."}},
-{"@type":"Question","name":"À partir de quel âge peut-on être opéré des yeux au laser ?","acceptedAnswer":{"@type":"Answer","text":"En général à partir de 18 ans, à condition que la correction soit stable depuis au moins deux ans. Au-delà de 45-50 ans, d'autres solutions comme le PRELEX peuvent être plus adaptées selon le profil."}},
-{"@type":"Question","name":"Est-ce que l'opération au laser des yeux fait mal ?","acceptedAnswer":{"@type":"Answer","text":"Non. L'intervention se réalise sous anesthésie locale par gouttes. Vous ne ressentez aucune douleur pendant l'acte. Après un Femto-LASIK, l'inconfort est minimal. Après une PKR, les premières 48 heures peuvent être inconfortables, mais restent gérables avec les traitements prescrits."}}]}
 </script>
 </head>
 <body>
