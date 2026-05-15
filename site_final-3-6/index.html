@@ -255,6 +255,11 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
 .step-text { font-size: 12px; color: var(--text-soft); line-height: 1.65; }
 .step-badge { display: inline-block; font-size: 10px; font-weight: 500; padding: 2px 8px; border-radius: 8px; background: var(--green-light); color: var(--green); margin-top: 6px; }
 
+/* ─── CHIRURGIES BLOCK (fond bleu) ──────────────────────────────────── */
+.chirurgies-block { background: var(--blue); }
+.chirurgies-block .section-eyebrow { color: rgba(255,255,255,.5); }
+.chirurgies-block .section-title { color: var(--white); }
+
 /* ─── CTA SECTION ────────────────────────────────────────────────────── */
 .cta-section {
   background: var(--blue);
@@ -861,12 +866,16 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
       </a>
     </div>
 
-    <div class="section-divider"></div>
+  </div>
+</section>
 
+<!-- ─── CHIRURGIES DISPONIBLES ───────────────────────────────────────── -->
+<section class="section chirurgies-block" aria-labelledby="chirurgies-title">
+  <div class="inner">
     <div class="cards-header" id="chirurgies">
       <div>
         <div class="section-eyebrow fade-in">Vous cherchez la technique adaptée ?</div>
-        <h2 class="section-title fade-in">Les chirurgies disponibles</h2>
+        <h2 id="chirurgies-title" class="section-title fade-in">Les chirurgies disponibles</h2>
       </div>
     </div>
     <div class="cards-grid">
