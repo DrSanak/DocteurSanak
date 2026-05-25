@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Opération cataracte Bruxelles Dr Serdal Sanak</title>
-<meta name="description" content="Chirurgie de la cataracte à Bruxelles : implants monofocaux, multifocaux, EDOF. Remboursée. Dr Serdal Sanak, ophtalmologue.">
+<title>PKR ou Femto-LASIK : quelles différences ? · Dr Serdal Sanak · Bruxelles</title>
+<meta name="description" content="PKR vs Femto-LASIK à Bruxelles : différences entre les deux techniques laser, indications, récupération, qualité de vision. Dr Serdal Sanak, ophtalmologue.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
@@ -127,7 +127,6 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 /* ── DROPDOWN HOVER FIX ─────────────────────────────────────────────── */
 .nav-item{position:relative;}
 .nav-item > a{display:flex;align-items:center;gap:4px;cursor:pointer;}
-/* Pont invisible entre le lien et le dropdown pour éviter que le hover ne se ferme */
 .nav-item::after{
   content:'';
   position:absolute;
@@ -165,20 +164,28 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 }
 .nav-dropdown a:hover{color:var(--blue);background:rgba(20,61,107,.06);}
 .nav-item:hover .nav-dropdown{display:block;}
+
+/* ── COMPARISON TABLE ───────────────────────────────────────────────── */
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:28px 0 8px;}
+.compare-col{background:var(--white);border:.5px solid var(--border);border-radius:var(--radius-lg);padding:24px 26px;}
+.compare-col.is-femto{border-color:var(--blue-border);background:var(--blue-light);}
+.compare-col h4{font-family:var(--font-serif);font-size:17px;font-weight:500;color:var(--blue);margin-bottom:6px;}
+.compare-col .compare-tag{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:10px;display:block;}
+.compare-col p{font-size:13.5px;color:var(--text-mid);line-height:1.7;margin:0;}
+.compare-col p+p{margin-top:8px;}
+@media(max-width:700px){.compare-grid{grid-template-columns:1fr;}}
 </style>
 
-<link rel="canonical" href="https://www.docteursanak.com/cataracte/">
+<link rel="canonical" href="https://www.docteursanak.com/pkr-vs-femtolasik/">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.docteursanak.com/cataracte/">
-<meta property="og:title" content="Opération cataracte Bruxelles Dr Serdal Sanak">
-<meta property="og:description" content="Chirurgie de la cataracte à Bruxelles : implants monofocaux, multifocaux, EDOF. Remboursée. Dr Serdal Sanak, ophtalmologue.">
+<meta property="og:url" content="https://www.docteursanak.com/pkr-vs-femtolasik/">
+<meta property="og:title" content="PKR ou Femto-LASIK : quelles différences ? · Dr Serdal Sanak · Bruxelles">
+<meta property="og:description" content="PKR vs Femto-LASIK à Bruxelles : comparaison critère par critère des deux techniques laser. Dr Serdal Sanak, ophtalmologue.">
 <meta property="og:image" content="https://www.docteursanak.com/og-image.jpg">
 <meta property="og:locale" content="fr_BE">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Opération cataracte Bruxelles Dr Serdal Sanak">
-<meta name="twitter:description" content="Chirurgie de la cataracte à Bruxelles : implants monofocaux, multifocaux, EDOF. Remboursée. Dr Serdal Sanak, ophtalmologue.">
-
-
+<meta name="twitter:title" content="PKR ou Femto-LASIK : quelles différences ? · Dr Serdal Sanak · Bruxelles">
+<meta name="twitter:description" content="PKR vs Femto-LASIK à Bruxelles : comparaison critère par critère des deux techniques laser. Dr Serdal Sanak, ophtalmologue.">
 
 <script type="application/ld+json">
 {
@@ -196,7 +203,7 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
     {
       "@type": "MedicalClinic",
       "@id": "https://www.docteursanak.com/#clinic-delta",
-      "name": "Hôpital Delta Chirec — Dr Serdal Sanak",
+      "name": "Hôpital Delta Chirec · Dr Serdal Sanak",
       "description": "Lieu de consultation pour les bilans préopératoires en chirurgie réfractive et cataracte.",
       "telephone": "+3224348109",
       "address": {"@type":"PostalAddress","streetAddress":"Boulevard du Triomphe 201","addressLocality":"Auderghem","addressRegion":"Bruxelles","postalCode":"1160","addressCountry":"BE"},
@@ -206,7 +213,7 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
     {
       "@type": "MedicalClinic",
       "@id": "https://www.docteursanak.com/#clinic-wemmel",
-      "name": "Focus Eye Clinic Wemmel — Dr Serdal Sanak",
+      "name": "Focus Eye Clinic Wemmel · Dr Serdal Sanak",
       "description": "Lieu de consultation pour les bilans préopératoires en chirurgie réfractive et cataracte.",
       "telephone": "+3224348109",
       "address": {"@type":"PostalAddress","streetAddress":"Kaasmarkt 97","addressLocality":"Wemmel","addressRegion":"Bruxelles","postalCode":"1780","addressCountry":"BE"},
@@ -216,9 +223,9 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
   ],
   "availableService": [
     {"@type":"MedicalProcedure","name":"Femto-LASIK","url":"https://www.docteursanak.com/femtolasik/"},
-    {"@type":"MedicalProcedure","name":"PKR — Chirurgie laser de surface","url":"https://www.docteursanak.com/pkr/"},
+    {"@type":"MedicalProcedure","name":"PKR · Chirurgie laser de surface","url":"https://www.docteursanak.com/pkr/"},
     {"@type":"MedicalProcedure","name":"Implants ICL EVO STAAR Surgical","url":"https://www.docteursanak.com/icl/"},
-    {"@type":"MedicalProcedure","name":"PRELEX — Implants multifocaux","url":"https://www.docteursanak.com/prelex/"},
+    {"@type":"MedicalProcedure","name":"PRELEX · Implants multifocaux","url":"https://www.docteursanak.com/prelex/"},
     {"@type":"MedicalProcedure","name":"Chirurgie de la cataracte","url":"https://www.docteursanak.com/cataracte/"},
     {"@type":"MedicalProcedure","name":"Bilan préopératoire sur rendez-vous","url":"https://www.docteursanak.com/rendez-vous/"}
   ],
@@ -226,18 +233,20 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 }
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Opération cataracte Bruxelles remboursée — Dr Serdal Sanak","url":"https://www.docteursanak.com/cataracte/","description":"Chirurgie de la cataracte à Bruxelles. Remboursée. Dr Serdal Sanak.","author":{"@type":"Physician","@id":"https://www.docteursanak.com/#physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
+{"@context":"https://schema.org","@type":"MedicalWebPage","name":"PKR ou Femto-LASIK : quelles différences ? · Dr Serdal Sanak","url":"https://www.docteursanak.com/pkr-vs-femtolasik/","description":"Comparaison des techniques PKR et Femto-LASIK en chirurgie réfractive : geste, récupération, indications, sécheresse oculaire, sports de contact.","author":{"@type":"Physician","@id":"https://www.docteursanak.com/#physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"À quel âge opère-t-on la cataracte ?","acceptedAnswer":{"@type":"Answer","text":"Il n'existe pas d'âge fixe. La décision dépend de la gêne fonctionnelle ressentie, pas d'un seuil d'acuité chiffré."}},
-{"@type":"Question","name":"La chirurgie de la cataracte est-elle remboursée en Belgique ?","acceptedAnswer":{"@type":"Answer","text":"Oui. L'intervention est remboursée par la mutuelle. Les implants premium comportent un supplément non remboursé."}},
-{"@type":"Question","name":"Peut-on ne plus porter de lunettes après la cataracte ?","acceptedAnswer":{"@type":"Answer","text":"Oui, avec un implant multifocal ou trifocal. La grande majorité des patients se passent de lunettes au quotidien."}},
-{"@type":"Question","name":"L'opération de la cataracte est-elle douloureuse ?","acceptedAnswer":{"@type":"Answer","text":"Non. Elle se réalise sous anesthésie locale par gouttes. Vous êtes éveillé mais ne ressentez rien."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"PKR ou Femto-LASIK : quelle est la meilleure technique ?","acceptedAnswer":{"@type":"Answer","text":"Aucune des deux n'est meilleure dans l'absolu. À cinq ans, les résultats visuels sont équivalents. Le choix dépend du profil : épaisseur cornéenne, sport pratiqué, sécheresse oculaire, métier. Le bilan préopératoire détermine la technique adaptée."}},
+{"@type":"Question","name":"Quelle est la principale différence entre PKR et Femto-LASIK ?","acceptedAnswer":{"@type":"Answer","text":"Le Femto-LASIK crée un volet cornéen pour accéder au tissu à traiter. La PKR retire la couche superficielle (épithélium) et travaille directement en surface. La récupération est plus rapide en Femto-LASIK, mais la PKR préserve davantage l'intégrité mécanique de la cornée."}},
+{"@type":"Question","name":"La PKR est-elle plus douloureuse que le Femto-LASIK ?","acceptedAnswer":{"@type":"Answer","text":"La PKR provoque un inconfort marqué pendant 48 heures (larmoiement, photophobie, sensation de corps étranger), pas une douleur au sens strict. Le Femto-LASIK est presque indolore en postopératoire. Cet écart est temporaire : à un mois, le confort est équivalent."}},
+{"@type":"Question","name":"Pourquoi la PKR est-elle recommandée pour les sports de contact ?","acceptedAnswer":{"@type":"Answer","text":"Le volet créé en Femto-LASIK reste théoriquement déplaçable par un traumatisme oculaire direct, même des années après l'opération. La PKR ne crée pas de volet : la cornée garde son intégrité mécanique complète, ce qui en fait la technique recommandée pour les arts martiaux, la boxe, le rugby ou les sports aquatiques intensifs."}}
+]}
 </script>
 </head>
 <body>
 <nav class="nav transparent" id="nav" role="navigation">
-  <a href="/" class="nav-logo"><img src="/images/logo.webp" alt="Docteur Sanak Bruxelles — Chirurgie réfractive et cataracte" width="724" height="220" fetchpriority="high" class="nav-logo-img"></a>
+  <a href="/" class="nav-logo"><img src="/images/logo.webp" alt="Docteur Sanak Bruxelles · Chirurgie réfractive et cataracte" width="724" height="220" fetchpriority="high" class="nav-logo-img"></a>
   <a href="/rendez-vous/" class="nav-rdv-mobile">Prendre rendez-vous</a>
   <ul class="nav-links">
     <li><a href="/">Accueil</a></li>
@@ -247,10 +256,11 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 <a href="/presbytie/">Presbytie</a></div></li>
     <li class="nav-item"><a href="#">Chirurgie cornéenne au laser</a><div class="nav-dropdown"><a href="/femtolasik/">Femto-LASIK</a>
 <a href="/pkr/">PKR</a>
+<a href="/pkr-vs-femtolasik/">PKR vs Femto-LASIK</a>
 <a href="/risques-laser/">Effets secondaires et risques de l'opération laser yeux</a></div></li>
     <li class="nav-item"><a href="#">Chirurgie intra-oculaire</a><div class="nav-dropdown"><a href="/prelex/">PRELEX</a>
 <a href="/icl/">ICL</a>
-<a href="/cataracte/" class=active>Cataracte</a></div></li>
+<a href="/cataracte/">Cataracte</a></div></li>
     <li><a href="/bilan/">Bilan</a></li>
   </ul>
   <a href="/rendez-vous/" class="nav-cta-link">Prendre rendez-vous</a>
@@ -264,151 +274,120 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 <a href="/presbytie/">Presbytie</a></div></div>
   <div class="mobile-section"><div class="mobile-section-title">Chirurgie cornéenne au laser</div><div class="mobile-links"><a href="/femtolasik/">Femto-LASIK</a>
 <a href="/pkr/">PKR</a>
+<a href="/pkr-vs-femtolasik/">PKR vs Femto-LASIK</a>
 <a href="/risques-laser/">Effets secondaires et risques de l'opération laser yeux</a></div></div>
   <div class="mobile-section"><div class="mobile-section-title">Chirurgie intra-oculaire</div><div class="mobile-links"><a href="/prelex/">PRELEX</a>
 <a href="/icl/">ICL</a>
 <a href="/cataracte/">Cataracte</a></div></div>
   <a href="/rendez-vous/" class="mobile-rdv">Prendre rendez-vous</a>
 </div>
-<!-- Mobile menu séparé du nav desktop -->
-<div class="mobile-menu" id="mobile-menu">
-  <div class="mobile-direct">
-    <a href="/">Accueil</a>
-    <a href="/bilan/">Bilan préopératoire</a>
-  </div>
-  <div class="mobile-section">
-    <div class="mobile-section-title">Troubles visuels</div>
-    <div class="mobile-links"><a href="/myopie/">Myopie</a>
-<a href="/hypermetropie/">Hypermétropie</a>
-<a href="/astigmatisme/">Astigmatisme</a>
-<a href="/presbytie/">Presbytie</a></div>
-  </div>
-  <div class="mobile-section">
-    <div class="mobile-section-title">Chirurgie cornéenne au laser</div>
-    <div class="mobile-links"><a href="/femtolasik/">Femto-LASIK</a>
-<a href="/pkr/">PKR</a>
-<a href="/risques-laser/">Effets secondaires et risques de l'opération laser yeux</a></div>
-  </div>
-  <div class="mobile-section">
-    <div class="mobile-section-title">Chirurgie intra-oculaire</div>
-    <div class="mobile-links"><a href="/prelex/">PRELEX</a>
-<a href="/icl/">ICL</a>
-<a href="/cataracte/">Cataracte</a></div>
-  </div>
-  <a href="/rendez-vous/" class="mobile-rdv">Prendre rendez-vous</a>
-</div>
+
 <section class="hero-page">
   <div class="inner">
-    <div class="hero-eyebrow fade-in">Chirurgie de la cataracte</div>
-    <h1 class="hero-h1 fade-in fade-in-delay-1">Opération de la cataracte à Bruxelles</h1>
-    
+    <div class="hero-eyebrow fade-in">Choisir sa technique</div>
+    <h1 class="hero-h1 fade-in fade-in-delay-1">PKR ou Femto-LASIK : quelles différences ?</h1>
+    <p class="hero-sub fade-in fade-in-delay-2">Le Femto-LASIK et la PKR sont les deux techniques de chirurgie laser les plus pratiquées aujourd'hui pour corriger la myopie, l'hypermétropie et l'astigmatisme. Toutes deux donnent d'excellents résultats : au-delà de quelques mois, la qualité de vision obtenue est équivalente. Ce qui les distingue, c'est la manière d'y parvenir.</p>
+    <p class="hero-sub fade-in fade-in-delay-2" style="margin-top:14px;">Le Femto-LASIK soulève une fine lamelle de cornée pour appliquer le laser sur la couche située en dessous, ce qui permet une récupération visuelle en quelques heures et un confort postopératoire immédiat. La PKR retire délicatement la couche superficielle de la cornée pour que le laser travaille directement en surface : la récupération est plus progressive, mais cette technique reste la référence pour certains profils de cornées ou de modes de vie.</p>
+    <p class="hero-sub fade-in fade-in-delay-2" style="margin-top:14px;">Il n'existe pas de «&nbsp;meilleure&nbsp;» technique dans l'absolu. Le bon choix dépend de l'épaisseur de votre cornée, de votre activité professionnelle, de vos pratiques sportives et de quelques autres critères que nous évaluons ensemble lors du bilan préopératoire. Cette page vous aide à comprendre les différences entre les deux approches, pour aborder cette consultation en confiance et en toute clarté.</p>
   </div>
 </section>
 
-<section style="padding-bottom:24px;" class="section">
+<section class="section">
   <div class="inner">
     <div class="two-col">
       <div class="prose fade-in">
-        <div class="section-eyebrow">Comprendre</div>
-        <h2 class="section-title">La cataracte, c'est quoi exactement ?</h2>
-        <p>Le cristallin est la lentille naturelle de l'oeil. Transparent à la naissance, il assure la mise au point à toutes les distances. Avec l'âge, ses protéines se modifient et s'agrègent progressivement, rendant le cristallin de plus en plus opaque. C'est la cataracte.</p>
-        <p>Imaginez regarder à travers un pare-brise progressivement embué que rien ne nettoie. La lumière entre toujours, mais elle est diffusée, diffractée, voilée. L'image perd sa netteté, ses contrastes, ses couleurs franches.</p>
-        <p>Aucun traitement médical ne peut rendre sa transparence à un cristallin opacifié. La seule solution est chirurgicale, et elle est aujourd'hui remarquablement prévisible. La cataracte est d'ailleurs la première cause de cécité réversible dans le monde.<sup><a href="#ref1" class="sup-ref">[1]</a></sup></p>
-        <p>Elle touche la quasi-totalité des personnes au-delà de 70 ans, à des degrés variables. Ce qui décide du moment d'opérer, c'est la gêne fonctionnelle ressentie, pas un chiffre sur un examen.</p>
+        <div class="section-eyebrow">Le geste</div>
+        <h2 class="section-title">Ce qui sépare les deux techniques</h2>
+        <p>Le laser qui corrige la vision est exactement le même dans les deux cas : un laser excimer, qui remodèle la cornée avec une précision micrométrique pour modifier sa puissance optique. La différence ne porte pas sur la correction elle-même, mais sur la façon d'accéder au tissu à traiter.</p>
 
-        <h3>Ce que ça change au quotidien</h3>
-        <p><strong>La vision nocturne et la conduite.</strong> Les halos autour des phares, les éblouissements, la perte des contrastes dans l'obscurité. Beaucoup de patients renoncent à conduire la nuit avant même de réaliser que c'est la cataracte qui en est responsable.</p>
-        <p><strong>Les couleurs qui s'estompent.</strong> Le cristallin opacifié filtre progressivement la lumière bleue : les blancs jaunissent, les couleurs perdent leur vivacité. Ce changement est si progressif que la plupart des patients ne s'en rendent compte qu'après l'opération.</p>
-        <p><strong>La lecture et les activités de précision.</strong> Vision floue, lettres qui se dédoublent légèrement, fatigue visuelle rapide. Des symptômes souvent attribués à l'âge ou à des lunettes mal réglées, alors qu'ils signalent une cataracte évolutive.</p>
-        <p><strong>Les ordonnances qui changent en permanence.</strong> Les corrections changent de plus en plus fréquemment, sans jamais vraiment stabiliser la vision. C'est souvent ce signe qui pousse à consulter.</p>
+        <div class="compare-grid">
+          <div class="compare-col is-femto">
+            <span class="compare-tag">Femto-LASIK</span>
+            <h4>Avec volet cornéen</h4>
+            <p>Un premier laser, dit femtoseconde, découpe un volet ultrafin dans la cornée. Ce volet est délicatement soulevé pour laisser le laser excimer remodeler le tissu situé en dessous. Le volet est ensuite repositionné à sa place exacte : il adhère naturellement en quelques secondes, sans aucune suture.</p>
+          </div>
+          <div class="compare-col">
+            <span class="compare-tag">PKR</span>
+            <h4>En surface, sans volet</h4>
+            <p>L'épithélium, la couche superficielle de la cornée, fine comme du papier à cigarette, est retiré mécaniquement ou chimiquement. Le laser excimer remodèle alors directement la surface ainsi exposée. Une lentille de contact thérapeutique est ensuite posée pour protéger l'œil le temps que l'épithélium se reconstitue naturellement, en quatre à cinq jours.</p>
+          </div>
+        </div>
 
-        <h3>L'intervention</h3>
-        <p>La chirurgie de la cataracte est l'intervention la plus pratiquée au monde. Elle dure environ vingt minutes. Le patient rentre chez lui le jour même.</p>
-        <p>La technique utilisée est la phacoémulsification : le cristallin opacifié est fragmenté par ultrasons à travers une micro-incision de 2,2 mm, puis aspiré. Un implant intraoculaire artificiel, transparent et permanent, est déployé à sa place. La micro-incision se referme seule, sans suture.<sup><a href="#ref2" class="sup-ref">[2]</a></sup></p>
+        <h3>La récupération</h3>
+        <p>C'est sur ce point que les deux techniques se distinguent le plus nettement. Le Femto-LASIK permet de retrouver une vision fonctionnelle dès le lendemain. La PKR, elle, demande un peu de patience durant la première semaine.</p>
 
-        <h3>L'anesthésie : le point qui inquiète le plus</h3>
-        <p>C'est la question la plus fréquente en consultation : est-ce qu'on va souffrir ? est-ce qu'on va sentir quelque chose ?</p>
-        <p>L'intervention se déroule sous anesthésie locale assistée, qui combine plusieurs niveaux de protection. La surface de l'oeil est anesthésiée par des gouttes. L'intérieur de l'oeil est anesthésié par un produit injecté en début d'intervention, qui supprime toute sensation de pression ou de manipulation interne. Un anesthésiste est présent en salle d'opération tout au long de l'acte et peut administrer un anxiolytique ou un sédatif léger si nécessaire.</p>
-        <p>Le patient reste éveillé, peut parler. Mais il ne sent rien.</p>
+        <div class="compare-grid">
+          <div class="compare-col is-femto">
+            <span class="compare-tag">Femto-LASIK</span>
+            <h4>Rapide et confortable</h4>
+            <p><strong>J+1 :</strong> vision fonctionnelle, reprise du travail souvent possible.</p>
+            <p><strong>Première semaine :</strong> légères fluctuations visuelles, soulagées par des collyres lubrifiants.</p>
+            <p><strong>1 à 3 mois :</strong> vision définitivement stabilisée.<sup><a href="#ref1" class="sup-ref">[1]</a></sup></p>
+          </div>
+          <div class="compare-col">
+            <span class="compare-tag">PKR</span>
+            <h4>Plus progressive</h4>
+            <p><strong>Les 48 premières heures :</strong> larmoiement, sensibilité à la lumière, sensation de corps étranger dans l'œil. Inconfortable, mais pas douloureux au sens strict.</p>
+            <p><strong>Jour 7 :</strong> retrait de la lentille thérapeutique, épithélium entièrement reconstitué.</p>
+            <p><strong>1 à 3 mois :</strong> vision stabilisée. Jusqu'à six mois pour les corrections les plus importantes.</p>
+          </div>
+        </div>
+
+        <h3>La qualité de vision à long terme</h3>
+        <p>Les études comparatives menées au-delà de cinq ans ne montrent aucune différence significative entre la PKR et le Femto-LASIK, que ce soit en termes de précision ou de stabilité.<sup><a href="#ref2" class="sup-ref">[2]</a></sup> Pour les patients correctement sélectionnés, plus de 95&nbsp;% atteignent une vision à 10/10 ou équivalente, quelle que soit la technique choisie. La différence se joue dans le chemin parcouru, pas dans la destination.</p>
+        <p>Les halos et éblouissements nocturnes peuvent apparaître en postopératoire immédiat avec l'une comme avec l'autre. Ils diminuent progressivement et sont, à trois mois, résiduels ou totalement absents chez la grande majorité des patients.</p>
+
+        <h3>Le risque mécanique à long terme</h3>
+        <p>Le volet créé en Femto-LASIK, même parfaitement cicatrisé, reste théoriquement déplaçable en cas de traumatisme oculaire direct et violent. Cette éventualité demeure exceptionnelle, mais elle existe, y compris plusieurs années après l'intervention. La PKR, qui ne crée aucun volet, préserve l'intégrité mécanique complète de la cornée.<sup><a href="#ref3" class="sup-ref">[3]</a></sup></p>
+        <p>Pour les pratiquants d'arts martiaux, de boxe, de rugby ou de sports aquatiques intensifs, la PKR est donc systématiquement recommandée. Pour la grande majorité des autres profils, ce risque est si faible qu'il ne pèse pas réellement dans la décision.</p>
+
+        <h3>La sécheresse oculaire</h3>
+        <p>La création du volet en Femto-LASIK sectionne une partie des nerfs cornéens superficiels, ce qui peut aggraver temporairement une sécheresse oculaire préexistante. L'innervation se reconstitue progressivement, mais le délai est plus long qu'avec la PKR, qui préserve davantage les fibres nerveuses de surface.<sup><a href="#ref4" class="sup-ref">[4]</a></sup></p>
+        <p>En cas de sécheresse oculaire modérée détectée lors du bilan, la PKR est souvent privilégiée. En cas de sécheresse sévère, en revanche, ni l'une ni l'autre n'est indiquée d'emblée : il faut alors traiter la sécheresse en premier lieu, puis réévaluer.</p>
+
+        <h3>L'épaisseur cornéenne</h3>
+        <p>Le Femto-LASIK consomme environ 100 microns pour la création du volet, auxquels s'ajoute l'épaisseur nécessaire à la correction. La PKR, elle, ne consomme que l'épaisseur strictement nécessaire à la correction. Pour les cornées fines ou les corrections importantes, la PKR peut donc être la seule option laser réellement sécurisée. Si ce n'est pas le cas, il faut alors s'orienter vers une solution alternative comme les implants ICL.</p>
       </div>
 
       <div class="fade-in fade-in-delay-1">
         <div class="highlight-box">
-          <h3>Le choix de l'implant</h3>
-          <p>C'est ici que la chirurgie de la cataracte moderne va bien au-delà du simple traitement d'une opacité. Le choix de l'implant détermine la qualité de vision pour les décennies à venir.</p>
-          <p><strong style="color:rgba(255,255,255,.9);">Implants monofocaux.</strong> Corrigent la vision à une seule distance, généralement de loin. Résultat visuel excellent pour la distance choisie, avec des lunettes nécessaires pour la lecture. Idéaux pour les patients qui préfèrent la simplicité optique.</p>
-          <p><strong style="color:rgba(255,255,255,.9);">Implants multifocaux et trifocaux.</strong> Conçus pour corriger simultanément la vision de loin, intermédiaire et de près. La grande majorité des patients opérés avec ce type d'implant n'ont plus besoin de lunettes au quotidien. À noter honnêtement : ils peuvent générer des halos lumineux nocturnes les premières semaines, qui s'estompent progressivement avec l'adaptation neurologique.<sup><a href="#ref3" class="sup-ref">[3]</a></sup></p>
-          <p><strong style="color:rgba(255,255,255,.9);">Implants EDOF.</strong> Extended Depth Of Focus : une technologie intermédiaire entre le monofocal et le multifocal. Elle offre une plage de vision étendue de loin à intermédiaire, avec moins de halos. Idéale pour les patients qui conduisent beaucoup ou travaillent sur écran, et acceptent de légères lunettes pour la lecture fine.</p>
+          <h3>Le choix en pratique</h3>
+          <p><strong style="color:rgba(255,255,255,.9);">Femto-LASIK si :</strong> cornée d'épaisseur normale, pas de sport de contact, pas de sécheresse marquée, besoin de récupération rapide (vie professionnelle peu compatible avec une semaine d'inconfort).</p>
+          <p><strong style="color:rgba(255,255,255,.9);">PKR si :</strong> cornée fine ou irrégulière, sport de contact, sécheresse oculaire modérée, profession réglementée imposant la PKR, ou retouche après une précédente chirurgie laser.</p>
+          <p><strong style="color:rgba(255,255,255,.9);">Ni l'une ni l'autre si :</strong> kératocône, même fruste ; correction trop importante pour l'épaisseur disponible ; sécheresse sévère non traitée. Dans ces cas, les implants ICL offrent souvent une alternative adaptée.</p>
+          <p>Aucune des deux techniques n'est supérieure dans l'absolu. Toutes deux sont parmi les plus documentées et les plus mûres de toute la chirurgie réfractive. C'est le profil du patient qui désigne la bonne réponse.</p>
         </div>
-        
+        <div class="info-box">
+          <p><strong style="color:var(--blue);display:block;margin-bottom:4px;">C'est le bilan qui tranche</strong>Topographie, pachymétrie, film lacrymal, antécédents, mode de vie : ce sont ces mesures et ce contexte qui désignent la technique adaptée. Aucun choix ne se fait sans bilan complet.</p>
+        </div>
       </div>
     </div>
 
     <div class="refs fade-in">
       <p>Références</p>
       <ol>
-        <li id="ref1">OMS. <em>World report on vision.</em> Genève : Organisation mondiale de la Santé, 2019.</li>
-        <li id="ref2">Lundstrom M, et al. Phacoemulsification technique and visual outcomes. <em>J Cataract Refract Surg.</em> 2011;37(12):2153-2159.</li>
-        <li id="ref3">Cochener B, et al. Comparative outcomes of multifocal and monofocal intraocular lenses. <em>J Refract Surg.</em> 2018;34(12):849-859.</li>
-        <li id="ref4">HAS. <em>Chirurgie de la cataracte : indications et contre-indications.</em> Saint-Denis : Haute Autorité de Santé, 2021.</li>
+        <li id="ref1">Solomon KD, et al. LASIK World Literature Review: quality of life and patient satisfaction. <em>Ophthalmology.</em> 2009;116(4):691-701.</li>
+        <li id="ref2">O'Doherty M, et al. Five-year follow-up of LASIK and LASEK for myopia. <em>J Refract Surg.</em> 2006;22(5):437-445.</li>
+        <li id="ref3">Moshirfar M, et al. Laser in situ keratomileusis and PRK in contact sports. <em>Clin Ophthalmol.</em> 2014;8:1111-1114.</li>
+        <li id="ref4">De Paiva CS, et al. Corneal nerve density after PRK vs LASIK. <em>Cornea.</em> 2006;25(9):1042-1047.</li>
       </ol>
     </div>
   </div>
 </section>
 
-<section class="section section-warm" style="padding-bottom:24px;;padding-bottom:24px;">
+<section class="section section-warm" style="padding-bottom:24px;">
   <div class="inner">
     <div class="section-eyebrow fade-in">Pages liées</div>
     <h2 class="section-title fade-in">En savoir plus</h2>
     <div class="card-grid">
-      <a href="/presbytie/" class="card-item fade-in"><div class="card-item-title">Presbytie</div><div class="card-item-text">Le PRELEX remplacement du cristallin avant la cataracte pour traiter simultanément presbytie et hypermétropie.</div></a>
-      <a href="/bilan/" class="card-item fade-in fade-in-delay-1"><div class="card-item-title">Bilan préopératoire</div><div class="card-item-text">Biométrie oculaire, fond d'oeil, analyse du cristallin : les examens qui préparent l'intervention.</div></a>
-      <a href="/icl/" class="card-item fade-in fade-in-delay-1"><div class="card-item-title">Implants ICL</div><div class="card-item-text">Pour les fortes myopies avant l'âge de la cataracte.</div></a>
-      <a href="/myopie/" class="card-item fade-in fade-in-delay-2"><div class="card-item-title">Myopie forte et rétine</div><div class="card-item-text">Au-delà de 6 D, un suivi rétinien annuel est recommandé indépendamment de toute décision chirurgicale.</div></a>
+      <a href="/femtolasik/" class="card-item fade-in"><div class="card-item-title">Femto-LASIK</div><div class="card-item-text">La technique avec volet cornéen, en détail : geste, récupération, indications.</div></a>
+      <a href="/pkr/" class="card-item fade-in fade-in-delay-1"><div class="card-item-title">PKR</div><div class="card-item-text">La technique de surface, sans volet : pour qui, comment, et pourquoi.</div></a>
+      <a href="/icl/" class="card-item fade-in fade-in-delay-1"><div class="card-item-title">Implants ICL</div><div class="card-item-text">Quand le laser n'est pas indiqué : forte myopie, cornée fine, contre-indication.</div></a>
+      <a href="/bilan/" class="card-item fade-in fade-in-delay-2"><div class="card-item-title">Bilan préopératoire</div><div class="card-item-text">Topographie, pachymétrie, film lacrymal : les examens qui désignent la technique adaptée.</div></a>
     </div>
   </div>
 </section>
-
-<section class="section" style="padding-top:24px;padding-bottom:24px;">
-  <div class="inner">
-    <div class="two-col">
-      <div class="prose fade-in">
-        <div class="section-eyebrow">Questions fréquentes</div>
-        <h2 class="section-title">Ce que les patients demandent souvent</h2>
-        <div style="background:#EAF3DE;border-radius:var(--radius-lg);padding:24px 28px;margin-top:16px;border:.5px solid #B8DDB8;">
-          <p style="margin-top:0;">Peut-on attendre avant d'opérer ? La cataracte évolue à des rythmes très variables selon les individus. Lorsqu'elle n'affecte pas significativement la qualité de vie ni la capacité à conduire, l'attente est possible. Mais repousser indéfiniment l'intervention expose à une cataracte très avancée ("blanche"), techniquement plus difficile à opérer et associée à une récupération moins prévisible.</p>
-          <p style="margin-top:10px;">La chirurgie est-elle douloureuse ? Non. L'intervention est réalisée sous anesthésie locale par collyres (gouttes), sans piqûre ni anesthésie générale. Elle dure environ 20 minutes et est réalisée en ambulatoire. La grande majorité des patients décrivent une expérience peu ou pas douloureuse.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section" style="padding-top:8px;padding-bottom:24px;">
-  <div class="inner">
-    <div class="two-col">
-      <div class="prose fade-in">
-        <div class="section-eyebrow">À savoir</div>
-        <h2 class="section-title">Cataracte et chirurgie réfractive antérieure</h2>
-        <div style="background:#EAF2FA;border-radius:var(--radius-lg);padding:24px 28px;margin-top:16px;border:.5px solid #B8D4EC;">
-          <p style="margin-top:0;">Les patients ayant bénéficié d'une chirurgie réfractive (Femto-LASIK, PKR) dans le passé doivent le signaler impérativement lors de la consultation cataracte. Les formules de calcul d'implant standard donnent des résultats moins précis après chirurgie cornéenne. Des formules adaptées et des examens complémentaires sont nécessaires pour optimiser le choix de l'implant et obtenir un résultat réfractif optimal en post-opératoire.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" style="padding-top:24px;padding-bottom:24px;">
-  <div class="inner">
-    <div class="two-col">
-      <div class="prose fade-in">
-        <div style="background:#EAF2FA;border-radius:var(--radius-lg);padding:24px 28px;margin-top:16px;border:.5px solid #B8D4EC;">
-          <p>La chirurgie de la cataracte est l'une des interventions les plus pratiquées au monde, avec un profil de sécurité et d'efficacité très bien documenté. En Belgique, elle est remboursée par l'assurance maladie obligatoire dès lors que la cataracte affecte suffisamment la vision. Les implants premium (multifocaux, EDOF) comportent un supplément non remboursé qui sera détaillé lors du bilan préopératoire.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="footer"><div class="footer-inner"><img src="/images/logo-footer.webp" alt="Docteur Sanak — Bruxelles" width="527" height="160" loading="lazy" style="height:80px;width:auto;object-fit:contain;image-rendering:-webkit-optimize-contrast;"><div class="footer-links"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/">Accueil</a></div><div class="footer-copy">2025 Dr Serdal Sanak · Chirurgien ophtalmologue à Bruxelles</div></div></footer>
+<footer class="footer"><div class="footer-inner"><img src="/images/logo-footer.webp" alt="Docteur Sanak · Bruxelles" width="527" height="160" loading="lazy" style="height:80px;width:auto;object-fit:contain;image-rendering:-webkit-optimize-contrast;"><div class="footer-links"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/">Accueil</a></div><div class="footer-copy">2025 Dr Serdal Sanak · Chirurgien ophtalmologue à Bruxelles</div></div></footer>
 <script>const nav=document.getElementById('nav');
 const menuBtn=document.getElementById('menu-btn');
 const mobileMenu=document.getElementById('mobile-menu');
