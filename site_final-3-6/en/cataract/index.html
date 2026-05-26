@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cataract surgery Brussels · Dr Serdal Sanak</title>
+<meta name="description" content="Cataract surgery in Brussels: monofocal, multifocal and EDOF implants. Reimbursed. Dr Serdal Sanak, ophthalmic surgeon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{--blue:#143D6B;--blue-mid:#1D5C9A;--blue-light:#EAF2FA;--blue-border:#B5D4F4;--warm:#F4F2EC;--white:#FFFFFF;--text-dark:#1A1A18;--text-mid:#3A3A38;--text-soft:#5F5E5A;--text-muted:#888780;--border:#E2E0D8;--green:#0F6E56;--green-light:#E1F5EE;--font-serif:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--nav-h:130px;--radius:10px;--radius-lg:16px;--max-w:1180px;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4vw,60px);transition:background .35s,box-shadow .35s;}
+.nav.transparent{background:transparent;}
+.nav.scrolled{background:rgba(255,255,255,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--border),0 4px 24px rgba(20,61,107,.06);}
+.nav-logo{text-decoration:none;}
+.nav-logo-img{height:110px;width:auto;display:block;object-fit:contain;transition:opacity .2s;image-rendering:-webkit-optimize-contrast;}
+.nav-logo-img:hover{opacity:.8;}
+.nav-links{display:flex;gap:28px;list-style:none;align-items:center;}
+.nav-links>li{display:flex;align-items:center;}
+.nav-links a{font-size:13px;color:var(--text-mid);text-decoration:none;transition:color .2s;}
+.nav-links a:hover,.nav-links a.active{color:var(--blue);}
+.nav.transparent .nav-links a{color:var(--blue);}
+.nav-cta{font-size:13px;font-weight:500;padding:9px 20px;border-radius:8px;background:var(--blue);color:var(--white);text-decoration:none;transition:opacity .2s,transform .2s;}
+.nav-cta:hover{opacity:.88;transform:translateY(-1px);}
+.nav-menu-btn{display:none;background:none;border:none;cursor:pointer;padding:4px;}
+.nav-menu-btn span{display:block;width:22px;height:1.5px;background:var(--blue);margin:5px 0;border-radius:2px;}
+.hero-page{min-height:55vh;background:linear-gradient(155deg,#EAF2FA 0%,#F4F2EC 55%,#EDF5F0 100%);display:flex;align-items:center;padding:calc(var(--nav-h) + 50px) clamp(20px,5vw,80px) 60px;}
+.hero-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--green);background:var(--green-light);padding:5px 12px;border-radius:20px;display:inline-flex;align-items:center;gap:7px;margin-bottom:20px;}
+.hero-eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green);}
+.hero-h1{font-family:var(--font-serif);font-size:clamp(32px,5vw,52px);font-weight:400;color:var(--blue);line-height:1.15;margin-bottom:16px;}
+.hero-sub{font-size:clamp(14px,1.6vw,17px);color:var(--text-soft);line-height:1.8;max-width:680px;}
+.section{padding:clamp(56px,7vw,90px) clamp(20px,5vw,80px);}
+.inner{max-width:var(--max-w);margin:0 auto;}
+.section-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:10px;}
+.section-title{font-family:var(--font-serif);font-size:clamp(22px,3vw,34px);font-weight:400;color:var(--blue);line-height:1.3;margin-bottom:16px;}
+.section-sub{font-size:15px;color:var(--text-soft);line-height:1.8;max-width:640px;}
+.two-col{display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:start;margin-top:36px;}
+.prose p{font-size:15px;color:var(--text-mid);line-height:1.85;margin-bottom:16px;}
+.prose h3{font-family:var(--font-serif);font-size:19px;color:var(--blue);margin:28px 0 10px;font-weight:400;}
+.prose ul{margin:10px 0 16px 20px;}
+.prose ul li{font-size:15px;color:var(--text-mid);line-height:1.7;margin-bottom:6px;}
+.card-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px;}
+.card-item{background:var(--white);border-radius:var(--radius);padding:22px;border:.5px solid var(--border);text-decoration:none;color:inherit;display:block;transition:border-color .2s,box-shadow .2s,transform .2s;}
+.card-item:hover{border-color:var(--blue);box-shadow:0 4px 20px rgba(20,61,107,.1);transform:translateY(-2px);}
+.card-item-title{font-size:14px;font-weight:500;color:var(--blue);margin-bottom:5px;}
+.card-item-text{font-size:13px;color:var(--text-soft);line-height:1.6;}
+.highlight-box{background:var(--blue);border-radius:var(--radius-lg);padding:28px 32px;color:var(--white);}
+.highlight-box h3{font-family:var(--font-serif);font-size:20px;font-weight:400;margin-bottom:14px;}
+.highlight-box p{font-size:13px;color:rgba(255,255,255,.82);line-height:1.75;margin-bottom:0;}
+.highlight-box p+p{margin-top:12px;}
+.info-box{background:var(--blue-light);border:.5px solid var(--blue-border);border-radius:var(--radius);padding:18px 22px;margin-top:16px;}
+.info-box p{font-size:13px;color:var(--blue);line-height:1.7;margin:0;}
+.quote-block{border-left:3px solid var(--blue);padding:16px 20px;background:var(--blue-light);border-radius:0 var(--radius) var(--radius) 0;margin:24px 0;}
+.quote-block p{font-family:var(--font-serif);font-size:16px;font-style:italic;color:var(--blue);line-height:1.65;margin:0;}
+.section-warm{background:var(--warm);}
+.persona-box{background:var(--warm);border-radius:var(--radius-lg);padding:28px 32px;border:.5px solid var(--border);margin-bottom:32px;}
+.persona-box p{font-size:15px;color:var(--text-mid);line-height:1.8;margin:0;}
+.persona-box p+p{margin-top:10px;}
+.refs{margin-top:40px;padding-top:20px;border-top:.5px solid var(--border);}
+.refs p{font-size:11px;color:var(--text-muted);font-weight:500;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;}
+.refs ol{list-style:decimal;padding-left:18px;}
+.refs ol li{font-size:12px;color:var(--text-muted);line-height:1.65;margin-bottom:4px;}
+.sup-ref{color:var(--blue-mid);font-size:11px;text-decoration:none;}
+.footer{background:var(--warm);border-top:.5px solid var(--border);padding:36px clamp(20px,5vw,80px);}
+.footer-inner{max-width:var(--max-w);margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;}
+.footer-links{display:flex;gap:20px;}
+.footer-links a{font-size:12px;color:var(--text-muted);text-decoration:none;}
+.footer-links a:hover{color:var(--blue);}
+.footer-copy{font-size:11px;color:var(--text-muted);}
+.fade-in{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s;}
+.fade-in.visible{opacity:1;transform:translateY(0);}
+.fade-in-delay-1{transition-delay:.1s;}
+.fade-in-delay-2{transition-delay:.2s;}
+@media(max-width:900px){.two-col{grid-template-columns:1fr;}.card-grid{grid-template-columns:1fr;}.nav-links{display:none;}.nav-menu-btn{display:block;}.nav{height:auto !important;overflow:visible;}}
+/* ── MOBILE MENU ─────────────────────────────────────────────────────── */
+.mobile-menu{display:none;position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;background:#fff;z-index:999;overflow-y:auto;padding:0 0 40px 0;}
+.mobile-menu.open{display:block;}
+.mobile-section{padding:20px 28px 0;}
+.mobile-section-title{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px;padding-bottom:6px;border-bottom:.5px solid var(--border);}
+.mobile-links{display:flex;flex-direction:column;gap:0;}
+.mobile-links a{font-size:15px;color:var(--text-mid);text-decoration:none;padding:11px 0;border-bottom:.5px solid var(--border);display:block;transition:color .15s;}
+.mobile-links a:hover{color:var(--blue);}
+.mobile-links a:last-child{border-bottom:none;}
+.mobile-direct{padding:20px 28px 0;}
+.mobile-direct a{display:block;font-size:15px;color:var(--text-mid);text-decoration:none;padding:11px 0;border-bottom:.5px solid var(--border);}
+.mobile-rdv{margin:24px 28px 0;display:block;text-align:center;padding:14px;background:var(--blue);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:500;text-decoration:none;}
+
+.nav-cta-link{font-size:13px;font-weight:500;padding:9px 18px;border-radius:8px;background:var(--blue);color:#fff !important;text-decoration:none;white-space:nowrap;transition:opacity .2s;flex-shrink:0;}
+.nav-cta-link:hover{opacity:.88;}
+
+.mobile-menu{display:none;position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;background:#fff;z-index:999;overflow-y:auto;padding:0 0 40px 0;}
+.mobile-menu.open{display:block;}
+.mobile-section{padding:20px 28px 0;}
+.mobile-section-title{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px;padding-bottom:6px;border-bottom:.5px solid var(--border);}
+.mobile-links{display:flex;flex-direction:column;}
+.mobile-links a{font-size:15px;color:var(--text-mid);text-decoration:none;padding:11px 0;border-bottom:.5px solid var(--border);display:block;}
+.mobile-links a:last-child{border-bottom:none;}
+.mobile-direct{padding:20px 28px 0;}
+.mobile-direct a{display:block;font-size:15px;color:var(--text-mid);text-decoration:none;padding:11px 0;border-bottom:.5px solid var(--border);}
+.mobile-rdv{margin:24px 28px 0;display:block;text-align:center;padding:14px;background:var(--blue);color:#fff !important;border-radius:var(--radius);font-size:14px;font-weight:500;text-decoration:none;}
+@media(max-width:960px){.nav-links{display:none;}.nav-menu-btn{display:block !important;}}/* ── MOBILE RDV SOUS LOGO ────────────────────────────────────────────── */
+.nav-rdv-mobile{display:none;}
+@media(max-width:960px){
+  .nav{flex-wrap:wrap;height:auto !important;padding:8px 16px;overflow:visible;}
+  .nav-logo{width:100%;margin-bottom:6px;}
+  .nav-logo-img{height:68px !important;}
+  .nav-rdv-mobile{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:var(--blue);
+    color:#fff !important;
+    font-size:13px;
+    font-weight:500;
+    padding:8px 16px;
+    border-radius:7px;
+    text-decoration:none;
+    margin-bottom:2px;
+  }
+  .nav-menu-btn{position:absolute;top:14px;right:16px;}
+  .nav-cta-link{display:none;}
+}
+
+
+/* ── DROPDOWN HOVER FIX ─────────────────────────────────────────────── */
+.nav-item{position:relative;}
+.nav-item > a{display:flex;align-items:center;gap:4px;cursor:pointer;}
+/* Pont invisible entre le lien et le dropdown pour éviter que le hover ne se ferme */
+.nav-item::after{
+  content:'';
+  position:absolute;
+  top:100%;
+  left:0;
+  right:0;
+  height:12px;
+  display:none;
+}
+.nav-item:hover::after{display:block;}
+.nav-dropdown{
+  display:none;
+  position:absolute;
+  top:calc(100% + 12px);
+  left:50%;
+  transform:translateX(-50%);
+  background:rgba(240,244,248,0.88);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border:.5px solid rgba(20,61,107,.12);
+  border-radius:var(--radius);
+  box-shadow:0 8px 32px rgba(20,61,107,.12);
+  min-width:210px;
+  z-index:500;
+  padding:6px 0 8px 0;
+}
+.nav-dropdown a{
+  display:block;
+  padding:9px 20px;
+  white-space:nowrap;
+  color:var(--text-mid);
+  text-decoration:none;
+  font-size:13px;
+  line-height:1.3;
+}
+.nav-dropdown a:hover{color:var(--blue);background:rgba(20,61,107,.06);}
+.nav-item:hover .nav-dropdown{display:block;}
+
+/* ── LANGUAGE SWITCHER ──────────────────────────────────────────────── */
+.lang-switcher{display:flex;align-items:center;gap:0;font-size:12px;font-weight:500;letter-spacing:.04em;margin-right:16px;flex-shrink:0;}
+.lang-switcher a{color:var(--text-muted);text-decoration:none;padding:6px 8px;transition:color .15s;}
+.lang-switcher a:hover{color:var(--blue);}
+.lang-switcher a.active{color:var(--blue);font-weight:600;}
+.lang-switcher .lang-sep{color:var(--text-muted);font-size:11px;padding:0 1px;}
+@media(max-width:960px){.lang-switcher{display:none;}}
+</style>
+
+<link rel="canonical" href="https://www.docteursanak.com/en/cataract/">
+<link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/cataracte/">
+<link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/staaroperatie/">
+<link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/cataract/">
+<link rel="alternate" hreflang="x-default" href="https://www.docteursanak.com/cataracte/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.docteursanak.com/en/cataract/">
+<meta property="og:title" content="Cataract surgery Brussels · Dr Serdal Sanak">
+<meta property="og:description" content="Cataract surgery in Brussels: monofocal, multifocal and EDOF implants. Reimbursed. Dr Serdal Sanak, ophthalmic surgeon.">
+<meta property="og:image" content="https://www.docteursanak.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dr Serdal Sanak · Ophthalmic surgeon in Brussels · Refractive surgery and cataract">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="fr_BE">
+<meta property="og:locale:alternate" content="nl_BE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cataract surgery Brussels · Dr Serdal Sanak">
+<meta name="twitter:description" content="Cataract surgery in Brussels: monofocal, multifocal and EDOF implants. Reimbursed. Dr Serdal Sanak, ophthalmic surgeon.">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Physician", "LocalBusiness"],
+  "@id": "https://www.docteursanak.com/#physician",
+  "name": "Dr Serdal Sanak",
+  "alternateName": "Doctor Serdal Sanak",
+  "description": "Ophthalmic surgeon specialised in refractive surgery (Femto-LASIK, PRK, ICL, PRELEX) and cataract surgery in Brussels. Preoperative exam by appointment.",
+  "medicalSpecialty": ["http://schema.org/Ophthalmology","Refractive surgery","Cataract surgery"],
+  "url": "https://www.docteursanak.com/en/",
+  "telephone": "+3224348109",
+  "sameAs": ["https://rosa.be/fr/hp/serdal-sanak/","https://www.chirec.be","https://www.focuseyeclinic.be"],
+  "location": [
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://www.docteursanak.com/#clinic-delta",
+      "name": "Delta Hospital Chirec · Dr Serdal Sanak",
+      "description": "Consultation location for preoperative exams in refractive and cataract surgery.",
+      "telephone": "+3224348109",
+      "address": {"@type":"PostalAddress","streetAddress":"Boulevard du Triomphe 201","addressLocality":"Auderghem","addressRegion":"Brussels","postalCode":"1160","addressCountry":"BE"},
+      "openingHoursSpecification": [{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"13:45"}],
+      "url": "https://rosa.be/fr/hp/serdal-sanak/"
+    },
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://www.docteursanak.com/#clinic-wemmel",
+      "name": "Focus Eye Clinic Wemmel · Dr Serdal Sanak",
+      "description": "Consultation location for preoperative exams in refractive and cataract surgery.",
+      "telephone": "+3224348109",
+      "address": {"@type":"PostalAddress","streetAddress":"Kaasmarkt 97","addressLocality":"Wemmel","addressRegion":"Brussels","postalCode":"1780","addressCountry":"BE"},
+      "openingHoursSpecification": [{"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"08:30","closes":"17:00"}],
+      "url": "https://www.focuseyeclinic.be"
+    }
+  ],
+  "availableService": [
+    {"@type":"MedicalProcedure","name":"Femto-LASIK","url":"https://www.docteursanak.com/en/femto-lasik/"},
+    {"@type":"MedicalProcedure","name":"PRK · Surface laser surgery","url":"https://www.docteursanak.com/en/prk/"},
+    {"@type":"MedicalProcedure","name":"ICL EVO STAAR Surgical implants","url":"https://www.docteursanak.com/en/icl/"},
+    {"@type":"MedicalProcedure","name":"PRELEX · Multifocal implants","url":"https://www.docteursanak.com/en/prelex/"},
+    {"@type":"MedicalProcedure","name":"Cataract surgery","url":"https://www.docteursanak.com/en/cataract/"},
+    {"@type":"MedicalProcedure","name":"Preoperative exam by appointment","url":"https://www.docteursanak.com/en/appointment/"}
+  ],
+  "areaServed": [{"@type":"City","name":"Brussels"},{"@type":"City","name":"Wemmel"},{"@type":"City","name":"Auderghem"},{"@type":"AdministrativeArea","name":"Belgium"}]
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Cataract surgery Brussels reimbursed · Dr Serdal Sanak","url":"https://www.docteursanak.com/en/cataract/","description":"Cataract surgery in Brussels. Reimbursed. Dr Serdal Sanak.","inLanguage":"en-GB","author":{"@type":"Physician","@id":"https://www.docteursanak.com/#physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"At what age is cataract surgery performed?","acceptedAnswer":{"@type":"Answer","text":"There is no fixed age. The decision depends on the functional impairment experienced, not on a numerical acuity threshold."}},
+{"@type":"Question","name":"Is cataract surgery reimbursed in Belgium?","acceptedAnswer":{"@type":"Answer","text":"Yes. The procedure is reimbursed by the health insurance. Premium implants involve a non-reimbursed supplement."}},
+{"@type":"Question","name":"Can one stop wearing glasses after cataract surgery?","acceptedAnswer":{"@type":"Answer","text":"Yes, with a multifocal or trifocal implant. The vast majority of patients no longer need glasses in daily life."}},
+{"@type":"Question","name":"Is cataract surgery painful?","acceptedAnswer":{"@type":"Answer","text":"No. It is performed under topical anaesthesia with eye drops. You are awake but feel nothing."}}]}
+</script>
+</head>
+<body>
+<nav class="nav transparent" id="nav" role="navigation">
+  <a href="/en/" class="nav-logo"><img src="/images/logo.webp" alt="Doctor Sanak Brussels · Refractive surgery and cataract" width="724" height="220" fetchpriority="high" class="nav-logo-img"></a>
+  <a href="/en/appointment/" class="nav-rdv-mobile">Book an appointment</a>
+  <ul class="nav-links">
+    <li><a href="/en/">Home</a></li>
+    <li class="nav-item"><a href="#">Refractive errors</a><div class="nav-dropdown"><a href="/en/myopia/">Myopia (nearsightedness)</a>
+<a href="/en/hyperopia/">Hyperopia (farsightedness)</a>
+<a href="/en/astigmatism/">Astigmatism</a>
+<a href="/en/presbyopia/">Presbyopia</a></div></li>
+    <li class="nav-item"><a href="#">Corneal laser surgery</a><div class="nav-dropdown"><a href="/en/femto-lasik/">Femto-LASIK</a>
+<a href="/en/prk/">PRK</a>
+<a href="/en/prk-vs-femto-lasik/">PRK vs Femto-LASIK</a>
+<a href="/en/laser-risks/">Laser surgery side effects and risks</a></div></li>
+    <li class="nav-item"><a href="#">Intraocular surgery</a><div class="nav-dropdown"><a href="/en/prelex/">PRELEX</a>
+<a href="/en/icl/">ICL</a>
+<a href="/en/cataract/" class=active>Cataract surgery</a></div></li>
+    <li><a href="/en/preoperative-exam/">Preoperative exam</a></li>
+  </ul>
+  <div class="lang-switcher">
+    <a href="/cataracte/">FR</a>
+    <span class="lang-sep">·</span>
+    <a href="/nl/staaroperatie/">NL</a>
+    <span class="lang-sep">·</span>
+    <a href="/en/cataract/" class="active">EN</a>
+  </div>
+  <a href="/en/appointment/" class="nav-cta-link">Book an appointment</a>
+  <button class="nav-menu-btn" aria-label="Menu" id="menu-btn"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-direct"><a href="/en/">Home</a><a href="/en/preoperative-exam/">Preoperative exam</a></div>
+  <div class="mobile-section"><div class="mobile-section-title">Refractive errors</div><div class="mobile-links"><a href="/en/myopia/">Myopia (nearsightedness)</a>
+<a href="/en/hyperopia/">Hyperopia (farsightedness)</a>
+<a href="/en/astigmatism/">Astigmatism</a>
+<a href="/en/presbyopia/">Presbyopia</a></div></div>
+  <div class="mobile-section"><div class="mobile-section-title">Corneal laser surgery</div><div class="mobile-links"><a href="/en/femto-lasik/">Femto-LASIK</a>
+<a href="/en/prk/">PRK</a>
+<a href="/en/prk-vs-femto-lasik/">PRK vs Femto-LASIK</a>
+<a href="/en/laser-risks/">Laser surgery side effects and risks</a></div></div>
+  <div class="mobile-section"><div class="mobile-section-title">Intraocular surgery</div><div class="mobile-links"><a href="/en/prelex/">PRELEX</a>
+<a href="/en/icl/">ICL</a>
+<a href="/en/cataract/">Cataract surgery</a></div></div>
+  <div class="mobile-section"><div class="mobile-section-title">Language · Langue · Taal</div><div class="mobile-links"><a href="/cataracte/">Français</a>
+<a href="/nl/staaroperatie/">Nederlands</a>
+<a href="/en/cataract/">English</a></div></div>
+  <a href="/en/appointment/" class="mobile-rdv">Book an appointment</a>
+</div>
+<section class="hero-page">
+  <div class="inner">
+    <div class="hero-eyebrow fade-in">Cataract surgery</div>
+    <h1 class="hero-h1 fade-in fade-in-delay-1">Cataract surgery in Brussels</h1>
+
+  </div>
+</section>
+
+<section style="padding-bottom:24px;" class="section">
+  <div class="inner">
+    <div class="two-col">
+      <div class="prose fade-in">
+        <div class="section-eyebrow">Understanding</div>
+        <h2 class="section-title">What is a cataract exactly?</h2>
+        <p>The crystalline lens is the natural lens of the eye. Transparent at birth, it provides focusing at all distances. With age, its proteins gradually change and aggregate, making the lens increasingly opaque. This is cataract.</p>
+        <p>Imagine looking through a gradually fogged-up windscreen that no one cleans. Light still enters, but it is scattered, diffracted, veiled. The image loses its sharpness, its contrasts, its bold colours.</p>
+        <p>No medical treatment can restore transparency to a clouded lens. The only solution is surgical, and it is today remarkably predictable. Cataract is in fact the leading cause of reversible blindness worldwide.<sup><a href="#ref1" class="sup-ref">[1]</a></sup></p>
+        <p>It affects almost everyone over 70 years of age, to varying degrees. What determines when to operate is the functional impairment experienced, not a figure on a test.</p>
+
+        <h3>What it changes in daily life</h3>
+        <p><strong>Night vision and driving.</strong> Halos around headlights, glare, loss of contrast in the dark. Many patients give up driving at night before even realising that cataract is responsible.</p>
+        <p><strong>Colours that fade.</strong> The clouded lens progressively filters blue light: whites turn yellow, colours lose their vibrancy. This change is so gradual that most patients only notice it after surgery.</p>
+        <p><strong>Reading and detail tasks.</strong> Blurry vision, letters slightly doubling, rapid visual fatigue. Symptoms often attributed to age or poorly adjusted glasses, when they signal an evolving cataract.</p>
+        <p><strong>Prescriptions that change constantly.</strong> Corrections change more and more frequently, without ever truly stabilising vision. It is often this sign that prompts a consultation.</p>
+
+        <h3>The procedure</h3>
+        <p>Cataract surgery is the most performed surgical procedure in the world. It lasts about twenty minutes. The patient goes home the same day.</p>
+        <p>The technique used is phacoemulsification: the clouded lens is fragmented by ultrasound through a 2.2 mm micro-incision, then aspirated. An artificial, transparent and permanent intraocular implant is deployed in its place. The micro-incision closes by itself, without sutures.<sup><a href="#ref2" class="sup-ref">[2]</a></sup></p>
+
+        <h3>Anaesthesia: the point that worries most</h3>
+        <p>It is the most frequent question in consultation: will it hurt? will I feel anything?</p>
+        <p>The procedure is performed under assisted topical anaesthesia, which combines several levels of protection. The surface of the eye is anaesthetised with drops. The inside of the eye is anaesthetised by a product injected at the start of the procedure, which suppresses any sensation of pressure or internal manipulation. An anaesthetist is present in the operating theatre throughout the procedure and can administer a light anxiolytic or sedative if needed.</p>
+        <p>The patient remains awake, can speak. But feels nothing.</p>
+      </div>
+
+      <div class="fade-in fade-in-delay-1">
+        <div class="highlight-box">
+          <h3>The choice of implant</h3>
+          <p>This is where modern cataract surgery goes far beyond simply treating an opacity. The choice of implant determines the quality of vision for the decades to come.</p>
+          <p><strong style="color:rgba(255,255,255,.9);">Monofocal implants.</strong> Correct vision at a single distance, usually far. Excellent visual result for the chosen distance, with glasses required for reading. Ideal for patients who prefer optical simplicity.</p>
+          <p><strong style="color:rgba(255,255,255,.9);">Multifocal and trifocal implants.</strong> Designed to simultaneously correct far, intermediate and near vision. The vast majority of patients operated on with this type of implant no longer need glasses in daily life. To note honestly: they can generate night-time light halos in the first weeks, which gradually fade with neuroadaptation.<sup><a href="#ref3" class="sup-ref">[3]</a></sup></p>
+          <p><strong style="color:rgba(255,255,255,.9);">EDOF implants.</strong> Extended Depth Of Focus: a technology between monofocal and multifocal. It offers an extended range of vision from far to intermediate, with fewer halos. Ideal for patients who drive a lot or work on screens, and accept light reading glasses for fine print.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="refs fade-in">
+      <p>References</p>
+      <ol>
+        <li id="ref1">WHO. <em>World report on vision.</em> Geneva: World Health Organization, 2019.</li>
+        <li id="ref2">Lundstrom M, et al. Phacoemulsification technique and visual outcomes. <em>J Cataract Refract Surg.</em> 2011;37(12):2153-2159.</li>
+        <li id="ref3">Cochener B, et al. Comparative outcomes of multifocal and monofocal intraocular lenses. <em>J Refract Surg.</em> 2018;34(12):849-859.</li>
+        <li id="ref4">HAS. <em>Cataract surgery: indications and contraindications.</em> Saint-Denis: Haute Autorité de Santé, 2021.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section section-warm" style="padding-bottom:24px;;padding-bottom:24px;">
+  <div class="inner">
+    <div class="section-eyebrow fade-in">Related pages</div>
+    <h2 class="section-title fade-in">Learn more</h2>
+    <div class="card-grid">
+      <a href="/en/presbyopia/" class="card-item fade-in"><div class="card-item-title">Presbyopia</div><div class="card-item-text">PRELEX lens replacement before cataract to simultaneously treat presbyopia and hyperopia.</div></a>
+      <a href="/en/preoperative-exam/" class="card-item fade-in fade-in-delay-1"><div class="card-item-title">Preoperative exam</div><div class="card-item-text">Ocular biometry, fundus examination, lens analysis: the tests that prepare the procedure.</div></a>
+      <a href="/en/icl/" class="card-item fade-in fade-in-delay-1"><div class="card-item-title">ICL implants</div><div class="card-item-text">For high myopia before the age of cataract.</div></a>
+      <a href="/en/myopia/" class="card-item fade-in fade-in-delay-2"><div class="card-item-title">High myopia and retina</div><div class="card-item-text">Beyond 6 D, annual retinal monitoring is recommended regardless of any surgical decision.</div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:24px;padding-bottom:24px;">
+  <div class="inner">
+    <div class="two-col">
+      <div class="prose fade-in">
+        <div class="section-eyebrow">Frequently asked questions</div>
+        <h2 class="section-title">What patients often ask</h2>
+        <div style="background:#EAF3DE;border-radius:var(--radius-lg);padding:24px 28px;margin-top:16px;border:.5px solid #B8DDB8;">
+          <p style="margin-top:0;">Can one wait before operating? Cataract progresses at very variable rates depending on the individual. When it does not significantly affect quality of life or driving ability, waiting is possible. But indefinitely postponing the procedure exposes one to a very advanced ("white") cataract, technically more difficult to operate on and associated with less predictable recovery.</p>
+          <p style="margin-top:10px;">Is the surgery painful? No. The procedure is performed under topical anaesthesia with eye drops, without injection or general anaesthesia. It lasts about 20 minutes and is performed as a day case. The vast majority of patients describe an experience that is barely or not at all painful.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" style="padding-top:8px;padding-bottom:24px;">
+  <div class="inner">
+    <div class="two-col">
+      <div class="prose fade-in">
+        <div class="section-eyebrow">Good to know</div>
+        <h2 class="section-title">Cataract and previous refractive surgery</h2>
+        <div style="background:#EAF2FA;border-radius:var(--radius-lg);padding:24px 28px;margin-top:16px;border:.5px solid #B8D4EC;">
+          <p style="margin-top:0;">Patients who have had refractive surgery (Femto-LASIK, PRK) in the past must imperatively mention this during the cataract consultation. Standard implant calculation formulas give less precise results after corneal surgery. Adapted formulas and additional examinations are necessary to optimise the implant choice and obtain an optimal refractive result postoperatively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:24px;padding-bottom:24px;">
+  <div class="inner">
+    <div class="two-col">
+      <div class="prose fade-in">
+        <div style="background:#EAF2FA;border-radius:var(--radius-lg);padding:24px 28px;margin-top:16px;border:.5px solid #B8D4EC;">
+          <p>Cataract surgery is one of the most performed procedures in the world, with a very well-documented safety and efficacy profile. In Belgium, it is reimbursed by the compulsory health insurance once the cataract sufficiently affects vision. Premium implants (multifocal, EDOF) involve a non-reimbursed supplement that will be detailed during the preoperative exam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer"><div class="footer-inner"><img src="/images/logo-footer.webp" alt="Doctor Sanak · Brussels" width="527" height="160" loading="lazy" style="height:80px;width:auto;object-fit:contain;image-rendering:-webkit-optimize-contrast;"><div class="footer-links"><a href="/en/legal/">Legal notice</a><a href="/en/privacy/">Privacy</a><a href="/en/">Home</a></div><div class="footer-copy">© 2026 Dr Serdal Sanak · Ophthalmic surgeon in Brussels</div></div></footer>
+<script>const nav=document.getElementById('nav');
+const menuBtn=document.getElementById('menu-btn');
+const mobileMenu=document.getElementById('mobile-menu');
+function hs(){nav.classList.toggle('scrolled',window.scrollY>60);nav.classList.toggle('transparent',window.scrollY<=60);}
+window.addEventListener('scroll',hs,{passive:true});
+if(menuBtn&&mobileMenu){menuBtn.addEventListener('click',function(e){e.stopPropagation();mobileMenu.classList.toggle('open');});document.addEventListener('click',function(e){if(!nav.contains(e.target)&&!mobileMenu.contains(e.target)){mobileMenu.classList.remove('open');}});}
+const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting){el.target.classList.add('visible');obs.unobserve(el.target);}});},{threshold:.1});
+document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
+document.querySelectorAll('.hero-page .fade-in').forEach(el=>setTimeout(()=>el.classList.add('visible'),80));</script>
+</body>
+</html>

@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr Serdal Sanak · Ophthalmic surgeon in Brussels</title>
+<meta name="description" content="Dr Serdal Sanak, ophthalmic surgeon in Brussels. Refractive surgery (Femto-LASIK, PRK, ICL, PRELEX) and cataract. Preoperative exam by appointment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ─── RESET & VARIABLES ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --blue:        #143D6B;
+  --blue-mid:    #1D5C9A;
+  --blue-light:  #EAF2FA;
+  --blue-border: #B5D4F4;
+  --warm:        #F4F2EC;
+  --white:       #FFFFFF;
+  --text-dark:   #1A1A18;
+  --text-mid:    #3A3A38;
+  --text-soft:   #5F5E5A;
+  --text-muted:  #888780;
+  --border:      #E2E0D8;
+  --green:       #0F6E56;
+  --green-light: #E1F5EE;
+
+  --font-serif:  'Lora', Georgia, serif;
+  --font-sans:   'Inter', system-ui, sans-serif;
+
+  --nav-h:       130px;
+  --radius:      10px;
+  --radius-lg:   16px;
+  --section-pad: clamp(60px, 8vw, 100px) clamp(20px, 5vw, 80px);
+  --max-w:       1180px;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-sans); color: var(--text-dark); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+/* ─── NAVIGATION ─────────────────────────────────────────────────────── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  height: var(--nav-h);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 clamp(20px, 4vw, 60px);
+  transition: background .35s ease, box-shadow .35s ease, backdrop-filter .35s ease;
+}
+.nav.transparent { background: transparent; }
+.nav.scrolled {
+  background: rgba(255,255,255,0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 var(--border), 0 4px 24px rgba(20,61,107,.06);
+}
+.nav-logo {
+  font-family: var(--font-serif); font-size: 17px; font-weight: 400;
+  color: var(--blue); text-decoration: none; letter-spacing: -.01em;
+  transition: opacity .2s;
+}
+.nav-logo:hover { opacity: .75; }
+.nav-links {
+  display: flex; gap: 28px; list-style: none; align-items: center;
+}
+.nav-links > li { display: flex; align-items: center; }
+.nav-links a {
+  font-size: 13px; font-weight: 400; color: var(--text-mid);
+  text-decoration: none; letter-spacing: .01em;
+  transition: color .2s;
+}
+.nav-links a:hover { color: var(--blue); }
+.nav.transparent .nav-links a { color: var(--blue); }
+.nav-cta {
+  font-size: 13px; font-weight: 500;
+  padding: 9px 20px; border-radius: 8px;
+  background: var(--blue); color: var(--white);
+  text-decoration: none; letter-spacing: .01em;
+  transition: opacity .2s, transform .2s;
+}
+.nav-cta:hover { opacity: .88; transform: translateY(-1px); }
+.nav-menu-btn { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+.nav-menu-btn span { display: block; width: 22px; height: 1.5px; background: var(--blue); margin: 5px 0; border-radius: 2px; transition: all .3s; }
+
+/* ─── HERO ───────────────────────────────────────────────────────────── */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(155deg, #EAF2FA 0%, #F4F2EC 55%, #EDF5F0 100%);
+  display: flex; align-items: center;
+  padding: calc(var(--nav-h) + 60px) clamp(20px, 5vw, 80px) 80px;
+  position: relative; overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute; top: -40%; right: -15%;
+  width: 600px; height: 600px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(20,61,107,.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute; bottom: -20%; left: -10%;
+  width: 400px; height: 400px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(15,110,86,.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-inner { max-width: var(--max-w); margin: 0 auto; width: 100%; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--green); background: var(--green-light);
+  padding: 5px 12px; border-radius: 20px; margin-bottom: 24px;
+}
+.hero-badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+.hero h1 {
+  font-family: var(--font-serif); font-size: clamp(26px, 3vw, 38px);
+  font-weight: 400; color: var(--blue); line-height: 1.3;
+  margin-bottom: 20px; letter-spacing: -.01em;
+  max-width: 700px;
+}
+.hero h1 em { font-style: italic; }
+.hero-sub {
+  font-size: clamp(14px, 1.5vw, 16px); color: var(--text-soft);
+  line-height: 1.8; margin-bottom: 36px; max-width: 600px; text-align: center;
+}
+.hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px; justify-content: center; }
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 26px; border-radius: var(--radius);
+  background: var(--blue); color: var(--white);
+  font-size: 14px; font-weight: 500; text-decoration: none;
+  transition: opacity .2s, transform .2s, box-shadow .2s;
+  box-shadow: 0 4px 16px rgba(20,61,107,.25);
+}
+.btn-primary:hover { opacity: .9; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(20,61,107,.3); }
+.btn-secondary {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 26px; border-radius: var(--radius);
+  background: transparent; color: var(--blue);
+  border: 0.5px solid var(--blue);
+  font-size: 14px; font-weight: 500; text-decoration: none;
+  transition: background .2s, transform .2s;
+}
+.btn-secondary:hover { background: var(--blue-light); transform: translateY(-2px); }
+.hero-trust {
+  display: flex; gap: 24px; flex-wrap: wrap; justify-content: center;
+}
+.trust-item {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; color: var(--text-muted);
+}
+.trust-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--blue-mid); flex-shrink: 0; }
+
+/* Hero card */
+.hero-card {
+  background: var(--white); border-radius: var(--radius-lg);
+  padding: 32px; box-shadow: 0 8px 40px rgba(20,61,107,.1), 0 1px 0 var(--border);
+  position: relative;
+}
+
+.card-label { font-size: 10px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 16px; }
+.persona { display: flex; flex-direction: column; gap: 12px; }
+.persona-item {
+  padding: 14px 16px; border-radius: var(--radius);
+  background: var(--warm); border: 0.5px solid var(--border);
+  cursor: pointer; transition: border-color .2s, background .2s;
+}
+.persona-item:hover, .persona-item.active { border-color: var(--blue); background: var(--blue-light); }
+.persona-name { font-size: 13px; font-weight: 500; color: var(--blue); margin-bottom: 2px; }
+.persona-desc { font-size: 12px; color: var(--text-soft); line-height: 1.5; }
+.persona-tag { display: inline-block; font-size: 10px; font-weight: 500; padding: 2px 8px; border-radius: 8px; background: var(--blue); color: var(--white); margin-top: 6px; }
+.card-cta {
+  display: block; text-align: center; margin-top: 16px;
+  padding: 11px; border-radius: var(--radius);
+  background: var(--blue); color: var(--white);
+  font-size: 13px; font-weight: 500; text-decoration: none;
+  transition: opacity .2s;
+}
+.card-cta:hover { opacity: .85; }
+
+/* ─── SECTION BASE ───────────────────────────────────────────────────── */
+.section { padding: var(--section-pad); }
+.inner { max-width: var(--max-w); margin: 0 auto; }
+.section-eyebrow { font-size: 11px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--blue-mid); margin-bottom: 10px; }
+.section-title { font-family: var(--font-serif); font-size: clamp(24px, 3vw, 36px); font-weight: 400; color: var(--blue); line-height: 1.3; margin-bottom: 16px; }
+.section-sub { font-size: 15px; color: var(--text-soft); line-height: 1.8; max-width: 600px; }
+
+/* ─── QUI SUIS-JE ────────────────────────────────────────────────────── */
+.about { background: var(--white); }
+.about-grid { display: grid; grid-template-columns: 380px 1fr; gap: 60px; align-items: start; margin-top: 48px; }
+.about-pillars { display: flex; flex-direction: column; gap: 0; }
+.pillar {
+  padding: 20px 0; border-bottom: 0.5px solid var(--border);
+  display: flex; gap: 16px; align-items: flex-start;
+}
+.pillar:first-child { border-top: 0.5px solid var(--border); }
+.pillar-num { font-family: var(--font-serif); font-size: 28px; color: var(--blue-border); font-weight: 400; line-height: 1; flex-shrink: 0; width: 32px; }
+.pillar-title { font-size: 14px; font-weight: 500; color: var(--blue); margin-bottom: 4px; }
+.pillar-text { font-size: 13px; color: var(--text-soft); line-height: 1.65; }
+.about-quote {
+  background: var(--blue); border-radius: var(--radius-lg);
+  padding: 36px; color: var(--white); position: relative; overflow: hidden;
+}
+.about-quote::before {
+  content: '"'; font-family: var(--font-serif); font-size: 120px;
+  position: absolute; top: -20px; right: 20px; color: rgba(255,255,255,.08);
+  line-height: 1; pointer-events: none;
+}
+.quote-text { font-family: var(--font-serif); font-size: 18px; font-weight: 400; font-style: italic; line-height: 1.6; margin-bottom: 20px; position: relative; z-index: 1; }
+.quote-attr { font-size: 12px; color: rgba(255,255,255,.6); font-weight: 500; letter-spacing: .05em; }
+.about-screening {
+  margin-top: 24px; padding: 18px; border-radius: var(--radius);
+  background: var(--green-light); border: 0.5px solid #9FE1CB;
+  display: flex; align-items: flex-start; gap: 12px;
+}
+.screening-icon { font-size: 20px; flex-shrink: 0; }
+.screening-title { font-size: 13px; font-weight: 500; color: var(--green); margin-bottom: 3px; }
+.screening-text { font-size: 12px; color: #085041; line-height: 1.6; }
+
+/* ─── TROUBLES + CHIRURGIES ──────────────────────────────────────────── */
+.cards-section { background: var(--warm); }
+.cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 40px; }
+.card-item {
+  background: var(--white); border-radius: var(--radius);
+  padding: 22px; border: 0.5px solid var(--border);
+  text-decoration: none; color: inherit;
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+  display: block;
+}
+.card-item:hover { border-color: var(--blue); box-shadow: 0 4px 20px rgba(20,61,107,.1); transform: translateY(-2px); }
+.card-icon { font-size: 22px; margin-bottom: 10px; }
+.card-title { font-size: 14px; font-weight: 500; color: var(--blue); margin-bottom: 4px; }
+.card-desc { font-size: 12px; color: var(--text-soft); line-height: 1.6; }
+.card-arrow { font-size: 11px; color: var(--blue-mid); margin-top: 10px; display: block; }
+.cards-header { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px; }
+.view-all { font-size: 13px; color: var(--blue); text-decoration: none; font-weight: 500; }
+.view-all:hover { text-decoration: underline; }
+.section-divider { border: none; border-top: 0.5px solid var(--border); margin: 48px 0; }
+
+/* ─── PARCOURS ───────────────────────────────────────────────────────── */
+.parcours { background: var(--white); }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 48px; position: relative; }
+.steps::before {
+  content: ''; position: absolute; top: 20px; left: calc(12.5% + 20px); right: calc(12.5% + 20px);
+  height: 0.5px; background: var(--blue-border); z-index: 0;
+}
+.step-item { text-align: center; padding: 0 16px; position: relative; z-index: 1; }
+.step-num {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--blue); color: var(--white);
+  font-size: 14px; font-weight: 500; display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 16px; box-shadow: 0 0 0 6px var(--white), 0 0 0 7px var(--blue-border);
+}
+.step-title { font-size: 13px; font-weight: 500; color: var(--blue); margin-bottom: 6px; }
+.step-text { font-size: 12px; color: var(--text-soft); line-height: 1.65; }
+.step-badge { display: inline-block; font-size: 10px; font-weight: 500; padding: 2px 8px; border-radius: 8px; background: var(--green-light); color: var(--green); margin-top: 6px; }
+
+/* ─── CHIRURGIES BLOCK (fond bleu) ──────────────────────────────────── */
+.chirurgies-block { background: var(--blue); }
+.chirurgies-block .section-eyebrow { color: rgba(255,255,255,.5); }
+.chirurgies-block .section-title { color: var(--white); }
+
+/* ─── CTA SECTION ────────────────────────────────────────────────────── */
+.cta-section {
+  background: var(--blue);
+  padding: var(--section-pad);
+  text-align: center;
+}
+.cta-section .section-eyebrow { color: rgba(255,255,255,.5); }
+.cta-section .section-title { color: var(--white); margin: 0 auto 12px; }
+.cta-section .section-sub { color: rgba(255,255,255,.7); margin: 0 auto 36px; }
+.cta-btns { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.btn-white {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 28px; border-radius: var(--radius);
+  background: var(--white); color: var(--blue);
+  font-size: 14px; font-weight: 500; text-decoration: none;
+  transition: opacity .2s, transform .2s;
+  box-shadow: 0 4px 16px rgba(0,0,0,.15);
+}
+.btn-white:hover { opacity: .92; transform: translateY(-2px); }
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 28px; border-radius: var(--radius);
+  background: transparent; color: var(--white);
+  border: 0.5px solid rgba(255,255,255,.4);
+  font-size: 14px; font-weight: 500; text-decoration: none;
+  transition: background .2s, transform .2s;
+}
+.btn-ghost:hover { background: rgba(255,255,255,.08); transform: translateY(-2px); }
+.contact-info { display: flex; justify-content: center; gap: 36px; margin-top: 40px; flex-wrap: wrap; }
+.contact-item { color: rgba(255,255,255,.75); font-size: 13px; }
+.contact-item strong { display: block; color: var(--white); font-weight: 500; margin-bottom: 2px; }
+
+/* ─── FOOTER ─────────────────────────────────────────────────────────── */
+.footer {
+  background: var(--warm); border-top: 0.5px solid var(--border);
+  padding: 40px clamp(20px, 5vw, 80px);
+}
+.footer-inner { max-width: var(--max-w); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-logo-img {
+  height: 80px; width: auto; object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+}
+.footer-logo { display: flex; align-items: center; }
+.footer-links { display: flex; gap: 20px; }
+.footer-links a { font-size: 12px; color: var(--text-muted); text-decoration: none; }
+.footer-links a:hover { color: var(--blue); }
+.footer-copy { font-size: 11px; color: var(--text-muted); }
+
+/* ─── ANIMATIONS ─────────────────────────────────────────────────────── */
+.fade-in { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+.fade-in-delay-1 { transition-delay: .1s; }
+.fade-in-delay-2 { transition-delay: .2s; }
+.fade-in-delay-3 { transition-delay: .3s; }
+.fade-in-delay-4 { transition-delay: .4s; }
+
+/* ─── RESPONSIVE ─────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+  .about-grid { grid-template-columns: 1fr; gap: 32px; }
+  .steps { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .steps::before { display: none; }
+  .cards-grid { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+  .nav-menu-btn { display: block; }
+}
+@media (max-width: 600px) {
+  .steps { grid-template-columns: 1fr; }
+  .hero-btns { flex-direction: column; }
+  .btn-primary, .btn-secondary { text-align: center; justify-content: center; }
+  .cta-btns { flex-direction: column; align-items: center; }
+}
+
+/* ─── HERO IDENTITY ─────────────────────────────────────────────────── */
+.hero-identity {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.hero-name {
+  font-family: var(--font-serif);
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 500;
+  color: var(--blue);
+  line-height: 1.05;
+  letter-spacing: -.02em;
+  margin-bottom: 12px;
+}
+.hero-spec {
+  font-size: clamp(14px, 1.6vw, 17px);
+  font-weight: 500;
+  color: var(--blue-mid);
+  letter-spacing: .01em;
+  margin-bottom: 6px;
+}
+.hero-spec-sub {
+  font-size: clamp(12px, 1.3vw, 14px);
+  color: var(--text-soft);
+  letter-spacing: .02em;
+  margin-bottom: 8px;
+}
+.hero-location {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ─── TECHNIQUES GRID IN CARD ───────────────────────────────────────── */
+.card-techniques { margin-bottom: 0; }
+.techniques-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px;
+}
+.technique-item {
+  padding: 10px 12px; border-radius: 8px;
+  background: var(--warm); border: 0.5px solid var(--border);
+  text-decoration: none; color: inherit;
+  transition: border-color .2s, background .2s;
+  display: block;
+}
+.technique-item:hover { border-color: var(--blue); background: var(--blue-light); }
+.technique-name { font-size: 12px; font-weight: 600; color: var(--blue); margin-bottom: 2px; }
+.technique-desc { font-size: 10px; color: var(--text-muted); }
+.card-divider {
+  height: 0.5px; background: var(--border); margin: 16px 0;
+}
+
+/* ─── PERSONAS SECTION ───────────────────────────────────────────────── */
+.personas-section { background: var(--warm); }
+.personas-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 20px; margin-top: 40px;
+}
+.persona-card {
+  background: var(--white); border-radius: var(--radius-lg);
+  padding: 28px; border: 0.5px solid var(--border);
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+.persona-card:hover { border-color: var(--blue); box-shadow: 0 6px 24px rgba(20,61,107,.1); transform: translateY(-3px); }
+.persona-card-name { font-family: var(--font-serif); font-size: 20px; font-weight: 400; color: var(--blue); margin-bottom: 6px; }
+.persona-card-tag { display: inline-block; font-size: 10px; font-weight: 500; padding: 3px 10px; border-radius: 10px; background: var(--blue); color: var(--white); margin-bottom: 14px; }
+.persona-card-text { font-size: 13px; color: var(--text-soft); line-height: 1.7; margin-bottom: 16px; }
+.persona-card-link { font-size: 12px; color: var(--blue-mid); font-weight: 500; text-decoration: none; }
+.persona-card-link:hover { text-decoration: underline; }
+@media (max-width: 900px) { .personas-grid { grid-template-columns: 1fr; } }
+
+/* ─── PHOTO CHIRURGIEN ───────────────────────────────────────────────── */
+.about-photo-col {
+  display: flex; flex-direction: column; gap: 20px; position: sticky; top: 88px;
+}
+.photo-frame {
+  position: relative; border-radius: var(--radius-lg); overflow: hidden;
+  box-shadow: 0 12px 48px rgba(20,61,107,.15), 0 2px 8px rgba(20,61,107,.08);
+  aspect-ratio: 4/5;
+}
+.photo-frame img {
+  width: 100%; height: 100%; display: block;
+  object-fit: cover; object-position: center top;
+  filter: contrast(1.02) brightness(1.01);
+}
+.photo-frame::after {
+  content: '';
+  position: absolute; inset: 0;
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 0 0 0.5px rgba(20,61,107,.15);
+  pointer-events: none;
+}
+.photo-caption {
+  background: var(--blue); border-radius: var(--radius);
+  padding: 18px 20px; color: var(--white);
+}
+.photo-caption-name {
+  font-family: var(--font-serif); font-size: 18px; font-weight: 400;
+  margin-bottom: 4px;
+}
+.photo-caption-title {
+  font-size: 12px; color: rgba(255,255,255,.7); line-height: 1.5;
+}
+.photo-badge {
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px 16px; border-radius: var(--radius);
+  background: var(--green-light); border: 0.5px solid #9FE1CB;
+}
+.photo-badge-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+.photo-badge-text { font-size: 12px; color: var(--green); font-weight: 500; line-height: 1.4; }
+@media (max-width: 900px) { .about-photo-col { display: none; } }
+
+.hero-visual {
+  width: 100%; max-width: var(--max-w); margin: 0 auto;
+  border-radius: var(--radius-lg); overflow: hidden;
+  box-shadow: 0 20px 60px rgba(7,24,40,.5), 0 2px 8px rgba(20,61,107,.2);
+  margin-top: 48px;
+}
+.hero-visual svg { display: block; width: 100%; height: auto; }
+
+/* ─── LOGO ───────────────────────────────────────────────────────────── */
+
+.footer-logo-img {
+  height: 80px; width: auto; object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+}
+.footer-logo { display: flex; align-items: center; }
+
+/* ─── NAV LOGO ───────────────────────────────────────────────────────── */
+.nav-logo-img {
+  height: 110px; width: auto; display: block;
+  object-fit: contain; transition: opacity .2s;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.nav-logo-img:hover { opacity: .8; }
+.nav-logo-img:hover { opacity: .8; }
+
+/* ── MOBILE MENU ─────────────────────────────────────────────────────── */
+.mobile-menu{display:none;position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;background:#fff;z-index:999;overflow-y:auto;padding:0 0 40px 0;}
+.mobile-menu.open{display:block;}
+.mobile-section{padding:20px 28px 0;}
+.mobile-section-title{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px;padding-bottom:6px;border-bottom:.5px solid var(--border);}
+.mobile-links{display:flex;flex-direction:column;gap:0;}
+.mobile-links a{font-size:15px;color:var(--text-mid);text-decoration:none;padding:11px 0;border-bottom:.5px solid var(--border);display:block;transition:color .15s;}
+.mobile-links a:hover{color:var(--blue);}
+.mobile-links a:last-child{border-bottom:none;}
+.mobile-direct{padding:20px 28px 0;}
+.mobile-direct a{display:block;font-size:15px;color:var(--text-mid);text-decoration:none;padding:11px 0;border-bottom:.5px solid var(--border);}
+.mobile-rdv{margin:24px 28px 0;display:block;text-align:center;padding:14px;background:var(--blue);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:500;text-decoration:none;}
+
+/* ── NAV DROPDOWNS ───────────────────────────────────────────────────── */
+.nav-links{display:flex;align-items:center;gap:6px;list-style:none;margin:0;padding:0;}
+
+.nav-links > li > a{font-size:13px;color:var(--text-mid);text-decoration:none;padding:7px 12px;border-radius:6px;white-space:nowrap;transition:color .2s;}
+.nav-links > li > a:hover,.nav-links > li > a.active{color:var(--blue);}
+.nav.transparent .nav-links > li > a{color:var(--blue);}
+.nav-cta-link{font-size:13px;font-weight:500;padding:9px 18px;border-radius:8px;background:var(--blue);color:#fff !important;text-decoration:none;white-space:nowrap;transition:opacity .2s;}
+.nav-cta-link:hover{opacity:.88;}
+@media(max-width:1100px){.nav-links > li:not(.nav-item) > a:not(.nav-cta-link){display:none;}.nav-links > li.nav-item > a{display:flex;}}
+@media(max-width:960px){.nav-links{display:none;}.nav-menu-btn{display:block !important;}}
+/* ── MOBILE PHOTO ────────────────────────────────────────────────────── */
+@media(max-width:900px){
+  .about-photo-col{display:block !important;}
+  .about-grid{grid-template-columns:1fr !important;}
+  .about-photo-col img.photo-frame{width:100%;border-radius:var(--radius-lg);}
+}
+/* ── PHOTO FIX ───────────────────────────────────────────────────────── */
+.about-grid{display:grid;grid-template-columns:380px 1fr;gap:60px;align-items:start;margin-top:48px;}
+.about-photo-col{position:sticky;top:88px;}
+@media(max-width:900px){
+  .about-grid{grid-template-columns:1fr !important;gap:32px;}
+  .about-photo-col{position:static !important;display:flex !important;flex-direction:column;align-items:center !important;text-align:center;margin:0 auto 24px auto;width:100%;}
+  .photo-frame{width:100%;max-width:320px;aspect-ratio:4/5;overflow:hidden;border-radius:var(--radius-lg);margin:0 auto;}
+  .photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center 10%;}
+  .photo-caption,.photo-badge{max-width:320px;width:100%;margin:0 auto;}
+}
+
+/* ── QUI SUIS-JE GRID ────────────────────────────────────────────────── */
+.about-qui-grid{display:grid;grid-template-columns:360px 1fr;gap:56px;align-items:center;margin-top:40px;}
+.about-qui-grid .about-photo-col{order:1;}
+.about-qui-grid .about-qui-text{order:2;}
+.photo-img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:var(--radius-lg);}
+@media(max-width:900px){
+  .about-qui-grid{grid-template-columns:1fr;gap:24px;}
+  .about-qui-grid .about-photo-col{order:2;max-width:320px;margin:0 auto;}
+  .about-qui-grid .about-qui-text{order:1;}
+  .photo-frame{aspect-ratio:4/5;overflow:hidden;border-radius:var(--radius-lg);}
+}
+
+/* ── MOBILE RDV SOUS LOGO ────────────────────────────────────────────── */
+.nav-rdv-mobile{display:none;}
+@media(max-width:960px){
+  .nav{flex-wrap:wrap;height:auto !important;padding:8px 16px;overflow:visible;}
+  .nav-logo{width:100%;margin-bottom:6px;}
+  .nav-logo-img{height:68px !important;}
+  .nav-rdv-mobile{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:var(--blue);
+    color:#fff !important;
+    font-size:13px;
+    font-weight:500;
+    padding:8px 16px;
+    border-radius:7px;
+    text-decoration:none;
+    margin-bottom:2px;
+  }
+  .nav-menu-btn{position:absolute;top:14px;right:16px;}
+  .nav-cta-link{display:none;}
+}
+
+/* ── DROPDOWN HOVER FIX ─────────────────────────────────────────────── */
+.nav-item{position:relative;}
+.nav-item > a{display:flex;align-items:center;gap:4px;cursor:pointer;}
+/* Pont invisible entre le lien et le dropdown pour éviter que le hover ne se ferme */
+.nav-item::after{
+  content:'';
+  position:absolute;
+  top:100%;
+  left:0;
+  right:0;
+  height:12px;
+  display:none;
+}
+.nav-item:hover::after{display:block;}
+.nav-dropdown{
+  display:none;
+  position:absolute;
+  top:calc(100% + 12px);
+  left:50%;
+  transform:translateX(-50%);
+  background:rgba(240,244,248,0.88);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border:.5px solid rgba(20,61,107,.12);
+  border-radius:var(--radius);
+  box-shadow:0 8px 32px rgba(20,61,107,.12);
+  min-width:210px;
+  z-index:500;
+  padding:6px 0 8px 0;
+}
+.nav-dropdown a{
+  display:block;
+  padding:9px 20px;
+  white-space:nowrap;
+  color:var(--text-mid);
+  text-decoration:none;
+  font-size:13px;
+  line-height:1.3;
+}
+.nav-dropdown a:hover{color:var(--blue);background:rgba(20,61,107,.06);}
+.nav-item:hover .nav-dropdown{display:block;}
+
+/* ── LANGUAGE SWITCHER ──────────────────────────────────────────────── */
+.lang-switcher{
+  display:flex;align-items:center;gap:0;
+  font-size:12px;font-weight:500;letter-spacing:.04em;
+  margin-right:16px;flex-shrink:0;
+}
+.lang-switcher a{
+  color:var(--text-muted);text-decoration:none;
+  padding:6px 8px;transition:color .15s;
+}
+.lang-switcher a:hover{color:var(--blue);}
+.lang-switcher a.active{color:var(--blue);font-weight:600;}
+.lang-switcher .lang-sep{
+  color:var(--text-muted);font-size:11px;padding:0 1px;
+}
+@media(max-width:960px){
+  .lang-switcher{display:none;}
+}
+</style>
+
+<link rel="canonical" href="https://www.docteursanak.com/en/">
+<link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/">
+<link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/">
+<link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://www.docteursanak.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.docteursanak.com/en/">
+<meta property="og:title" content="Dr Serdal Sanak · Ophthalmic surgeon in Brussels">
+<meta property="og:description" content="Dr Serdal Sanak, ophthalmic surgeon in Brussels. Refractive surgery (Femto-LASIK, PRK, ICL) and cataract. Focus Eye Clinic Wemmel and Delta Hospital Auderghem.">
+<meta property="og:image" content="https://www.docteursanak.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dr Serdal Sanak · Ophthalmic surgeon in Brussels · Refractive surgery and cataract">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="fr_BE">
+<meta property="og:locale:alternate" content="nl_BE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dr Serdal Sanak · Ophthalmic surgeon in Brussels">
+<meta name="twitter:description" content="Dr Serdal Sanak, ophthalmic surgeon in Brussels. Refractive surgery (Femto-LASIK, PRK, ICL) and cataract. Focus Eye Clinic Wemmel and Delta Hospital Auderghem.">
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Physician", "LocalBusiness"],
+  "@id": "https://www.docteursanak.com/#physician",
+  "name": "Dr Serdal Sanak",
+  "alternateName": "Doctor Serdal Sanak",
+  "description": "Ophthalmic surgeon specialised in refractive surgery (Femto-LASIK, PRK, ICL, PRELEX) and cataract surgery in Brussels. Preoperative exam by appointment.",
+  "medicalSpecialty": ["http://schema.org/Ophthalmology","Refractive surgery","Cataract surgery"],
+  "url": "https://www.docteursanak.com/en/",
+  "telephone": "+3224348109",
+  "sameAs": ["https://rosa.be/fr/hp/serdal-sanak/","https://www.chirec.be","https://www.focuseyeclinic.be"],
+  "location": [
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://www.docteursanak.com/#clinic-delta",
+      "name": "Delta Hospital Chirec · Dr Serdal Sanak",
+      "description": "Consultation location for preoperative exams in refractive and cataract surgery.",
+      "telephone": "+3224348109",
+      "address": {"@type":"PostalAddress","streetAddress":"Boulevard du Triomphe 201","addressLocality":"Auderghem","addressRegion":"Brussels","postalCode":"1160","addressCountry":"BE"},
+      "openingHoursSpecification": [{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"13:45"}],
+      "url": "https://rosa.be/fr/hp/serdal-sanak/"
+    },
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://www.docteursanak.com/#clinic-wemmel",
+      "name": "Focus Eye Clinic Wemmel · Dr Serdal Sanak",
+      "description": "Consultation location for preoperative exams in refractive and cataract surgery.",
+      "telephone": "+3224348109",
+      "address": {"@type":"PostalAddress","streetAddress":"Kaasmarkt 97","addressLocality":"Wemmel","addressRegion":"Brussels","postalCode":"1780","addressCountry":"BE"},
+      "openingHoursSpecification": [{"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"08:30","closes":"17:00"}],
+      "url": "https://www.focuseyeclinic.be"
+    }
+  ],
+  "availableService": [
+    {"@type":"MedicalProcedure","name":"Femto-LASIK","url":"https://www.docteursanak.com/en/femto-lasik/"},
+    {"@type":"MedicalProcedure","name":"PRK · Surface laser surgery","url":"https://www.docteursanak.com/en/prk/"},
+    {"@type":"MedicalProcedure","name":"ICL EVO STAAR Surgical implants","url":"https://www.docteursanak.com/en/icl/"},
+    {"@type":"MedicalProcedure","name":"PRELEX · Multifocal implants","url":"https://www.docteursanak.com/en/prelex/"},
+    {"@type":"MedicalProcedure","name":"Cataract surgery","url":"https://www.docteursanak.com/en/cataract/"},
+    {"@type":"MedicalProcedure","name":"Preoperative exam by appointment","url":"https://www.docteursanak.com/en/appointment/"}
+  ],
+  "areaServed": [{"@type":"City","name":"Brussels"},{"@type":"City","name":"Wemmel"},{"@type":"City","name":"Auderghem"},{"@type":"AdministrativeArea","name":"Belgium"}]
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MedicalWebPage","name":"Ophthalmic surgeon in Brussels · Dr Serdal Sanak","url":"https://www.docteursanak.com/en/","description":"Dr Serdal Sanak, ophthalmic surgeon in Brussels. Refractive and cataract surgery.","inLanguage":"en-GB","author":{"@type":"Physician","@id":"https://www.docteursanak.com/#physician","name":"Dr Serdal Sanak","medicalSpecialty":"Ophthalmology"}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between Femto-LASIK and PRK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Femto-LASIK creates a thin corneal flap to access the tissue to be treated, which allows for very rapid visual recovery — often functional the next day. PRK works directly on the surface, without a flap: recovery takes two to six weeks, but the cornea remains mechanically stronger. The choice between the two depends on the thickness of your cornea, your lifestyle and your medical history. The preoperative exam determines which technique is suitable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "From what age can one undergo laser eye surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally from age 18, provided the correction has been stable for at least two years. There is no fixed upper age limit for laser surgery, but beyond 45-50 years, other solutions such as PRELEX may be better suited depending on the profile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is laser eye surgery painful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The procedure is performed under topical anaesthesia with eye drops. You feel no pain during the procedure. After Femto-LASIK, discomfort is minimal. After PRK, the first 48 hours can be uncomfortable, but remain manageable with the prescribed treatments."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ─── NAVIGATION ──────────────────────────────────────────────────── -->
+<nav class="nav transparent" id="nav" role="navigation">
+  <a href="/en/" class="nav-logo"><img src="/images/logo.webp" alt="Doctor Sanak Brussels · Refractive surgery and cataract" width="724" height="220" fetchpriority="high" class="nav-logo-img"></a>
+  <a href="/en/appointment/" class="nav-rdv-mobile">Book an appointment</a>
+  <ul class="nav-links">
+    <li><a href="/en/">Home</a></li>
+    <li class="nav-item"><a href="#">Refractive errors</a><div class="nav-dropdown"><a href="/en/myopia/">Myopia (nearsightedness)</a>
+<a href="/en/hyperopia/">Hyperopia (farsightedness)</a>
+<a href="/en/astigmatism/">Astigmatism</a>
+<a href="/en/presbyopia/">Presbyopia</a></div></li>
+    <li class="nav-item"><a href="#">Corneal laser surgery</a><div class="nav-dropdown"><a href="/en/femto-lasik/">Femto-LASIK</a>
+<a href="/en/prk/">PRK</a>
+<a href="/en/prk-vs-femto-lasik/">PRK vs Femto-LASIK</a>
+<a href="/en/laser-risks/">Laser surgery side effects and risks</a></div></li>
+    <li class="nav-item"><a href="#">Intraocular surgery</a><div class="nav-dropdown"><a href="/en/prelex/">PRELEX</a>
+<a href="/en/icl/">ICL</a>
+<a href="/en/cataract/">Cataract surgery</a></div></li>
+    <li><a href="/en/preoperative-exam/">Preoperative exam</a></li>
+  </ul>
+  <div class="lang-switcher">
+    <a href="/">FR</a>
+    <span class="lang-sep">·</span>
+    <a href="/nl/">NL</a>
+    <span class="lang-sep">·</span>
+    <a href="/en/" class="active">EN</a>
+  </div>
+  <a href="/en/appointment/" class="nav-cta-link">Book an appointment</a>
+  <button class="nav-menu-btn" aria-label="Menu" id="menu-btn"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <div class="mobile-direct"><a href="/en/">Home</a><a href="/en/preoperative-exam/">Preoperative exam</a></div>
+  <div class="mobile-section"><div class="mobile-section-title">Refractive errors</div><div class="mobile-links"><a href="/en/myopia/">Myopia (nearsightedness)</a>
+<a href="/en/hyperopia/">Hyperopia (farsightedness)</a>
+<a href="/en/astigmatism/">Astigmatism</a>
+<a href="/en/presbyopia/">Presbyopia</a></div></div>
+  <div class="mobile-section"><div class="mobile-section-title">Corneal laser surgery</div><div class="mobile-links"><a href="/en/femto-lasik/">Femto-LASIK</a>
+<a href="/en/prk/">PRK</a>
+<a href="/en/prk-vs-femto-lasik/">PRK vs Femto-LASIK</a>
+<a href="/en/laser-risks/">Laser surgery side effects and risks</a></div></div>
+  <div class="mobile-section"><div class="mobile-section-title">Intraocular surgery</div><div class="mobile-links"><a href="/en/prelex/">PRELEX</a>
+<a href="/en/icl/">ICL</a>
+<a href="/en/cataract/">Cataract surgery</a></div></div>
+  <div class="mobile-section"><div class="mobile-section-title">Language · Langue · Taal</div><div class="mobile-links"><a href="/">Français</a>
+<a href="/nl/">Nederlands</a>
+<a href="/en/">English</a></div></div>
+  <a href="/en/appointment/" class="mobile-rdv">Book an appointment</a>
+</div>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-identity fade-in">
+        <h1 id="hero-title" class="hero-name">Dr Serdal Sanak</h1>
+        <div class="hero-spec">Ophthalmic surgeon · Refractive surgery and <a href="/en/cataract/" style="color:var(--blue);text-decoration:none;font-weight:500;">cataract</a></div>
+        <div class="hero-spec-sub">Laser · Myopia · Astigmatism · Hyperopia · Presbyopia</div>
+        <div class="hero-location">Brussels</div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── QUI SUIS-JE ─────────────────────────────────────────────────── -->
+<section class="section about" id="about" aria-labelledby="about-title">
+  <div class="inner">
+    <div class="section-eyebrow fade-in">Ophthalmic surgeon in Brussels</div>
+    <h2 id="about-title" class="section-title fade-in">My approach</h2>
+
+    <!-- ABOUT: photo left, text right desktop / text then photo mobile -->
+    <div class="about-qui-grid fade-in">
+      <div class="about-photo-col">
+        <div class="photo-frame">
+          <img src="/images/dr-sanak.webp" alt="Portrait of Dr Serdal Sanak, ophthalmic surgeon in Brussels" width="800" height="533" loading="lazy" class="photo-img">
+        </div>
+      </div>
+      <div class="about-qui-text">
+        <div class="section-eyebrow" style="margin-bottom:12px;">About me</div>
+        <p style="font-size:16px;color:var(--text-mid);line-height:1.85;margin-bottom:14px;">I am Dr Serdal Sanak, ophthalmic surgeon specialised in refractive surgery (laser correction for myopia, hyperopia, astigmatism) and cataract surgery. I practise in Brussels within the Chirec network and at the Focus Eye Clinic in Wemmel.</p>
+        <p style="font-size:16px;color:var(--text-mid);line-height:1.85;">My dual specialisation allows me to cover the entire spectrum of refractive surgery. A comprehensive approach, tailored to you.</p>
+      </div>
+    </div>
+
+    <!-- SEO BLOCK -->
+    <div class="about-who fade-in" style="margin-top:40px;padding-top:40px;border-top:.5px solid var(--border);">
+      <div class="section-eyebrow" style="margin-bottom:12px;">Refractive surgery in Brussels</div>
+      <p style="font-size:16px;color:var(--text-mid);line-height:1.85;margin-bottom:14px;">Refractive surgery encompasses all the procedures that correct visual defects and reduce or eliminate dependence on glasses and contact lenses. Myopia, hyperopia, astigmatism, presbyopia: for each of these conditions, there are today precise, well-documented surgical solutions, adapted to very different profiles.</p>
+      <p style="font-size:16px;color:var(--text-mid);line-height:1.85;margin-bottom:14px;">The purpose of this website is simple: to help you truly understand what will happen during your procedure, and why. You will find here no commercial pitch and no promises, only honest explanations of how each operation works, the indications specific to each technique, recovery, the results one can expect, and the real risks.</p>
+      <p style="font-size:16px;color:var(--text-mid);line-height:1.85;">Every eye is different. The surgical decision is not made based on a fashionable technique or an intuitive preference, but after a precise assessment of your corneal anatomy, your correction and your expectations. My role is to give you the information so that you can decide freely.</p>
+    </div>
+
+    <!-- PILLARS + QUOTE -->
+    <div class="about-grid" style="margin-top:48px;">
+      <div class="about-photo-col fade-in fade-in-delay-1">
+
+
+      </div>
+      <div class="about-pillars fade-in fade-in-delay-1">
+        <div class="pillar">
+          <div class="pillar-num">01</div>
+          <div>
+            <div class="pillar-title">Every patient deserves an answer of their own.</div>
+            <div class="pillar-text">Two patients with the same myopia can have very different corneas. I choose the technique based on what the assessment reveals about you. And if the assessment concludes that you should not be operated on, I explain it to you plainly.</div>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">02</div>
+          <div>
+            <div class="pillar-title">Clear explanation comes first.</div>
+            <div class="pillar-text">Understanding what we are going to do to your eyes, and why, is essential. With clear words and concrete comparisons.</div>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">03</div>
+          <div>
+            <div class="pillar-title">One direct point of contact, from start to finish.</div>
+            <div class="pillar-text">From the first appointment to postoperative follow-up, you have one direct point of contact. If something concerns you after the procedure, you contact me directly.</div>
+          </div>
+        </div>
+        <div class="about-quote-small" style="margin-top:20px; padding:16px 20px; background:var(--blue); border-radius:var(--radius); margin-bottom:16px;">
+          <div style="font-family:var(--font-serif); font-size:14px; font-style:italic; color:rgba(255,255,255,.9); line-height:1.65; margin-bottom:8px;">“Over time, I have come to understand that what patients remember most is not only the result. It is the way they were cared for.”</div>
+          <div style="font-size:11px; color:rgba(255,255,255,.5); letter-spacing:.05em;">Dr Serdal Sanak</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── TROUBLES VISUELS ─────────────────────────────────────────────── -->
+<section class="section cards-section" id="troubles" aria-labelledby="troubles-title">
+  <div class="inner">
+    <div class="cards-header">
+      <div>
+        <div class="section-eyebrow fade-in">Do you have a vision problem?</div>
+        <h2 id="troubles-title" class="section-title fade-in">Identify your condition</h2>
+      </div>
+      <a href="#chirurgies" class="view-all fade-in">View the solutions →</a>
+    </div>
+    <div class="cards-grid">
+      <a href="/en/myopia/" class="card-item fade-in">
+        <div class="card-icon"></div>
+        <div class="card-title">Myopia</div>
+        <div class="card-desc">You see blurry from a few metres away. Whiteboards, road signs, faces in the street, everything blurs.</div>
+        <span class="card-arrow">Understand and correct →</span>
+      </a>
+      <a href="/en/hyperopia/" class="card-item fade-in fade-in-delay-1">
+        <div class="card-icon"></div>
+        <div class="card-title">Hyperopia</div>
+        <div class="card-desc">Burning eyes at the end of the day, frontal headaches the condition hiding behind apparently "good vision".</div>
+        <span class="card-arrow">Understand and correct →</span>
+      </a>
+      <a href="/en/astigmatism/" class="card-item fade-in fade-in-delay-2">
+        <div class="card-icon"></div>
+        <div class="card-title">Astigmatism</div>
+        <div class="card-desc">Outlines doubled. Halos around headlights at night. An imprecise blur at all distances.</div>
+        <span class="card-arrow">Understand and correct →</span>
+      </a>
+      <a href="/en/presbyopia/" class="card-item fade-in fade-in-delay-3">
+        <div class="card-icon"></div>
+        <div class="card-title">Presbyopia</div>
+        <div class="card-desc">Holding your phone at arm's length. The ritual of putting glasses on and off, several times an hour. A constraint surgery can eliminate.</div>
+        <span class="card-arrow">Free yourself from reading glasses →</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── CHIRURGIES DISPONIBLES ───────────────────────────────────────── -->
+<section class="section chirurgies-block" aria-labelledby="chirurgies-title">
+  <div class="inner">
+    <div class="cards-header" id="chirurgies">
+      <div>
+        <div class="section-eyebrow fade-in">Looking for the right technique?</div>
+        <h2 id="chirurgies-title" class="section-title fade-in">Available procedures</h2>
+      </div>
+    </div>
+    <div class="cards-grid">
+      <a href="/en/prk/" class="card-item fade-in">
+        <div class="card-icon"></div>
+        <div class="card-title">PRK Surface laser surgery</div>
+        <div class="card-desc">The safe technique. No corneal flap. Ideal for thin corneas, contact sports and regulated professions.</div>
+        <span class="card-arrow">All about PRK →</span>
+      </a>
+      <a href="/en/femto-lasik/" class="card-item fade-in fade-in-delay-1">
+        <div class="card-icon"></div>
+        <div class="card-title">Femto-LASIK The global reference</div>
+        <div class="card-desc">The fast-recovery technique. Functional vision within 24 hours. The most performed worldwide, for good reason.</div>
+        <span class="card-arrow">All about Femto-LASIK →</span>
+      </a>
+      <a href="/en/icl/" class="card-item fade-in fade-in-delay-2">
+        <div class="card-icon"></div>
+        <div class="card-title">ICL implants Without touching the cornea</div>
+        <div class="card-desc">You have been told you cannot be operated on with laser. ICL implants often bypass this issue, without touching the cornea.</div>
+        <span class="card-arrow">All about ICL →</span>
+      </a>
+      <a href="/en/cataract/" class="card-item fade-in fade-in-delay-3">
+        <div class="card-icon"></div>
+        <div class="card-title">Cataract Find clarity again</div>
+        <div class="card-desc">Monofocal, multifocal and EDOF implants. The vast majority of patients no longer need any glasses after surgery.</div>
+        <span class="card-arrow">All about cataract →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PARCOURS ─────────────────────────────────────────────────────── -->
+<section class="section parcours" id="bilan" aria-labelledby="parcours-title">
+  <div class="inner">
+    <div class="section-eyebrow fade-in">Your journey with Dr Sanak</div>
+    <h2 id="parcours-title" class="section-title fade-in">From the first question to clear vision</h2>
+    <div class="steps">
+      <div class="step-item fade-in">
+        <div class="step-num" aria-hidden="true">01</div>
+        <div class="step-title">Initial consultation</div>
+        <div class="step-text">We meet. You tell me about your vision, your expectations, your daily life. I give you an initial orientation.</div>
+        <span class="step-badge">No fee</span>
+      </div>
+      <div class="step-item fade-in fade-in-delay-1">
+        <div class="step-num" aria-hidden="true">02</div>
+        <div class="step-title">Preoperative exam</div>
+        <div class="step-text">A complete mapping of your eye in one hour. At the end, you know whether you are a candidate and which technique is right for you.</div>
+        <span class="step-badge">Results the same day</span>
+      </div>
+      <div class="step-item fade-in fade-in-delay-2">
+        <div class="step-num" aria-hidden="true">03</div>
+        <div class="step-title">The procedure</div>
+        <div class="step-text">Under topical anaesthesia with eye drops. Between 10 and 20 minutes depending on the technique. You go home the same day.</div>
+        <span class="step-badge">Home the same day</span>
+      </div>
+      <div class="step-item fade-in fade-in-delay-3">
+        <div class="step-num" aria-hidden="true">04</div>
+        <div class="step-title">Postoperative follow-up</div>
+        <div class="step-text">Postoperative checks are as important as the procedure itself. I follow you directly to ensure your vision progresses as expected.</div>
+        <span class="step-badge">Surgeon directly reachable</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── QUI VIENT ME CONSULTER ──────────────────────────────────────── -->
+<section class="section personas-section" aria-labelledby="personas-title">
+  <div class="inner">
+    <div class="section-eyebrow fade-in" style="text-align:center;">Among my patients</div>
+    <h2 id="personas-title" class="section-title fade-in" style="text-align:center;">Who comes to see me?</h2>
+    <div class="personas-grid">
+      <div class="persona-card fade-in">
+        <div class="persona-card-name">Lucas, 31 years old</div>
+        <div class="persona-card-tag">Myopia · Femto-LASIK / ICL</div>
+        <div class="persona-card-text">Nearsighted since adolescence, he has worn contact lenses for 15 years. He plays sports, he travels. He wants to know whether laser surgery can change that.</div>
+        <a href="/en/myopia/" class="persona-card-link">View the solutions →</a>
+      </div>
+      <div class="persona-card fade-in fade-in-delay-1">
+        <div class="persona-card-name">Claire, 52 years old</div>
+        <div class="persona-card-tag">Presbyopia · <a href="/en/prelex/" style="color:var(--blue);text-decoration:none;font-weight:500;">PRELEX</a></div>
+        <div class="persona-card-text">She holds her phone at arm's length in the morning. In meetings, she takes her glasses off to read, puts them back on to look up. She wants to know what really exists for her.</div>
+        <a href="/en/presbyopia/" class="persona-card-link">View the solutions →</a>
+      </div>
+      <div class="persona-card fade-in fade-in-delay-2">
+        <div class="persona-card-name">Marc, 67 years old</div>
+        <div class="persona-card-tag">Cataract · Multifocal implant</div>
+        <div class="persona-card-text">For two years now, headlights feel like spotlights to him. Colours have lost their brightness. His ophthalmologist mentioned the word cataract, and now he wants to understand what he will recover.</div>
+        <a href="/en/cataract/" class="persona-card-link">View the solutions →</a>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:36px;">
+      <a href="#rdv" class="btn-primary fade-in">Find out if I am eligible →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CTA ──────────────────────────────────────────────────────────── -->
+<section class="cta-section" id="rdv" aria-labelledby="cta-title">
+  <div class="inner">
+    <div class="section-eyebrow">Book an appointment</div>
+    <h2 id="cta-title" class="section-title fade-in">In one hour, you will know.</h2>
+    <p class="section-sub fade-in">What I want for every patient who leaves this assessment: that they know exactly where they stand. Whether they decide to have surgery or not, they leave with the information to choose freely.</p>
+    <div class="cta-btns fade-in">
+      <a href="tel:024275985" class="btn-white">Focus Eye Clinic · Wemmel</a>
+      <a href="https://rosa.be/fr/hp/serdal-sanak/" class="btn-white" target="_blank" rel="noopener">Delta Hospital · Auderghem</a>
+      <a href="mailto:contact@docteursanak.com" class="btn-ghost">contact@docteursanak.com</a>
+    </div>
+    <div class="contact-info fade-in">
+      <div class="contact-item">
+        <strong>Focus Eye Clinic · Wemmel</strong>
+        Kaasmarkt 97, 1780 Wemmel · 02 427 59 85
+      </div>
+      <div class="contact-item">
+        <strong>Delta Hospital (Chirec) · Auderghem</strong>
+        Bd du Triomphe 201, 1160 Auderghem · 02 434 81 09
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ───────────────────────────────────────────────────────── -->
+<footer class="footer"><div class="footer-inner"><img src="/images/logo-footer.webp" alt="Doctor Sanak · Brussels" width="527" height="160" loading="lazy" style="height:80px;width:auto;object-fit:contain;image-rendering:-webkit-optimize-contrast;"><div class="footer-links"><a href="/en/legal/">Legal notice</a><a href="/en/privacy/">Privacy</a><a href="/en/">Home</a></div><div class="footer-copy">© 2026 Dr Serdal Sanak · Ophthalmic surgeon in Brussels</div></div></footer>
+
+<!-- ─── SCRIPTS ───────────────────────────────────────────────────────── -->
+<script>const nav=document.getElementById('nav');
+const menuBtn=document.getElementById('menu-btn');
+const mobileMenu=document.getElementById('mobile-menu');
+function hs(){nav.classList.toggle('scrolled',window.scrollY>60);nav.classList.toggle('transparent',window.scrollY<=60);}
+window.addEventListener('scroll',hs,{passive:true});
+if(menuBtn&&mobileMenu){
+  menuBtn.addEventListener('click',function(e){e.stopPropagation();mobileMenu.classList.toggle('open');});
+  document.addEventListener('click',function(e){if(!nav.contains(e.target)&&!mobileMenu.contains(e.target)){mobileMenu.classList.remove('open');}});
+}
+const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting){el.target.classList.add('visible');obs.unobserve(el.target);}});},{threshold:.1});
+document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
+document.querySelectorAll('.hero-page .fade-in').forEach(el=>setTimeout(()=>el.classList.add('visible'),80));</script>
+
+</body>
+</html>
