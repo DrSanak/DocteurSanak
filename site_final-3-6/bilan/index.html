@@ -165,9 +165,20 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 }
 .nav-dropdown a:hover{color:var(--blue);background:rgba(20,61,107,.06);}
 .nav-item:hover .nav-dropdown{display:block;}
+
+/* ── LANGUAGE SWITCHER ──────────────────────────────────────────────── */
+.lang-switcher{display:flex;align-items:center;gap:0;font-size:12px;font-weight:500;letter-spacing:.04em;margin-right:16px;flex-shrink:0;}
+.lang-switcher a{color:var(--text-muted);text-decoration:none;padding:6px 8px;transition:color .15s;}
+.lang-switcher a:hover{color:var(--blue);}
+.lang-switcher a.active{color:var(--blue);font-weight:600;}
+.lang-switcher .lang-sep{color:var(--text-muted);font-size:11px;padding:0 1px;}
+@media(max-width:960px){.lang-switcher{display:none;}}
 </style>
 
 <link rel="canonical" href="https://www.docteursanak.com/bilan/">
+<link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/bilan/">
+<link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/vooronderzoek/">
+<link rel="alternate" hreflang="x-default" href="https://www.docteursanak.com/bilan/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.docteursanak.com/bilan/">
 <meta property="og:title" content="Bilan opération laser yeux Bruxelles Dr Serdal Sanak">
@@ -257,7 +268,12 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 <a href="/cataracte/">Cataracte</a></div></li>
     <li><a href="/bilan/" class="active">Bilan</a></li>
   </ul>
-  <a href="/rendez-vous/" class="nav-cta-link">Prendre rendez-vous</a>
+<div class="lang-switcher">
+    <a href="/bilan/" class="active">FR</a>
+    <span class="lang-sep">·</span>
+    <a href="/nl/vooronderzoek/">NL</a>
+  </div>
+    <a href="/rendez-vous/" class="nav-cta-link">Prendre rendez-vous</a>
   <button class="nav-menu-btn" aria-label="Menu" id="menu-btn"><span></span><span></span><span></span></button>
 </nav>
 <div class="mobile-menu" id="mobile-menu">
@@ -273,6 +289,8 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
   <div class="mobile-section"><div class="mobile-section-title">Chirurgie intra-oculaire</div><div class="mobile-links"><a href="/prelex/">PRELEX</a>
 <a href="/icl/">ICL</a>
 <a href="/cataracte/">Cataracte</a></div></div>
+  <div class="mobile-section"><div class="mobile-section-title">Langue · Taal</div><div class="mobile-links"><a href="/bilan/">Français</a>
+<a href="/nl/vooronderzoek/">Nederlands</a></div></div>
   <a href="/rendez-vous/" class="mobile-rdv">Prendre rendez-vous</a>
 </div>
 <!-- Mobile menu séparé du nav desktop -->
