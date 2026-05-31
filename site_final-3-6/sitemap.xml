@@ -388,4 +388,10 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
+  <url>
+    <loc>https://www.docteursanak.com/quel-laser/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/quel-laser/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
