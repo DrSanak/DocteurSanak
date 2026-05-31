@@ -1,0 +1,170 @@
+# ───────────────────────────────────────────────────────────────
+# Netlify host-based 301 redirects for acquired domains.
+# Each domain must also be added as a domain alias in Netlify
+# dashboard, with DNS A records pointing to 75.2.60.5.
+# Last updated: 2026-05-31.
+# ───────────────────────────────────────────────────────────────
+
+# Homepage FR (brand + general FR + SMILE)
+https://chirurgieoculaire.be/*  https://www.docteursanak.com/  301!
+https://www.chirurgieoculaire.be/*  https://www.docteursanak.com/  301!
+https://chirurgieoculaire.com/*  https://www.docteursanak.com/  301!
+https://www.chirurgieoculaire.com/*  https://www.docteursanak.com/  301!
+https://chirurgieoculaire.fr/*  https://www.docteursanak.com/  301!
+https://www.chirurgieoculaire.fr/*  https://www.docteursanak.com/  301!
+https://chirurgieoculairebruxelles.be/*  https://www.docteursanak.com/  301!
+https://www.chirurgieoculairebruxelles.be/*  https://www.docteursanak.com/  301!
+https://chirurgieoculairebruxelles.com/*  https://www.docteursanak.com/  301!
+https://www.chirurgieoculairebruxelles.com/*  https://www.docteursanak.com/  301!
+https://chirurgierefractivebelgique.be/*  https://www.docteursanak.com/  301!
+https://www.chirurgierefractivebelgique.be/*  https://www.docteursanak.com/  301!
+https://chirurgierefractivebelgique.com/*  https://www.docteursanak.com/  301!
+https://www.chirurgierefractivebelgique.com/*  https://www.docteursanak.com/  301!
+https://chirurgierefractivebruxelles.be/*  https://www.docteursanak.com/  301!
+https://www.chirurgierefractivebruxelles.be/*  https://www.docteursanak.com/  301!
+https://chirurgierefractivebruxelles.com/*  https://www.docteursanak.com/  301!
+https://www.chirurgierefractivebruxelles.com/*  https://www.docteursanak.com/  301!
+https://chirurgierefractivebruxelles.fr/*  https://www.docteursanak.com/  301!
+https://www.chirurgierefractivebruxelles.fr/*  https://www.docteursanak.com/  301!
+https://correctionvision.be/*  https://www.docteursanak.com/  301!
+https://www.correctionvision.be/*  https://www.docteursanak.com/  301!
+https://correctionvision.com/*  https://www.docteursanak.com/  301!
+https://www.correctionvision.com/*  https://www.docteursanak.com/  301!
+https://docteursanak.be/*  https://www.docteursanak.com/  301!
+https://www.docteursanak.be/*  https://www.docteursanak.com/  301!
+https://docteurserdalsanak.be/*  https://www.docteursanak.com/  301!
+https://www.docteurserdalsanak.be/*  https://www.docteursanak.com/  301!
+https://docteurserdalsanak.com/*  https://www.docteursanak.com/  301!
+https://www.docteurserdalsanak.com/*  https://www.docteursanak.com/  301!
+https://drsanak.be/*  https://www.docteursanak.com/  301!
+https://www.drsanak.be/*  https://www.docteursanak.com/  301!
+https://drsanak.com/*  https://www.docteursanak.com/  301!
+https://www.drsanak.com/*  https://www.docteursanak.com/  301!
+https://drserdalsanak.be/*  https://www.docteursanak.com/  301!
+https://www.drserdalsanak.be/*  https://www.docteursanak.com/  301!
+https://drserdalsanak.com/*  https://www.docteursanak.com/  301!
+https://www.drserdalsanak.com/*  https://www.docteursanak.com/  301!
+https://operationyeux.be/*  https://www.docteursanak.com/  301!
+https://www.operationyeux.be/*  https://www.docteursanak.com/  301!
+https://operationyeux.com/*  https://www.docteursanak.com/  301!
+https://www.operationyeux.com/*  https://www.docteursanak.com/  301!
+https://operationyeuxbruxelles.be/*  https://www.docteursanak.com/  301!
+https://www.operationyeuxbruxelles.be/*  https://www.docteursanak.com/  301!
+https://operationyeuxbruxelles.com/*  https://www.docteursanak.com/  301!
+https://www.operationyeuxbruxelles.com/*  https://www.docteursanak.com/  301!
+https://serdalsanak.com/*  https://www.docteursanak.com/  301!
+https://www.serdalsanak.com/*  https://www.docteursanak.com/  301!
+https://smilebrussels.be/*  https://www.docteursanak.com/  301!
+https://www.smilebrussels.be/*  https://www.docteursanak.com/  301!
+https://smilebrussels.com/*  https://www.docteursanak.com/  301!
+https://www.smilebrussels.com/*  https://www.docteursanak.com/  301!
+https://smilebruxelles.be/*  https://www.docteursanak.com/  301!
+https://www.smilebruxelles.be/*  https://www.docteursanak.com/  301!
+https://smilebruxelles.com/*  https://www.docteursanak.com/  301!
+https://www.smilebruxelles.com/*  https://www.docteursanak.com/  301!
+https://viesanslunettes.be/*  https://www.docteursanak.com/  301!
+https://www.viesanslunettes.be/*  https://www.docteursanak.com/  301!
+https://viesanslunettes.com/*  https://www.docteursanak.com/  301!
+https://www.viesanslunettes.com/*  https://www.docteursanak.com/  301!
+https://vivresanslunettes.be/*  https://www.docteursanak.com/  301!
+https://www.vivresanslunettes.be/*  https://www.docteursanak.com/  301!
+
+# → /en/
+https://eyeclinicbrussels.be/*  https://www.docteursanak.com/en/  301!
+https://www.eyeclinicbrussels.be/*  https://www.docteursanak.com/en/  301!
+https://eyeclinicbrussels.com/*  https://www.docteursanak.com/en/  301!
+https://www.eyeclinicbrussels.com/*  https://www.docteursanak.com/en/  301!
+https://eyedoctorbrussels.be/*  https://www.docteursanak.com/en/  301!
+https://www.eyedoctorbrussels.be/*  https://www.docteursanak.com/en/  301!
+https://eyedoctorbrussels.com/*  https://www.docteursanak.com/en/  301!
+https://www.eyedoctorbrussels.com/*  https://www.docteursanak.com/en/  301!
+https://eyesurgeonbrussels.be/*  https://www.docteursanak.com/en/  301!
+https://www.eyesurgeonbrussels.be/*  https://www.docteursanak.com/en/  301!
+https://eyesurgeonbrussels.com/*  https://www.docteursanak.com/en/  301!
+https://www.eyesurgeonbrussels.com/*  https://www.docteursanak.com/en/  301!
+https://eyesurgerybrussels.be/*  https://www.docteursanak.com/en/  301!
+https://www.eyesurgerybrussels.be/*  https://www.docteursanak.com/en/  301!
+https://eyesurgerybrussels.com/*  https://www.docteursanak.com/en/  301!
+https://www.eyesurgerybrussels.com/*  https://www.docteursanak.com/en/  301!
+
+# → /en/femto-lasik/
+https://eyelaser.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://www.eyelaser.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://lasereye.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://www.lasereye.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://lasereyebrussels.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://www.lasereyebrussels.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://lasereyebrussels.com/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://www.lasereyebrussels.com/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://lasereyesurgery.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://www.lasereyesurgery.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://lasereyesurgerybrussels.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://www.lasereyesurgerybrussels.be/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://lasereyesurgerybrussels.com/*  https://www.docteursanak.com/en/femto-lasik/  301!
+https://www.lasereyesurgerybrussels.com/*  https://www.docteursanak.com/en/femto-lasik/  301!
+
+# → /en/myopia/
+https://myopiabrussels.be/*  https://www.docteursanak.com/en/myopia/  301!
+https://www.myopiabrussels.be/*  https://www.docteursanak.com/en/myopia/  301!
+https://myopiabrussels.com/*  https://www.docteursanak.com/en/myopia/  301!
+https://www.myopiabrussels.com/*  https://www.docteursanak.com/en/myopia/  301!
+https://myopiasurgerybrussels.be/*  https://www.docteursanak.com/en/myopia/  301!
+https://www.myopiasurgerybrussels.be/*  https://www.docteursanak.com/en/myopia/  301!
+https://myopiasurgerybrussels.com/*  https://www.docteursanak.com/en/myopia/  301!
+https://www.myopiasurgerybrussels.com/*  https://www.docteursanak.com/en/myopia/  301!
+
+# → /femtolasik/
+https://femtolasikbrussels.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.femtolasikbrussels.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://femtolasikbrussels.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.femtolasikbrussels.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://laserdesyeuxbruxelles.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.laserdesyeuxbruxelles.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://laserdesyeuxbruxelles.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.laserdesyeuxbruxelles.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://lasermyopie.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.lasermyopie.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://laseryeux.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.laseryeux.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://laseryeux.fr/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.laseryeux.fr/*  https://www.docteursanak.com/femtolasik/  301!
+https://laseryeuxbelgique.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.laseryeuxbelgique.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://laseryeuxbelgique.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.laseryeuxbelgique.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://lasikbrussels.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.lasikbrussels.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://lasikbrussels.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.lasikbrussels.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://operationlaser.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.operationlaser.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://operationlaser.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.operationlaser.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://operationlasikbrussels.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.operationlasikbrussels.be/*  https://www.docteursanak.com/femtolasik/  301!
+https://operationlasikbrussels.com/*  https://www.docteursanak.com/femtolasik/  301!
+https://www.operationlasikbrussels.com/*  https://www.docteursanak.com/femtolasik/  301!
+
+# → /myopie/
+https://myopieoperation.be/*  https://www.docteursanak.com/myopie/  301!
+https://www.myopieoperation.be/*  https://www.docteursanak.com/myopie/  301!
+
+# → /nl/
+https://levenzondbril.be/*  https://www.docteursanak.com/nl/  301!
+https://www.levenzondbril.be/*  https://www.docteursanak.com/nl/  301!
+https://ogenlaserbrussel.be/*  https://www.docteursanak.com/nl/  301!
+https://www.ogenlaserbrussel.be/*  https://www.docteursanak.com/nl/  301!
+
+# → /nl/bijziendheid/
+https://myopieoperatie.be/*  https://www.docteursanak.com/nl/bijziendheid/  301!
+https://www.myopieoperatie.be/*  https://www.docteursanak.com/nl/bijziendheid/  301!
+
+# → /pkr/
+https://operationprkbruxelles.be/*  https://www.docteursanak.com/pkr/  301!
+https://www.operationprkbruxelles.be/*  https://www.docteursanak.com/pkr/  301!
+https://operationprkbruxelles.com/*  https://www.docteursanak.com/pkr/  301!
+https://www.operationprkbruxelles.com/*  https://www.docteursanak.com/pkr/  301!
+https://prkbruxelles.be/*  https://www.docteursanak.com/pkr/  301!
+https://www.prkbruxelles.be/*  https://www.docteursanak.com/pkr/  301!
+https://prkbruxelles.com/*  https://www.docteursanak.com/pkr/  301!
+https://www.prkbruxelles.com/*  https://www.docteursanak.com/pkr/  301!
