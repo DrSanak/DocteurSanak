@@ -2,389 +2,389 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.docteursanak.com/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.docteursanak.com/"/>
+    <loc>https://docteursanak.com/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.docteursanak.com/"/>
+    <loc>https://docteursanak.com/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.docteursanak.com/"/>
+    <loc>https://docteursanak.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/myopie/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/myopie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/bijziendheid/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/myopia/"/>
+    <loc>https://docteursanak.com/myopie/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/myopie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/bijziendheid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/myopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/bijziendheid/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/myopie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/bijziendheid/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/myopia/"/>
+    <loc>https://docteursanak.com/nl/bijziendheid/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/myopie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/bijziendheid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/myopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/myopia/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/myopie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/bijziendheid/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/myopia/"/>
+    <loc>https://docteursanak.com/en/myopia/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/myopie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/bijziendheid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/myopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/hypermetropie/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/hypermetropie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/verziendheid/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/hyperopia/"/>
+    <loc>https://docteursanak.com/hypermetropie/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/hypermetropie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/verziendheid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/hyperopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/verziendheid/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/hypermetropie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/verziendheid/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/hyperopia/"/>
+    <loc>https://docteursanak.com/nl/verziendheid/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/hypermetropie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/verziendheid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/hyperopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/hyperopia/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/hypermetropie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/verziendheid/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/hyperopia/"/>
+    <loc>https://docteursanak.com/en/hyperopia/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/hypermetropie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/verziendheid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/hyperopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/astigmatisme/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/astigmatisme/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/astigmatisme/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/astigmatism/"/>
+    <loc>https://docteursanak.com/astigmatisme/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/astigmatisme/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/astigmatisme/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/astigmatism/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/astigmatisme/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/astigmatisme/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/astigmatisme/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/astigmatism/"/>
+    <loc>https://docteursanak.com/nl/astigmatisme/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/astigmatisme/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/astigmatisme/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/astigmatism/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/astigmatism/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/astigmatisme/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/astigmatisme/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/astigmatism/"/>
+    <loc>https://docteursanak.com/en/astigmatism/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/astigmatisme/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/astigmatisme/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/astigmatism/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/presbytie/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/presbytie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/presbyopie/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/presbyopia/"/>
+    <loc>https://docteursanak.com/presbytie/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/presbytie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/presbyopie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/presbyopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/presbyopie/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/presbytie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/presbyopie/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/presbyopia/"/>
+    <loc>https://docteursanak.com/nl/presbyopie/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/presbytie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/presbyopie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/presbyopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/presbyopia/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/presbytie/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/presbyopie/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/presbyopia/"/>
+    <loc>https://docteursanak.com/en/presbyopia/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/presbytie/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/presbyopie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/presbyopia/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/femtolasik/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/femtolasik/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/femto-lasik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/femto-lasik/"/>
+    <loc>https://docteursanak.com/femtolasik/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/femtolasik/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/femto-lasik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/femto-lasik/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/femto-lasik/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/femtolasik/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/femto-lasik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/femto-lasik/"/>
+    <loc>https://docteursanak.com/nl/femto-lasik/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/femtolasik/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/femto-lasik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/femto-lasik/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/femto-lasik/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/femtolasik/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/femto-lasik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/femto-lasik/"/>
+    <loc>https://docteursanak.com/en/femto-lasik/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/femtolasik/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/femto-lasik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/femto-lasik/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/pkr/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/pkr/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prk/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prk/"/>
+    <loc>https://docteursanak.com/pkr/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/pkr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prk/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/prk/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/pkr/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prk/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prk/"/>
+    <loc>https://docteursanak.com/nl/prk/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/pkr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prk/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/prk/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/pkr/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prk/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prk/"/>
+    <loc>https://docteursanak.com/en/prk/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/pkr/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prk/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/pkr-vs-femtolasik/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/pkr-vs-femtolasik/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prk-vs-femto-lasik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prk-vs-femto-lasik/"/>
+    <loc>https://docteursanak.com/pkr-vs-femtolasik/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/pkr-vs-femtolasik/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prk-vs-femto-lasik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prk-vs-femto-lasik/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/prk-vs-femto-lasik/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/pkr-vs-femtolasik/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prk-vs-femto-lasik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prk-vs-femto-lasik/"/>
+    <loc>https://docteursanak.com/nl/prk-vs-femto-lasik/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/pkr-vs-femtolasik/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prk-vs-femto-lasik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prk-vs-femto-lasik/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/prk-vs-femto-lasik/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/pkr-vs-femtolasik/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prk-vs-femto-lasik/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prk-vs-femto-lasik/"/>
+    <loc>https://docteursanak.com/en/prk-vs-femto-lasik/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/pkr-vs-femtolasik/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prk-vs-femto-lasik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prk-vs-femto-lasik/"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/risques-laser/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/risques-laser/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/laser-risicos/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/laser-risks/"/>
+    <loc>https://docteursanak.com/risques-laser/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/risques-laser/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/laser-risicos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/laser-risks/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/laser-risicos/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/risques-laser/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/laser-risicos/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/laser-risks/"/>
+    <loc>https://docteursanak.com/nl/laser-risicos/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/risques-laser/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/laser-risicos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/laser-risks/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/laser-risks/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/risques-laser/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/laser-risicos/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/laser-risks/"/>
+    <loc>https://docteursanak.com/en/laser-risks/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/risques-laser/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/laser-risicos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/laser-risks/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/prelex/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/prelex/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prelex/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prelex/"/>
+    <loc>https://docteursanak.com/prelex/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/prelex/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prelex/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prelex/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/prelex/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/prelex/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prelex/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prelex/"/>
+    <loc>https://docteursanak.com/nl/prelex/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/prelex/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prelex/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prelex/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/prelex/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/prelex/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/prelex/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/prelex/"/>
+    <loc>https://docteursanak.com/en/prelex/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/prelex/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prelex/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/prelex/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/icl/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/icl/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/icl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/icl/"/>
+    <loc>https://docteursanak.com/icl/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/icl/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/icl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/icl/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/icl/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/icl/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/icl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/icl/"/>
+    <loc>https://docteursanak.com/nl/icl/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/icl/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/icl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/icl/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/icl/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/icl/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/icl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/icl/"/>
+    <loc>https://docteursanak.com/en/icl/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/icl/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/icl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/icl/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/cataracte/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/cataracte/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/staaroperatie/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/cataract/"/>
+    <loc>https://docteursanak.com/cataracte/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/cataracte/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/staaroperatie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/cataract/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/staaroperatie/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/cataracte/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/staaroperatie/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/cataract/"/>
+    <loc>https://docteursanak.com/nl/staaroperatie/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/cataracte/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/staaroperatie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/cataract/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/cataract/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/cataracte/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/staaroperatie/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/cataract/"/>
+    <loc>https://docteursanak.com/en/cataract/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/cataracte/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/staaroperatie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/cataract/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/bilan/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/bilan/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/vooronderzoek/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/preoperative-exam/"/>
+    <loc>https://docteursanak.com/bilan/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/vooronderzoek/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/bilan/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/vooronderzoek/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/preoperative-exam/"/>
+    <loc>https://docteursanak.com/nl/vooronderzoek/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/preoperative-exam/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/bilan/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/vooronderzoek/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/preoperative-exam/"/>
+    <loc>https://docteursanak.com/en/preoperative-exam/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/rendez-vous/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/rendez-vous/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/afspraak/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/appointment/"/>
+    <loc>https://docteursanak.com/rendez-vous/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/rendez-vous/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/afspraak/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/appointment/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/afspraak/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/rendez-vous/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/afspraak/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/appointment/"/>
+    <loc>https://docteursanak.com/nl/afspraak/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/rendez-vous/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/afspraak/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/appointment/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/appointment/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/rendez-vous/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/afspraak/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/appointment/"/>
+    <loc>https://docteursanak.com/en/appointment/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/rendez-vous/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/afspraak/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/appointment/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/mentions-legales/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/mentions-legales/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/wettelijke-vermeldingen/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/legal/"/>
+    <loc>https://docteursanak.com/mentions-legales/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/wettelijke-vermeldingen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/legal/"/>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/wettelijke-vermeldingen/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/mentions-legales/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/wettelijke-vermeldingen/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/legal/"/>
+    <loc>https://docteursanak.com/nl/wettelijke-vermeldingen/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/wettelijke-vermeldingen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/legal/"/>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/legal/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/mentions-legales/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/wettelijke-vermeldingen/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/legal/"/>
+    <loc>https://docteursanak.com/en/legal/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/wettelijke-vermeldingen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/legal/"/>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/confidentialite/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/confidentialite/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/privacy/"/>
+    <loc>https://docteursanak.com/confidentialite/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/privacy/"/>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/nl/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/confidentialite/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/privacy/"/>
+    <loc>https://docteursanak.com/nl/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/privacy/"/>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://www.docteursanak.com/en/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.docteursanak.com/confidentialite/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.docteursanak.com/nl/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.docteursanak.com/en/privacy/"/>
+    <loc>https://docteursanak.com/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/privacy/"/>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
