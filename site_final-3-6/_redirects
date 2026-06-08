@@ -5,6 +5,11 @@
 # Last updated: 2026-05-31.
 # ───────────────────────────────────────────────────────────────
 
+# Canonicalize root index.html → clean root URL (avoid duplicates in Search Console).
+/index.html        /        301!
+/nl/index.html     /nl/     301!
+/en/index.html     /en/     301!
+
 # Homepage FR (brand + general FR + SMILE)
 https://chirurgieoculaire.be/*  https://www.docteursanak.com/  301!
 https://www.chirurgieoculaire.be/*  https://www.docteursanak.com/  301!
