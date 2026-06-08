@@ -173,6 +173,13 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://docteursanak.com/smile/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/smile/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/smile/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://docteursanak.com/pkr-vs-femtolasik/</loc>
     <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/pkr-vs-femtolasik/"/>
     <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/prk-vs-femto-lasik/"/>
