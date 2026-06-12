@@ -1,6 +1,14 @@
 [build]
   publish = "."
 
+# Security headers applied to all responses.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
 # Cache aggressively for images (immutable, 1 year)
 [[headers]]
   for = "/images/*"
