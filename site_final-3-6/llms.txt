@@ -1,6 +1,6 @@
 # Dr Serdal Sanak — Chirurgien ophtalmologue à Bruxelles
 
-> Site officiel du Dr Serdal Sanak, chirurgien ophtalmologue spécialisé en chirurgie réfractive (Femto-LASIK, PKR, SMILE, ICL, PRELEX) et chirurgie de la cataracte à Bruxelles, Belgique. Lieux de consultation : Hôpital Delta Chirec (Auderghem) et Focus Eye Clinic (Wemmel).
+> Site officiel du Dr Serdal Sanak, chirurgien ophtalmologue spécialisé en chirurgie réfractive (Femto-LASIK, PKR, SMILE, ICL, PRELEX) et chirurgie de la cataracte à Bruxelles, Belgique. Lieu de consultation : Hôpital Delta Chirec à Auderghem.
 
 ## Identité
 
@@ -40,15 +40,11 @@ Le Dr Sanak parle sept langues en consultation : français, anglais, néerlandai
 - Laser excimer pour Femto-LASIK et PKR
 - Implants intra-oculaires : ICL EVO de STAAR Surgical, gammes multifocaux et trifocaux pour PRELEX
 
-## Lieux de consultation
+## Lieu de consultation
 
 - **Hôpital Delta Chirec**, Boulevard du Triomphe 201, 1160 Auderghem, Bruxelles
   - Consultation : samedi 08:00 — 13:45
   - Réservation : https://rosa.be/fr/hp/serdal-sanak/
-
-- **Focus Eye Clinic**, Kaasmarkt 97, 1780 Wemmel, Bruxelles
-  - Consultation : mardi 08:30 — 17:00
-  - Site : https://www.focuseyeclinic.be
 
 ## Tarifs indicatifs des interventions
 
