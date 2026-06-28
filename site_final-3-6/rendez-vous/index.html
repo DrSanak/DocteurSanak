@@ -98,7 +98,6 @@
 <a href="/presbytie/">Presbytie</a></div></li>
     <li class="nav-item"><a href="#">Chirurgie cornéenne au laser</a><div class="nav-dropdown"><a href="/femtolasik/">Femto-LASIK</a>
 <a href="/pkr/">PKR</a>
-<a href="/smile/">SMILE</a>
 <a href="/sports-de-contact-et-laser/">Sports de contact et laser</a>
 <a href="/pkr-vs-femtolasik/">PKR vs Femto-LASIK</a>
 <a href="/risques-laser/">Effets secondaires et risques de l'opération laser yeux</a></div></li>
@@ -126,7 +125,6 @@
 <a href="/presbytie/">Presbytie</a></div></div>
   <div class="mobile-section"><div class="mobile-section-title">Chirurgie cornéenne au laser</div><div class="mobile-links"><a href="/femtolasik/">Femto-LASIK</a>
 <a href="/pkr/">PKR</a>
-<a href="/smile/">SMILE</a>
 <a href="/sports-de-contact-et-laser/">Sports de contact et laser</a>
 <a href="/pkr-vs-femtolasik/">PKR vs Femto-LASIK</a>
 <a href="/risques-laser/">Effets secondaires et risques de l'opération laser yeux</a></div></div>
@@ -156,7 +154,6 @@
     <div class="mobile-section-title">Chirurgie cornéenne au laser</div>
     <div class="mobile-links"><a href="/femtolasik/">Femto-LASIK</a>
 <a href="/pkr/">PKR</a>
-<a href="/smile/">SMILE</a>
 <a href="/sports-de-contact-et-laser/">Sports de contact et laser</a>
 <a href="/pkr-vs-femtolasik/">PKR vs Femto-LASIK</a>
 <a href="/risques-laser/">Effets secondaires et risques de l'opération laser yeux</a></div>
@@ -340,25 +337,6 @@
 
 <footer class="footer"><div class="footer-inner"><img src="/images/logo-footer.webp" alt="Docteur Sanak — Bruxelles" width="527" height="160" loading="lazy" style="height:80px;width:auto;object-fit:contain;image-rendering:-webkit-optimize-contrast;"><div class="footer-links"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/">Accueil</a></div><div class="footer-copy">© 2026 Dr Serdal Sanak · Chirurgien ophtalmologue à Bruxelles</div></div></footer>
 <script src="/js/base.js" defer></script>
-<script>
-(function(){
-  var form=document.getElementById('contact-form');
-  var btn=document.getElementById('form-submit-btn');
-  var success=document.getElementById('form-success');
-  if(!form)return;
-  form.addEventListener('submit',function(e){
-    e.preventDefault();
-    btn.disabled=true;
-    btn.querySelector('.btn-text').textContent='Envoi en cours…';
-    var data=new FormData(form);
-    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(data).toString()})
-    .then(function(r){
-      if(r.ok){form.style.display='none';success.style.display='block';window.scrollTo({top:success.getBoundingClientRect().top+window.scrollY-120,behavior:'smooth'});}
-      else{btn.disabled=false;btn.querySelector('.btn-text').textContent='Envoyer le message';alert('Une erreur est survenue. Veuillez réessayer.');}
-    })
-    .catch(function(){btn.disabled=false;btn.querySelector('.btn-text').textContent='Envoyer le message';alert('Une erreur est survenue. Veuillez réessayer.');});
-  });
-})();
-</script>
+<script src="/js/contact-form-fr.js" defer></script>
 </body>
 </html>

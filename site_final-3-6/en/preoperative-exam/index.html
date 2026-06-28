@@ -417,14 +417,6 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
   </div>
 </section>
 <footer class="footer"><div class="footer-inner"><img src="/images/logo-footer.webp" alt="Doctor Sanak · Brussels" width="527" height="160" loading="lazy" style="height:80px;width:auto;object-fit:contain;image-rendering:-webkit-optimize-contrast;"><div class="footer-links"><a href="/en/legal/">Legal notice</a><a href="/en/privacy/">Privacy</a><a href="/en/">Home</a></div><div class="footer-copy">© 2026 Dr Serdal Sanak · Ophthalmic surgeon in Brussels</div></div></footer>
-<script>const nav=document.getElementById('nav');
-const menuBtn=document.getElementById('menu-btn');
-const mobileMenu=document.getElementById('mobile-menu');
-function hs(){nav.classList.toggle('scrolled',window.scrollY>60);nav.classList.toggle('transparent',window.scrollY<=60);}
-window.addEventListener('scroll',hs,{passive:true});
-if(menuBtn&&mobileMenu){menuBtn.addEventListener('click',function(e){e.stopPropagation();mobileMenu.classList.toggle('open');});document.addEventListener('click',function(e){if(!nav.contains(e.target)&&!mobileMenu.contains(e.target)){mobileMenu.classList.remove('open');}});}
-const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting){el.target.classList.add('visible');obs.unobserve(el.target);}});},{threshold:.1});
-document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
-document.querySelectorAll('.hero-page .fade-in').forEach(el=>setTimeout(()=>el.classList.add('visible'),80));</script>
+<script src="/js/base.js" defer></script>
 </body>
 </html>
