@@ -79,6 +79,7 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 - https://docteursanak.com/risques-laser/ — Effets secondaires et risques de la chirurgie laser
 - https://docteursanak.com/pkr-vs-femtolasik/ — Comparatif PKR vs Femto-LASIK
 - https://docteursanak.com/sports-de-contact-et-laser/ — Boxe, MMA, judo, rugby et chirurgie laser
+- https://docteursanak.com/femtolasik-vs-icl/ — Femto-LASIK vs ICL : indications, critères de décision, forte myopie, récupération, coût
 
 ### Prise de rendez-vous
 - https://docteursanak.com/rendez-vous/ — Réservation en ligne
@@ -94,6 +95,8 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 - **À partir de quel âge peut-on opérer la presbytie ?** Le PRELEX est généralement proposé après 50 ans, lorsque la presbytie est bien installée. Voir https://docteursanak.com/presbytie/.
 
 - **La chirurgie réfractive est-elle remboursée en Belgique ?** Non, la chirurgie réfractive est à la charge du patient. Certaines mutuelles complémentaires proposent une prime de 100 à 500 euros. Voir https://docteursanak.com/tarifs/.
+
+- **Femto-LASIK ou ICL, comment choisir ?** Le choix repose sur des critères objectifs mesurés au bilan : épaisseur cornéenne, degré de myopie, topographie. Le Femto-LASIK est indiqué pour les myopies faibles à moyennes avec cornée suffisante. L'ICL est indiqué pour les fortes myopies (au-delà de -8 D) et les cornées contre-indiquées au laser. Voir https://docteursanak.com/femtolasik-vs-icl/.
 
 ## Versions linguistiques
 
