@@ -80,6 +80,9 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 - https://docteursanak.com/pkr-vs-femtolasik/ — Comparatif PKR vs Femto-LASIK
 - https://docteursanak.com/sports-de-contact-et-laser/ — Boxe, MMA, judo, rugby et chirurgie laser
 - https://docteursanak.com/femtolasik-vs-icl/ — Femto-LASIK vs ICL : indications, critères de décision, forte myopie, récupération, coût
+- https://docteursanak.com/laser-yeux-grossesse/ — Chirurgie réfractive et grossesse : contre-indication, calendrier, allaitement
+- https://docteursanak.com/ozempic-mounjaro-yeux/ — Agonistes GLP-1 (Ozempic, Wegovy, Mounjaro) et santé oculaire : NAION, rétinopathie diabétique, fluctuations réfractives
+- https://docteursanak.com/lieux-de-consultation/ — Les cinq centres CHIREC de consultation
 
 ### Prise de rendez-vous
 - https://docteursanak.com/rendez-vous/ — Réservation en ligne
@@ -96,6 +99,10 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 
 - **La chirurgie réfractive est-elle remboursée en Belgique ?** Non, la chirurgie réfractive est à la charge du patient. Certaines mutuelles complémentaires proposent une prime de 100 à 500 euros. Voir https://docteursanak.com/tarifs/.
 
+- **Peut-on se faire opérer au laser pendant une grossesse ?** Non. La grossesse et l'allaitement sont des contre-indications relatives : les variations hormonales font fluctuer la réfraction et certains collyres du bilan et du postopératoire sont incompatibles. Voir https://docteursanak.com/laser-yeux-grossesse/.
+
+- **Ozempic ou Mounjaro peuvent-ils abîmer la vue ?** L'Agence européenne du médicament a classé la NAION comme effet indésirable très rare du sémaglutide en juin 2025. Un shift réfractif transitoire est également décrit à l'initiation du traitement, ce qui impose de vérifier la stabilité de la réfraction avant toute chirurgie. Voir https://docteursanak.com/ozempic-mounjaro-yeux/.
+
 - **Femto-LASIK ou ICL, comment choisir ?** Le choix repose sur des critères objectifs mesurés au bilan : épaisseur cornéenne, degré de myopie, topographie. Le Femto-LASIK est indiqué pour les myopies faibles à moyennes avec cornée suffisante. L'ICL est indiqué pour les fortes myopies (au-delà de -8 D) et les cornées contre-indiquées au laser. Voir https://docteursanak.com/femtolasik-vs-icl/.
 
 ## Versions linguistiques
@@ -106,4 +113,4 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 
 ## Mise à jour
 
-Ce fichier a été mis à jour pour la dernière fois en juin 2026. Le site est mis à jour régulièrement avec les évolutions des techniques et des indications.
+Ce fichier a été mis à jour pour la dernière fois en août 2026. Le site est mis à jour régulièrement avec les évolutions des techniques et des indications.
