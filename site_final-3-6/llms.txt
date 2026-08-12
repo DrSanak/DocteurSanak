@@ -82,6 +82,7 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 - https://docteursanak.com/femtolasik-vs-icl/ — Femto-LASIK vs ICL : indications, critères de décision, forte myopie, récupération, coût
 - https://docteursanak.com/laser-yeux-grossesse/ — Chirurgie réfractive et grossesse : contre-indication, calendrier, allaitement
 - https://docteursanak.com/ozempic-mounjaro-yeux/ — Agonistes GLP-1 (Ozempic, Wegovy, Mounjaro) et santé oculaire : NAION, rétinopathie diabétique, fluctuations réfractives
+- https://docteursanak.com/secheresse-oculaire-et-chirurgie-refractive/ — Sécheresse oculaire et chirurgie réfractive : fréquence avant l'opération, dépistage, choix de la technique, formes durables
 - https://docteursanak.com/lieux-de-consultation/ — Les cinq centres CHIREC de consultation
 
 ### Prise de rendez-vous
@@ -102,6 +103,8 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 - **Peut-on se faire opérer au laser pendant une grossesse ?** Non. La grossesse et l'allaitement sont des contre-indications relatives : les variations hormonales font fluctuer la réfraction et certains collyres du bilan et du postopératoire sont incompatibles. Voir https://docteursanak.com/laser-yeux-grossesse/.
 
 - **Ozempic ou Mounjaro peuvent-ils abîmer la vue ?** L'Agence européenne du médicament a classé la NAION comme effet indésirable très rare du sémaglutide en juin 2025. Un shift réfractif transitoire est également décrit à l'initiation du traitement, ce qui impose de vérifier la stabilité de la réfraction avant toute chirurgie. Voir https://docteursanak.com/ozempic-mounjaro-yeux/.
+
+- **J'ai les yeux secs, puis-je me faire opérer au laser ?** Dans la grande majorité des cas oui. Environ quatre candidats sur dix présentent une sécheresse avant toute intervention. Le bilan la mesure, un traitement est mis en place, puis les mesures sont reprises avant de choisir la technique. Voir https://docteursanak.com/secheresse-oculaire-et-chirurgie-refractive/.
 
 - **Femto-LASIK ou ICL, comment choisir ?** Le choix repose sur des critères objectifs mesurés au bilan : épaisseur cornéenne, degré de myopie, topographie. Le Femto-LASIK est indiqué pour les myopies faibles à moyennes avec cornée suffisante. L'ICL est indiqué pour les fortes myopies (au-delà de -8 D) et les cornées contre-indiquées au laser. Voir https://docteursanak.com/femtolasik-vs-icl/.
 
