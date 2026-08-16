@@ -1,0 +1,1281 @@
+{
+ "export_du": "2026-08-16",
+ "periode": "3 mois glissants (export Search Console)",
+ "note": "Ligne de base figee avant la campagne de reecriture. /presbytie/ restructuree le 2026-08-16, avant tout autre changement.",
+ "requetes": [
+  {
+   "label": "serdal sanak",
+   "clics": 3,
+   "impressions": 98,
+   "position": 5.1
+  },
+  {
+   "label": "meilleur spécialiste en chirurgie de la presbytie à bruxelles",
+   "clics": 0,
+   "impressions": 92,
+   "position": 11.3
+  },
+  {
+   "label": "prk vs femto lasik",
+   "clics": 0,
+   "impressions": 67,
+   "position": 23.9
+  },
+  {
+   "label": "dr sanak",
+   "clics": 5,
+   "impressions": 55,
+   "position": 5.4
+  },
+  {
+   "label": "prelex",
+   "clics": 0,
+   "impressions": 52,
+   "position": 24.6
+  },
+  {
+   "label": "femto lasik",
+   "clics": 0,
+   "impressions": 49,
+   "position": 46.8
+  },
+  {
+   "label": "sanak",
+   "clics": 0,
+   "impressions": 43,
+   "position": 7.6
+  },
+  {
+   "label": "implant myopique bruxelles",
+   "clics": 0,
+   "impressions": 39,
+   "position": 16.9
+  },
+  {
+   "label": "chirurgie cataracte bruxelles",
+   "clics": 0,
+   "impressions": 32,
+   "position": 23.7
+  },
+  {
+   "label": "lasik sport de combat",
+   "clics": 0,
+   "impressions": 21,
+   "position": 15.5
+  },
+  {
+   "label": "opération myopie bruxelles",
+   "clics": 0,
+   "impressions": 21,
+   "position": 27.1
+  },
+  {
+   "label": "sanak serdal",
+   "clics": 1,
+   "impressions": 20,
+   "position": 6.2
+  },
+  {
+   "label": "femto lasik vs prk",
+   "clics": 0,
+   "impressions": 20,
+   "position": 16.9
+  },
+  {
+   "label": "dr serdal sanak avis",
+   "clics": 2,
+   "impressions": 18,
+   "position": 8.6
+  },
+  {
+   "label": "opération myopie prix belgique",
+   "clics": 0,
+   "impressions": 17,
+   "position": 20.4
+  },
+  {
+   "label": "hypermetropie",
+   "clics": 0,
+   "impressions": 17,
+   "position": 74.1
+  },
+  {
+   "label": "femto-lasik",
+   "clics": 0,
+   "impressions": 16,
+   "position": 28.5
+  },
+  {
+   "label": "serdal sanak ophtalmologue",
+   "clics": 0,
+   "impressions": 15,
+   "position": 8.2
+  },
+  {
+   "label": "trans prk vs femto lasik",
+   "clics": 0,
+   "impressions": 15,
+   "position": 33.4
+  },
+  {
+   "label": "femtolasik",
+   "clics": 0,
+   "impressions": 14,
+   "position": 26.0
+  },
+  {
+   "label": "prk vs femto lasik which is better",
+   "clics": 0,
+   "impressions": 13,
+   "position": 11.1
+  },
+  {
+   "label": "dr serdal sanak",
+   "clics": 0,
+   "impressions": 10,
+   "position": 8.2
+  },
+  {
+   "label": "augen lasern kampfsport",
+   "clics": 0,
+   "impressions": 10,
+   "position": 88.3
+  },
+  {
+   "label": "docteur sanak",
+   "clics": 0,
+   "impressions": 9,
+   "position": 6.2
+  },
+  {
+   "label": "prix chirurgie refractive",
+   "clics": 0,
+   "impressions": 8,
+   "position": 27.5
+  },
+  {
+   "label": "prk",
+   "clics": 0,
+   "impressions": 8,
+   "position": 35.0
+  },
+  {
+   "label": "pkr laser",
+   "clics": 0,
+   "impressions": 8,
+   "position": 51.8
+  },
+  {
+   "label": "implant icl staar",
+   "clics": 0,
+   "impressions": 7,
+   "position": 23.3
+  },
+  {
+   "label": "icl operation myopie",
+   "clics": 0,
+   "impressions": 7,
+   "position": 29.0
+  },
+  {
+   "label": "serdal",
+   "clics": 0,
+   "impressions": 6,
+   "position": 8.0
+  },
+  {
+   "label": "prelexin",
+   "clics": 0,
+   "impressions": 6,
+   "position": 9.8
+  },
+  {
+   "label": "femto laser",
+   "clics": 0,
+   "impressions": 6,
+   "position": 23.5
+  },
+  {
+   "label": "opération laser yeux bruxelles prix",
+   "clics": 0,
+   "impressions": 5,
+   "position": 9.8
+  },
+  {
+   "label": "cataract brussel",
+   "clics": 0,
+   "impressions": 5,
+   "position": 11.6
+  },
+  {
+   "label": "chirurgie laser bruxelles",
+   "clics": 0,
+   "impressions": 5,
+   "position": 17.8
+  },
+  {
+   "label": "laser femto",
+   "clics": 0,
+   "impressions": 5,
+   "position": 34.4
+  },
+  {
+   "label": "chirurgie femtolasik",
+   "clics": 0,
+   "impressions": 5,
+   "position": 35.2
+  },
+  {
+   "label": "presbyopie behandeling",
+   "clics": 0,
+   "impressions": 5,
+   "position": 41.8
+  },
+  {
+   "label": "femtolasik vs prk",
+   "clics": 0,
+   "impressions": 4,
+   "position": 11.2
+  },
+  {
+   "label": "chirurgie pkr",
+   "clics": 0,
+   "impressions": 4,
+   "position": 18.0
+  },
+  {
+   "label": "pkr chirurgie",
+   "clics": 0,
+   "impressions": 4,
+   "position": 19.2
+  },
+  {
+   "label": "staar surgical",
+   "clics": 2,
+   "impressions": 3,
+   "position": 6.7
+  },
+  {
+   "label": "\"staar surgical\"",
+   "clics": 0,
+   "impressions": 3,
+   "position": 7.7
+  },
+  {
+   "label": "dr. serdal sanak",
+   "clics": 0,
+   "impressions": 3,
+   "position": 9.3
+  },
+  {
+   "label": "myopisering",
+   "clics": 0,
+   "impressions": 3,
+   "position": 9.3
+  },
+  {
+   "label": "difference between prk and femto lasik",
+   "clics": 0,
+   "impressions": 3,
+   "position": 10.7
+  },
+  {
+   "label": "chirurgie lasik prix",
+   "clics": 0,
+   "impressions": 3,
+   "position": 12.0
+  },
+  {
+   "label": "difference between femto lasik and prk",
+   "clics": 0,
+   "impressions": 3,
+   "position": 13.7
+  },
+  {
+   "label": "lasik femto",
+   "clics": 0,
+   "impressions": 3,
+   "position": 30.3
+  },
+  {
+   "label": "astigmate opération prix",
+   "clics": 0,
+   "impressions": 3,
+   "position": 42.3
+  },
+  {
+   "label": "staar surgical nidau",
+   "clics": 0,
+   "impressions": 3,
+   "position": 53.7
+  },
+  {
+   "label": "opération yeux myopie prix belgique",
+   "clics": 0,
+   "impressions": 2,
+   "position": 10.5
+  },
+  {
+   "label": "femto vs prk",
+   "clics": 0,
+   "impressions": 2,
+   "position": 11.5
+  },
+  {
+   "label": "icl staar",
+   "clics": 0,
+   "impressions": 2,
+   "position": 12.0
+  },
+  {
+   "label": "ophtalmologue spécialisé en chirurgie réfractive à bruxelles",
+   "clics": 0,
+   "impressions": 2,
+   "position": 26.0
+  },
+  {
+   "label": "femto side profile",
+   "clics": 0,
+   "impressions": 2,
+   "position": 33.0
+  },
+  {
+   "label": "prelex cost",
+   "clics": 0,
+   "impressions": 2,
+   "position": 35.0
+  },
+  {
+   "label": "myopie chirurgie",
+   "clics": 0,
+   "impressions": 2,
+   "position": 53.0
+  },
+  {
+   "label": "prk laser",
+   "clics": 0,
+   "impressions": 2,
+   "position": 65.5
+  },
+  {
+   "label": "correction presbytie",
+   "clics": 0,
+   "impressions": 2,
+   "position": 71.5
+  },
+  {
+   "label": "laser yeux effets secondaires",
+   "clics": 0,
+   "impressions": 2,
+   "position": 87.5
+  },
+  {
+   "label": "a bruxelles",
+   "clics": 0,
+   "impressions": 1,
+   "position": 1.0
+  },
+  {
+   "label": "brussels",
+   "clics": 0,
+   "impressions": 1,
+   "position": 1.0
+  },
+  {
+   "label": "j'habite en belgique",
+   "clics": 0,
+   "impressions": 1,
+   "position": 1.0
+  },
+  {
+   "label": "myope et astigmate",
+   "clics": 0,
+   "impressions": 1,
+   "position": 1.0
+  },
+  {
+   "label": "cataracte",
+   "clics": 0,
+   "impressions": 1,
+   "position": 2.0
+  },
+  {
+   "label": "myope",
+   "clics": 0,
+   "impressions": 1,
+   "position": 2.0
+  },
+  {
+   "label": "traits rouges dans les yeux",
+   "clics": 0,
+   "impressions": 1,
+   "position": 2.0
+  },
+  {
+   "label": "latent hyperopia",
+   "clics": 0,
+   "impressions": 1,
+   "position": 3.0
+  },
+  {
+   "label": "tarifs",
+   "clics": 0,
+   "impressions": 1,
+   "position": 3.0
+  },
+  {
+   "label": "ايهما افضل",
+   "clics": 0,
+   "impressions": 1,
+   "position": 3.0
+  },
+  {
+   "label": "oui",
+   "clics": 0,
+   "impressions": 1,
+   "position": 4.0
+  },
+  {
+   "label": "astigmatisme et myopie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 5.0
+  },
+  {
+   "label": "g bata do",
+   "clics": 0,
+   "impressions": 1,
+   "position": 6.0
+  },
+  {
+   "label": "prix opération myopie belgique",
+   "clics": 0,
+   "impressions": 1,
+   "position": 6.0
+  },
+  {
+   "label": "dr sanak delta",
+   "clics": 0,
+   "impressions": 1,
+   "position": 7.0
+  },
+  {
+   "label": "מה זה יכול להיות",
+   "clics": 0,
+   "impressions": 1,
+   "position": 7.0
+  },
+  {
+   "label": "cout chirurgie refractive",
+   "clics": 0,
+   "impressions": 1,
+   "position": 8.0
+  },
+  {
+   "label": "opération laser yeux belgique prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 9.0
+  },
+  {
+   "label": "pkr after:2026-05-21",
+   "clics": 0,
+   "impressions": 1,
+   "position": 9.0
+  },
+  {
+   "label": "claire sanak",
+   "clics": 0,
+   "impressions": 1,
+   "position": 10.0
+  },
+  {
+   "label": "examen de la cornée",
+   "clics": 0,
+   "impressions": 1,
+   "position": 10.0
+  },
+  {
+   "label": "lasik",
+   "clics": 0,
+   "impressions": 1,
+   "position": 10.0
+  },
+  {
+   "label": "prix lasik",
+   "clics": 0,
+   "impressions": 1,
+   "position": 10.0
+  },
+  {
+   "label": "prk surgeons near me",
+   "clics": 0,
+   "impressions": 1,
+   "position": 10.0
+  },
+  {
+   "label": "lasik cout",
+   "clics": 0,
+   "impressions": 1,
+   "position": 11.0
+  },
+  {
+   "label": "opération yeux belgique prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 11.0
+  },
+  {
+   "label": "prix chirurgie refractive yeux",
+   "clics": 0,
+   "impressions": 1,
+   "position": 11.0
+  },
+  {
+   "label": "prix opération yeux laser belgique",
+   "clics": 0,
+   "impressions": 1,
+   "position": 11.0
+  },
+  {
+   "label": "staar surgical evo icl",
+   "clics": 0,
+   "impressions": 1,
+   "position": 11.0
+  },
+  {
+   "label": "chirurgie yeux laser prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 12.0
+  },
+  {
+   "label": "operation des yeux pour la vue prix belgique",
+   "clics": 0,
+   "impressions": 1,
+   "position": 12.0
+  },
+  {
+   "label": "prk vs femto",
+   "clics": 0,
+   "impressions": 1,
+   "position": 12.0
+  },
+  {
+   "label": "femto phako laser",
+   "clics": 0,
+   "impressions": 1,
+   "position": 13.0
+  },
+  {
+   "label": "lasik regression",
+   "clics": 0,
+   "impressions": 1,
+   "position": 14.0
+  },
+  {
+   "label": "prk lasik",
+   "clics": 0,
+   "impressions": 1,
+   "position": 14.0
+  },
+  {
+   "label": "surgical headlight near=brussels -wiki -youtube -tiktok -amazon \n-\"made-in-china\" -alibaba",
+   "clics": 0,
+   "impressions": 1,
+   "position": 16.0
+  },
+  {
+   "label": "compare",
+   "clics": 0,
+   "impressions": 1,
+   "position": 17.0
+  },
+  {
+   "label": "chirurgie laser yeux bruxelles-ville",
+   "clics": 0,
+   "impressions": 1,
+   "position": 18.0
+  },
+  {
+   "label": "how do people with astigmatism see",
+   "clics": 0,
+   "impressions": 1,
+   "position": 20.0
+  },
+  {
+   "label": "prk vs femtolasik",
+   "clics": 0,
+   "impressions": 1,
+   "position": 22.0
+  },
+  {
+   "label": "operation laser des yeux bruxelles",
+   "clics": 0,
+   "impressions": 1,
+   "position": 23.0
+  },
+  {
+   "label": "prelex eye surgery",
+   "clics": 0,
+   "impressions": 1,
+   "position": 23.0
+  },
+  {
+   "label": "laser femtosecond",
+   "clics": 0,
+   "impressions": 1,
+   "position": 27.0
+  },
+  {
+   "label": "myopie boxe",
+   "clics": 0,
+   "impressions": 1,
+   "position": 27.0
+  },
+  {
+   "label": "opération femto-lasik",
+   "clics": 0,
+   "impressions": 1,
+   "position": 28.0
+  },
+  {
+   "label": "forte myopie et boxe",
+   "clics": 0,
+   "impressions": 1,
+   "position": 29.0
+  },
+  {
+   "label": "operation astigmate",
+   "clics": 0,
+   "impressions": 1,
+   "position": 29.0
+  },
+  {
+   "label": "presbyte et hypermetrope",
+   "clics": 0,
+   "impressions": 1,
+   "position": 29.0
+  },
+  {
+   "label": "myope astigmate",
+   "clics": 0,
+   "impressions": 1,
+   "position": 30.0
+  },
+  {
+   "label": "hypermetropie in english",
+   "clics": 0,
+   "impressions": 1,
+   "position": 33.0
+  },
+  {
+   "label": "astigmatisme laser",
+   "clics": 0,
+   "impressions": 1,
+   "position": 35.0
+  },
+  {
+   "label": "astigmatisme myopique",
+   "clics": 0,
+   "impressions": 1,
+   "position": 35.0
+  },
+  {
+   "label": "delta ophtalmologie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 35.0
+  },
+  {
+   "label": "metoda prk",
+   "clics": 0,
+   "impressions": 1,
+   "position": 35.0
+  },
+  {
+   "label": "cataract surgery sante fe",
+   "clics": 0,
+   "impressions": 1,
+   "position": 36.0
+  },
+  {
+   "label": "neuroadaptatie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 38.0
+  },
+  {
+   "label": "femto lasik lasik",
+   "clics": 0,
+   "impressions": 1,
+   "position": 39.0
+  },
+  {
+   "label": "icl ophtalmologie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 40.0
+  },
+  {
+   "label": "palak clinic",
+   "clics": 0,
+   "impressions": 1,
+   "position": 40.0
+  },
+  {
+   "label": "femtolaser",
+   "clics": 0,
+   "impressions": 1,
+   "position": 42.0
+  },
+  {
+   "label": "laser femtolasik",
+   "clics": 0,
+   "impressions": 1,
+   "position": 43.0
+  },
+  {
+   "label": "opération myopie prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 43.0
+  },
+  {
+   "label": "operation laser des yeux prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 45.0
+  },
+  {
+   "label": "ögonlaser risker",
+   "clics": 0,
+   "impressions": 1,
+   "position": 45.0
+  },
+  {
+   "label": "opération des yeux laser prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 49.0
+  },
+  {
+   "label": "opération laser yeux prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 49.0
+  },
+  {
+   "label": "opération pour les yeux au laser prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 49.0
+  },
+  {
+   "label": "prix operation yeux laser",
+   "clics": 0,
+   "impressions": 1,
+   "position": 49.0
+  },
+  {
+   "label": "prix opération laser yeux",
+   "clics": 0,
+   "impressions": 1,
+   "position": 51.0
+  },
+  {
+   "label": "opération des yeux myopie prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 52.0
+  },
+  {
+   "label": "premium bril oplossing presbyopie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 52.0
+  },
+  {
+   "label": "prix opération des yeux",
+   "clics": 0,
+   "impressions": 1,
+   "position": 53.0
+  },
+  {
+   "label": "chirurgie myopie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 54.0
+  },
+  {
+   "label": "opération des yeux au laser prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 54.0
+  },
+  {
+   "label": "myopie opération prix",
+   "clics": 0,
+   "impressions": 1,
+   "position": 56.0
+  },
+  {
+   "label": "opération cataracte raté",
+   "clics": 0,
+   "impressions": 1,
+   "position": 56.0
+  },
+  {
+   "label": "icl operatie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 58.0
+  },
+  {
+   "label": "operation presbytie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 58.0
+  },
+  {
+   "label": "staar icl lens price",
+   "clics": 0,
+   "impressions": 1,
+   "position": 62.0
+  },
+  {
+   "label": "implantable collamer lenses dubai",
+   "clics": 0,
+   "impressions": 1,
+   "position": 70.0
+  },
+  {
+   "label": "prk methode",
+   "clics": 0,
+   "impressions": 1,
+   "position": 72.0
+  },
+  {
+   "label": "operation pour presbytie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 74.0
+  },
+  {
+   "label": "presbyopie betekenis",
+   "clics": 0,
+   "impressions": 1,
+   "position": 74.0
+  },
+  {
+   "label": "astigmate myope",
+   "clics": 0,
+   "impressions": 1,
+   "position": 75.0
+  },
+  {
+   "label": "correction myopie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 75.0
+  },
+  {
+   "label": "presbytie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 80.0
+  },
+  {
+   "label": "laser eye surgery pregnancy",
+   "clics": 0,
+   "impressions": 1,
+   "position": 81.0
+  },
+  {
+   "label": "iolite femto",
+   "clics": 0,
+   "impressions": 1,
+   "position": 82.0
+  },
+  {
+   "label": "hyperopie def",
+   "clics": 0,
+   "impressions": 1,
+   "position": 83.0
+  },
+  {
+   "label": "myopie et grossesse",
+   "clics": 0,
+   "impressions": 1,
+   "position": 89.0
+  },
+  {
+   "label": "astimatie",
+   "clics": 0,
+   "impressions": 1,
+   "position": 92.0
+  },
+  {
+   "label": "femto lasek",
+   "clics": 0,
+   "impressions": 1,
+   "position": 94.0
+  },
+  {
+   "label": "myopie c'est quoi",
+   "clics": 0,
+   "impressions": 1,
+   "position": 97.0
+  }
+ ],
+ "pages": [
+  {
+   "label": "/",
+   "clics": 37,
+   "impressions": 673,
+   "position": 6.1
+  },
+  {
+   "label": "/en/prk-vs-femto-lasik/",
+   "clics": 0,
+   "impressions": 376,
+   "position": 12.6
+  },
+  {
+   "label": "/tarifs/",
+   "clics": 2,
+   "impressions": 343,
+   "position": 12.1
+  },
+  {
+   "label": "/rendez-vous/",
+   "clics": 2,
+   "impressions": 287,
+   "position": 8.5
+  },
+  {
+   "label": "/sports-de-contact-et-laser/",
+   "clics": 9,
+   "impressions": 162,
+   "position": 15.4
+  },
+  {
+   "label": "/en/femto-lasik-vs-icl/",
+   "clics": 3,
+   "impressions": 142,
+   "position": 11.2
+  },
+  {
+   "label": "/presbytie/",
+   "clics": 0,
+   "impressions": 125,
+   "position": 19.9
+  },
+  {
+   "label": "/en/",
+   "clics": 1,
+   "impressions": 117,
+   "position": 5.5
+  },
+  {
+   "label": "/pkr/",
+   "clics": 3,
+   "impressions": 109,
+   "position": 9.2
+  },
+  {
+   "label": "/femtolasik/",
+   "clics": 1,
+   "impressions": 99,
+   "position": 34.2
+  },
+  {
+   "label": "/en/prelex/",
+   "clics": 1,
+   "impressions": 98,
+   "position": 15.5
+  },
+  {
+   "label": "/icl/",
+   "clics": 1,
+   "impressions": 91,
+   "position": 13.1
+  },
+  {
+   "label": "/mentions-legales/",
+   "clics": 5,
+   "impressions": 83,
+   "position": 9.6
+  },
+  {
+   "label": "/nl/",
+   "clics": 9,
+   "impressions": 72,
+   "position": 4.3
+  },
+  {
+   "label": "/bilan/",
+   "clics": 1,
+   "impressions": 66,
+   "position": 11.8
+  },
+  {
+   "label": "/pkr-vs-femtolasik/",
+   "clics": 0,
+   "impressions": 55,
+   "position": 16.0
+  },
+  {
+   "label": "/nl/afspraak/",
+   "clics": 1,
+   "impressions": 53,
+   "position": 8.8
+  },
+  {
+   "label": "/en/icl/",
+   "clics": 1,
+   "impressions": 53,
+   "position": 22.0
+  },
+  {
+   "label": "/en/appointment/",
+   "clics": 0,
+   "impressions": 53,
+   "position": 7.5
+  },
+  {
+   "label": "/laser-yeux-grossesse/",
+   "clics": 0,
+   "impressions": 52,
+   "position": 7.9
+  },
+  {
+   "label": "/cataracte/",
+   "clics": 0,
+   "impressions": 50,
+   "position": 23.8
+  },
+  {
+   "label": "/en/myopia/",
+   "clics": 1,
+   "impressions": 49,
+   "position": 11.9
+  },
+  {
+   "label": "/nl/femto-lasik/",
+   "clics": 0,
+   "impressions": 42,
+   "position": 21.0
+  },
+  {
+   "label": "/en/hyperopia/",
+   "clics": 0,
+   "impressions": 40,
+   "position": 23.1
+  },
+  {
+   "label": "/en/laser-eyes-pregnancy/",
+   "clics": 0,
+   "impressions": 37,
+   "position": 14.9
+  },
+  {
+   "label": "/astigmatisme/",
+   "clics": 2,
+   "impressions": 34,
+   "position": 14.6
+  },
+  {
+   "label": "/ozempic-mounjaro-yeux/",
+   "clics": 0,
+   "impressions": 33,
+   "position": 7.7
+  },
+  {
+   "label": "/en/cataract/",
+   "clics": 1,
+   "impressions": 32,
+   "position": 11.0
+  },
+  {
+   "label": "/femtolasik-vs-icl/",
+   "clics": 0,
+   "impressions": 32,
+   "position": 7.8
+  },
+  {
+   "label": "/nl/verziendheid/",
+   "clics": 0,
+   "impressions": 32,
+   "position": 46.9
+  },
+  {
+   "label": "/nl/prelex/",
+   "clics": 0,
+   "impressions": 31,
+   "position": 10.9
+  },
+  {
+   "label": "/myopie/",
+   "clics": 1,
+   "impressions": 30,
+   "position": 24.5
+  },
+  {
+   "label": "/nl/prk-vs-femto-lasik/",
+   "clics": 0,
+   "impressions": 27,
+   "position": 20.7
+  },
+  {
+   "label": "/risques-laser/",
+   "clics": 0,
+   "impressions": 26,
+   "position": 17.5
+  },
+  {
+   "label": "/en/preoperative-exam/",
+   "clics": 0,
+   "impressions": 24,
+   "position": 13.2
+  },
+  {
+   "label": "/en/femto-lasik/",
+   "clics": 0,
+   "impressions": 24,
+   "position": 16.4
+  },
+  {
+   "label": "/en/laser-risks/",
+   "clics": 0,
+   "impressions": 22,
+   "position": 13.2
+  },
+  {
+   "label": "/en/prk/",
+   "clics": 1,
+   "impressions": 21,
+   "position": 19.0
+  },
+  {
+   "label": "/en/astigmatism/",
+   "clics": 0,
+   "impressions": 21,
+   "position": 9.9
+  },
+  {
+   "label": "/prelex/",
+   "clics": 0,
+   "impressions": 20,
+   "position": 27.6
+  },
+  {
+   "label": "/nl/laser-risicos/",
+   "clics": 0,
+   "impressions": 15,
+   "position": 12.3
+  },
+  {
+   "label": "/nl/bijziendheid/",
+   "clics": 0,
+   "impressions": 15,
+   "position": 19.4
+  },
+  {
+   "label": "/nl/icl/",
+   "clics": 0,
+   "impressions": 13,
+   "position": 9.8
+  },
+  {
+   "label": "/nl/laser-ogen-zwangerschap/",
+   "clics": 1,
+   "impressions": 12,
+   "position": 8.9
+  },
+  {
+   "label": "/en/presbyopia/",
+   "clics": 0,
+   "impressions": 12,
+   "position": 8.9
+  },
+  {
+   "label": "/nl/staaroperatie/",
+   "clics": 0,
+   "impressions": 12,
+   "position": 10.6
+  },
+  {
+   "label": "/hypermetropie/",
+   "clics": 0,
+   "impressions": 11,
+   "position": 6.0
+  },
+  {
+   "label": "/nl/prk/",
+   "clics": 0,
+   "impressions": 11,
+   "position": 18.8
+  },
+  {
+   "label": "/nl/presbyopie/",
+   "clics": 0,
+   "impressions": 11,
+   "position": 33.5
+  },
+  {
+   "label": "/en/legal/",
+   "clics": 1,
+   "impressions": 8,
+   "position": 21.0
+  },
+  {
+   "label": "/en/consultation-locations/",
+   "clics": 0,
+   "impressions": 7,
+   "position": 8.6
+  },
+  {
+   "label": "/nl/wettelijke-vermeldingen/",
+   "clics": 0,
+   "impressions": 7,
+   "position": 10.9
+  },
+  {
+   "label": "/nl/femto-lasik-vs-icl/",
+   "clics": 0,
+   "impressions": 7,
+   "position": 18.0
+  },
+  {
+   "label": "/nl/vooronderzoek/",
+   "clics": 1,
+   "impressions": 6,
+   "position": 8.3
+  },
+  {
+   "label": "/nl/astigmatisme/",
+   "clics": 0,
+   "impressions": 6,
+   "position": 20.0
+  },
+  {
+   "label": "/confidentialite/",
+   "clics": 0,
+   "impressions": 6,
+   "position": 20.8
+  },
+  {
+   "label": "/en/privacy/",
+   "clics": 0,
+   "impressions": 6,
+   "position": 22.2
+  },
+  {
+   "label": "/nl/privacy/",
+   "clics": 0,
+   "impressions": 1,
+   "position": 69.0
+  }
+ ]
+}
