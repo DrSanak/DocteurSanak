@@ -12,7 +12,7 @@
   --text-dark:   #1A1A18;
   --text-mid:    #3A3A38;
   --text-soft:   #5F5E5A;
-  --text-muted:  #888780;
+  --text-muted:  #6A6964;
   --border:      #E2E0D8;
   --green:       #0F6E56;
   --green-light: #E1F5EE;
@@ -149,7 +149,7 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
   position: relative;
 }
 
-.card-label { font-size: 10px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 16px; }
+.card-label { font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 16px; }
 .persona { display: flex; flex-direction: column; gap: 12px; }
 .persona-item {
   padding: 14px 16px; border-radius: var(--radius);
@@ -297,7 +297,7 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
 .footer-links { display: flex; gap: 20px; }
 .footer-links a { font-size: 12px; color: var(--text-muted); text-decoration: none; }
 .footer-links a:hover { color: var(--blue); }
-.footer-copy { font-size: 11px; color: var(--text-muted); }
+.footer-copy { font-size: 12px; color: var(--text-muted); }
 
 /* ─── ANIMATIONS (neutralized) ───────────────────────────────────────── */
 .fade-in { opacity: 1; transform: none; transition: none; }
@@ -370,7 +370,7 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
 }
 .technique-item:hover { border-color: var(--blue); background: var(--blue-light); }
 .technique-name { font-size: 12px; font-weight: 600; color: var(--blue); margin-bottom: 2px; }
-.technique-desc { font-size: 10px; color: var(--text-muted); }
+.technique-desc { font-size: 12px; color: var(--text-muted); }
 .card-divider {
   height: 0.5px; background: var(--border); margin: 16px 0;
 }
