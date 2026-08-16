@@ -571,4 +571,56 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://docteursanak.com/quel-laser/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/quel-laser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/quel-laser/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/smile/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/smile/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/smile/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/lasik-et-vieillissement-visuel/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/lasik-et-vieillissement-visuel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/lasik-et-vieillissement-visuel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/belgique-vs-turquie-chirurgie-laser/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/belgique-vs-turquie-chirurgie-laser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/belgium-vs-turkey-eye-surgery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/belgique-vs-turquie-chirurgie-laser/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/en/belgium-vs-turkey-eye-surgery/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/belgique-vs-turquie-chirurgie-laser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/belgium-vs-turkey-eye-surgery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/belgique-vs-turquie-chirurgie-laser/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/tr/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://docteursanak.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
