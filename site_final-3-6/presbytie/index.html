@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chirurgie de la presbytie à Bruxelles · Dr Serdal Sanak</title>
 <meta name="description" content="Chirurgie de la presbytie à Bruxelles : PRELEX, monovision laser, implants trifocaux. Quelle technique selon l'âge et le profil. Dr Serdal Sanak, CHIREC Delta.">
-<link rel="stylesheet" href="/css/base.css?v=20260816c">
+<link rel="stylesheet" href="/css/base.css?v=20260816d">
 <style>
 /* Refonte visuelle — essai sur cette page */
 .prose p, .prose li{font-size:17px;line-height:1.75;}
@@ -13,6 +13,20 @@
 :root{--radius:8px;--radius-lg:8px;}
 .card-item{box-shadow:none;}
 .section-warm{background:#fff;}
+.prose .section-title + p{font-size:20px;line-height:1.6;color:var(--text-dark);margin-bottom:18px;}
+.figure-key{margin:0;}
+.two-col.reverse{grid-template-columns:1fr 1.5fr;}
+.two-col.reverse > .prose{order:2;}
+.two-col.reverse > :not(.prose){order:1;}
+@media(max-width:900px){.two-col.reverse > .prose{order:1;}.two-col.reverse > :not(.prose){order:2;}}
+.figure-key .num{font-family:var(--font-serif);font-size:52px;line-height:1;font-weight:400;color:var(--blue);display:block;margin-bottom:10px;}
+.figure-key .cap{font-size:15px;color:var(--text-mid);line-height:1.6;margin:0 0 10px;}
+.figure-key .src{font-size:13px;color:var(--text-soft);line-height:1.6;margin:0;}
+.band{background:var(--blue);color:#fff;padding:52px clamp(20px,5vw,80px);margin:0;}
+.band-inner{max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:center;}
+.band .num{font-family:var(--font-serif);font-size:clamp(44px,6vw,68px);line-height:1;color:#fff;white-space:nowrap;}
+.band p{font-family:var(--font-serif);font-size:clamp(19px,2.2vw,24px);line-height:1.45;color:rgba(255,255,255,.94);margin:0;font-weight:400;}
+@media(max-width:768px){.band-inner{grid-template-columns:1fr;gap:18px;}.band{padding:40px 20px;}}
 .section-warm + .section{padding-top:8px;}
 .card-item:hover{box-shadow:0 2px 12px rgba(20,61,107,.07);}
 .sidenote{border-left:2px solid var(--border);padding-left:22px;}
@@ -175,6 +189,7 @@
     </div>
   </div>
 </section>
+
 <section class="section section-warm" style="padding-top:32px;padding-bottom:32px;">
   <div class="inner">
     <div class="page-toc fade-in">
@@ -245,7 +260,7 @@
 
 <section class="section" style="padding-top:32px;padding-bottom:24px;">
   <div class="inner">
-    <div class="two-col">
+    <div class="two-col reverse">
       <div class="prose fade-in">
         <div class="section-eyebrow">Techniques</div>
         <h2 class="section-title" id="ce-que-chaque-option-propose">Ce que chaque option propose</h2>
@@ -254,10 +269,10 @@
         <p><strong>Pilocarpine 1,25 % (VUITY, AbbVie).</strong> Première pharmacothérapie approuvée par la FDA (octobre 2021, dosage 2×/j approuvé en mars 2023). Les essais GEMINI 1 et 2 rapportent un gain de 3 lignes ou plus en vision de près chez 26 à 31 % des patients à J30, effet en 15 minutes, durée d'environ 6 heures. Effets indésirables principaux : céphalées légères (8,8 % vs 3,4 % sous placebo) et rougeur oculaire.<sup><a href="#ref4" class="sup-ref">[4]</a></sup></p>
       </div>
       <div class="fade-in fade-in-delay-1">
-        <div class="sidenote">
-          <h3>Indépendance aux lunettes</h3>
-          <p>Implants trifocaux · <strong style="color:var(--blue);">91,6 %</strong></p>
-          <p>Chiffres issus des séries publiées, détaillés ci-contre avec leurs sources.</p>
+        <div class="figure-key">
+          <span class="num">91,6 %</span>
+          <p class="cap">d'indépendance complète aux lunettes avec un implant trifocal.</p>
+          <p class="src">Méta-analyse de Zhu et coll. 2023, 13 études, 513 patients. Détaillée ci-contre avec sa source.</p>
         </div>
       </div>
     </div>
@@ -265,6 +280,13 @@
 </section>
 
 
+
+<div class="band">
+  <div class="band-inner">
+    <span class="num">50 ans</span>
+    <p>À partir de cet âge, une seule intervention corrige la presbytie et supprime le risque de cataracte future.</p>
+  </div>
+</div>
 
 <section style="padding-bottom:24px;" class="section">
   <div class="inner">
