@@ -29,86 +29,248 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": ["Physician", "LocalBusiness"],
-  "@id": "https://docteursanak.com/#physician",
-  "name": "Dr Serdal Sanak",
-  "alternateName": "Docteur Serdal Sanak",
-  "description": "Ophthalmic surgeon specialised in refractive surgery (Femto-LASIK, PRK, ICL, PRELEX) and cataract surgery in Brussels. Preoperative exam by appointment.",
-  "jobTitle": "Chirurgien ophtalmologue · Chirurgie réfractive et cataracte",
-  "hasCredential": {"@type":"EducationalOccupationalCredential","credentialCategory":"Diplôme européen d'ophtalmologie (FEBO)","educationalLevel":"Postgraduate specialist diploma","recognizedBy":{"@type":"Organization","name":"European Board of Ophthalmology","url":"https://www.ebo-online.org"}},
-  "knowsAbout": ["Chirurgie réfractive","Femto-LASIK","PKR (photokératectomie réfractive)","Implants ICL (Implantable Collamer Lens)","PRELEX (échange de cristallin clair)","Chirurgie de la cataracte","Presbytie","Myopie","Hypermétropie","Astigmatisme","Bilan préopératoire et topographie cornéenne"],
-  "medicalSpecialty": ["http://schema.org/Ophthalmology","Chirurgie réfractive","Chirurgie de la cataracte"],
-  "url": "https://docteursanak.com",
-  "telephone": "+3224348109",
-  "alumniOf": [
-    {"@type":"EducationalOrganization","name":"Université Libre de Bruxelles (ULB) — Faculté de médecine","url":"https://www.ulb.be"},
-    {"@type":"EducationalOrganization","name":"Université de Liège (ULiège) — Ophtalmologie","url":"https://www.uliege.be"}
-  ],
-  "memberOf": [
-    {"@type":"Organization","name":"ESCRS — European Society of Cataract and Refractive Surgeons","url":"https://www.escrs.org"},
-    {"@type":"Organization","name":"SBO — Société Belge d'Ophtalmologie / Belgische Vereniging voor Oftalmologie"},
-    {"@type":"Organization","name":"SFO — Société Française d'Ophtalmologie"},
-    {"@type":"Organization","name":"SAFIR — Société de l'Association Française des Implants intraOculaires et Réfractifs"}
-  ],
-  "knowsLanguage": ["fr","en","nl","ku","tr","fa","it"],
-  "sameAs":["https://rosa.be/fr/hp/serdal-sanak/","https://www.chirec.be","https://www.linkedin.com/in/serdal-sanak-38556b157/"],
-  "location": [
-    {
-      "@type": "MedicalClinic",
-      "@id": "https://docteursanak.com/#clinic-delta",
-      "name": "CHIREC Hôpital Delta — Dr Serdal Sanak",
-      "description": "Consultation location for refractive and cataract surgery in Auderghem, south-east Brussels.",
-      "telephone": "+3224348109",
-      "address": {"@type":"PostalAddress","streetAddress":"Boulevard du Triomphe 201","addressLocality":"Auderghem","addressRegion":"Bruxelles","postalCode":"1160","addressCountry":"BE"},
-      "url": "https://rosa.be/fr/hp/serdal-sanak/"
-    },
-    {
-      "@type": "MedicalClinic",
-      "@id": "https://docteursanak.com/#clinic-cavell",
-      "name": "CHIREC Centre médical Edith Cavell — Dr Serdal Sanak",
-      "description": "Consultation location for refractive and cataract surgery in Uccle.",
-      "telephone": "+3224348101",
-      "address": {"@type":"PostalAddress","streetAddress":"Rue Général Lotz 37","addressLocality":"Uccle","addressRegion":"Bruxelles","postalCode":"1180","addressCountry":"BE"},
-      "url": "https://rosa.be/fr/hp/serdal-sanak/"
-    },
-    {
-      "@type": "MedicalClinic",
-      "@id": "https://docteursanak.com/#clinic-parc-leopold",
-      "name": "CHIREC Centre médical du Parc Léopold — Dr Serdal Sanak",
-      "description": "Consultation location for refractive and cataract surgery in Ixelles, close to Luxembourg station and the European Parliament.",
-      "telephone": "+3224348103",
-      "address": {"@type":"PostalAddress","streetAddress":"Rue du Trône 100","addressLocality":"Ixelles","addressRegion":"Bruxelles","postalCode":"1050","addressCountry":"BE"},
-      "url": "https://rosa.be/fr/hp/serdal-sanak/"
-    },
-    {
-      "@type": "MedicalClinic",
-      "@id": "https://docteursanak.com/#clinic-lambermont",
-      "name": "CHIREC Centre médical Europe Lambermont — Dr Serdal Sanak",
-      "description": "Consultation location for refractive and cataract surgery in Schaerbeek.",
-      "telephone": "+3224342411",
-      "address": {"@type":"PostalAddress","streetAddress":"Rue des Pensées 1","addressLocality":"Schaerbeek","addressRegion":"Bruxelles","postalCode":"1030","addressCountry":"BE"},
-      "url": "https://rosa.be/fr/hp/serdal-sanak/"
-    }    ,
-    {
-      "@type": "MedicalClinic",
-      "@id": "https://docteursanak.com/#clinic-jean-monnet",
-      "name": "CHIREC Centre médical Jean Monnet — Dr Serdal Sanak",
-      "description": "Consultation location for refractive and cataract surgery in Nivelles, Walloon Brabant.",
-      "telephone": "+3224347911",
-      "address": {"@type":"PostalAddress","streetAddress":"Avenue Jean Monnet 12","addressLocality":"Nivelles","addressRegion":"Brabant wallon","postalCode":"1400","addressCountry":"BE"},
-      "url": "https://rosa.be/fr/hp/serdal-sanak/"
-    }
-  ],
-  "availableService": [
-    {"@type":"MedicalProcedure","name":"Femto-LASIK","url":"https://docteursanak.com/en/femto-lasik/"},
-    {"@type":"MedicalProcedure","name":"PRK — Surface laser surgery","url":"https://docteursanak.com/en/prk/"},
-    {"@type":"MedicalProcedure","name":"ICL EVO STAAR Surgical implants","url":"https://docteursanak.com/en/icl/"},
-    {"@type":"MedicalProcedure","name":"PRELEX — Multifocal implants","url":"https://docteursanak.com/en/prelex/"},
-    {"@type":"MedicalProcedure","name":"Cataract surgery","url":"https://docteursanak.com/en/cataract/"},
-    {"@type":"MedicalProcedure","name":"Preoperative exam by appointment","url":"https://docteursanak.com/en/appointment/"}
-  ],
-  "areaServed": [{"@type":"City","name":"Bruxelles"},{"@type":"City","name":"Auderghem"},{"@type":"City","name":"Uccle"},{"@type":"City","name":"Ixelles"},{"@type":"City","name":"Schaerbeek"},{"@type":"City","name":"Nivelles"},{"@type":"AdministrativeArea","name":"Brabant wallon"},{"@type":"AdministrativeArea","name":"Belgique"}]
+ "@context": "https://schema.org",
+ "@type": [
+  "Physician",
+  "LocalBusiness"
+ ],
+ "@id": "https://docteursanak.com/#physician",
+ "name": "Dr Serdal Sanak",
+ "alternateName": "Docteur Serdal Sanak",
+ "description": "Ophthalmic surgeon specialised in refractive surgery (Femto-LASIK, PRK, ICL, PRELEX) and cataract surgery in Brussels. Preoperative exam by appointment.",
+ "jobTitle": "Chirurgien ophtalmologue · Chirurgie réfractive et cataracte",
+ "hasCredential": {
+  "@type": "EducationalOccupationalCredential",
+  "credentialCategory": "Diplôme européen d'ophtalmologie (FEBO)",
+  "educationalLevel": "Postgraduate specialist diploma",
+  "recognizedBy": {
+   "@type": "Organization",
+   "name": "European Board of Ophthalmology",
+   "url": "https://www.ebo-online.org"
+  }
+ },
+ "knowsAbout": [
+  "Chirurgie réfractive",
+  "Femto-LASIK",
+  "PKR (photokératectomie réfractive)",
+  "Implants ICL (Implantable Collamer Lens)",
+  "PRELEX (échange de cristallin clair)",
+  "Chirurgie de la cataracte",
+  "Presbytie",
+  "Myopie",
+  "Hypermétropie",
+  "Astigmatisme",
+  "Bilan préopératoire et topographie cornéenne"
+ ],
+ "medicalSpecialty": [
+  "http://schema.org/Ophthalmology",
+  "Chirurgie réfractive",
+  "Chirurgie de la cataracte"
+ ],
+ "url": "https://docteursanak.com",
+ "telephone": "+3224348109",
+ "alumniOf": [
+  {
+   "@type": "EducationalOrganization",
+   "name": "Université Libre de Bruxelles (ULB) — Faculté de médecine",
+   "url": "https://www.ulb.be"
+  },
+  {
+   "@type": "EducationalOrganization",
+   "name": "Université de Liège (ULiège) — Ophtalmologie",
+   "url": "https://www.uliege.be"
+  }
+ ],
+ "memberOf": [
+  {
+   "@type": "Organization",
+   "name": "ESCRS — European Society of Cataract and Refractive Surgeons",
+   "url": "https://www.escrs.org"
+  },
+  {
+   "@type": "Organization",
+   "name": "SBO — Société Belge d'Ophtalmologie / Belgische Vereniging voor Oftalmologie"
+  },
+  {
+   "@type": "Organization",
+   "name": "SFO — Société Française d'Ophtalmologie"
+  },
+  {
+   "@type": "Organization",
+   "name": "SAFIR — Société de l'Association Française des Implants intraOculaires et Réfractifs"
+  }
+ ],
+ "knowsLanguage": [
+  "fr",
+  "en",
+  "nl",
+  "ku",
+  "tr",
+  "fa",
+  "it"
+ ],
+ "sameAs": [
+  "https://rosa.be/fr/hp/serdal-sanak/",
+  "https://www.chirec.be",
+  "https://www.linkedin.com/in/serdal-sanak-38556b157/"
+ ],
+ "location": [
+  {
+   "@type": "MedicalClinic",
+   "@id": "https://docteursanak.com/#clinic-delta",
+   "name": "CHIREC Hôpital Delta — Dr Serdal Sanak",
+   "description": "Consultation location for refractive and cataract surgery in Auderghem, south-east Brussels.",
+   "telephone": "+3224348109",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Boulevard du Triomphe 201",
+    "addressLocality": "Auderghem",
+    "addressRegion": "Bruxelles",
+    "postalCode": "1160",
+    "addressCountry": "BE"
+   },
+   "url": "https://rosa.be/fr/hp/serdal-sanak/"
+  },
+  {
+   "@type": "MedicalClinic",
+   "@id": "https://docteursanak.com/#clinic-cavell",
+   "name": "CHIREC Centre médical Edith Cavell — Dr Serdal Sanak",
+   "description": "Consultation location for refractive and cataract surgery in Uccle.",
+   "telephone": "+3224348101",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rue Général Lotz 37",
+    "addressLocality": "Uccle",
+    "addressRegion": "Bruxelles",
+    "postalCode": "1180",
+    "addressCountry": "BE"
+   },
+   "url": "https://rosa.be/fr/hp/serdal-sanak/"
+  },
+  {
+   "@type": "MedicalClinic",
+   "@id": "https://docteursanak.com/#clinic-parc-leopold",
+   "name": "CHIREC Centre médical du Parc Léopold — Dr Serdal Sanak",
+   "description": "Consultation location for refractive and cataract surgery in Ixelles, close to Luxembourg station and the European Parliament.",
+   "telephone": "+3224348103",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rue du Trône 100",
+    "addressLocality": "Ixelles",
+    "addressRegion": "Bruxelles",
+    "postalCode": "1050",
+    "addressCountry": "BE"
+   },
+   "url": "https://rosa.be/fr/hp/serdal-sanak/"
+  },
+  {
+   "@type": "MedicalClinic",
+   "@id": "https://docteursanak.com/#clinic-lambermont",
+   "name": "CHIREC Centre médical Europe Lambermont — Dr Serdal Sanak",
+   "description": "Consultation location for refractive and cataract surgery in Schaerbeek.",
+   "telephone": "+3224342411",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rue des Pensées 1",
+    "addressLocality": "Schaerbeek",
+    "addressRegion": "Bruxelles",
+    "postalCode": "1030",
+    "addressCountry": "BE"
+   },
+   "url": "https://rosa.be/fr/hp/serdal-sanak/"
+  },
+  {
+   "@type": "MedicalClinic",
+   "@id": "https://docteursanak.com/#clinic-jean-monnet",
+   "name": "CHIREC Centre médical Jean Monnet — Dr Serdal Sanak",
+   "description": "Consultation location for refractive and cataract surgery in Nivelles, Walloon Brabant.",
+   "telephone": "+3224347911",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Avenue Jean Monnet 12",
+    "addressLocality": "Nivelles",
+    "addressRegion": "Brabant wallon",
+    "postalCode": "1400",
+    "addressCountry": "BE"
+   },
+   "url": "https://rosa.be/fr/hp/serdal-sanak/"
+  }
+ ],
+ "availableService": [
+  {
+   "@type": "MedicalProcedure",
+   "name": "Femto-LASIK",
+   "url": "https://docteursanak.com/en/femto-lasik/"
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "PRK — Surface laser surgery",
+   "url": "https://docteursanak.com/en/prk/"
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "ICL EVO STAAR Surgical implants",
+   "url": "https://docteursanak.com/en/icl/"
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "PRELEX — Multifocal implants",
+   "url": "https://docteursanak.com/en/prelex/"
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "Cataract surgery",
+   "url": "https://docteursanak.com/en/cataract/"
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "Preoperative exam by appointment",
+   "url": "https://docteursanak.com/en/appointment/"
+  }
+ ],
+ "areaServed": [
+  {
+   "@type": "City",
+   "name": "Bruxelles"
+  },
+  {
+   "@type": "City",
+   "name": "Auderghem"
+  },
+  {
+   "@type": "City",
+   "name": "Uccle"
+  },
+  {
+   "@type": "City",
+   "name": "Ixelles"
+  },
+  {
+   "@type": "City",
+   "name": "Schaerbeek"
+  },
+  {
+   "@type": "City",
+   "name": "Nivelles"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "Brabant wallon"
+  },
+  {
+   "@type": "AdministrativeArea",
+   "name": "Belgique"
+  }
+ ],
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "Boulevard du Triomphe 201",
+  "addressLocality": "Auderghem",
+  "addressRegion": "Bruxelles",
+  "postalCode": "1160",
+  "addressCountry": "BE"
+ },
+ "priceRange": "1700-4000 EUR"
 }
 </script>
 <script type="application/ld+json">
