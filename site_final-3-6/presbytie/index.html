@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chirurgie de la presbytie à Bruxelles · Dr Serdal Sanak</title>
 <meta name="description" content="Chirurgie de la presbytie à Bruxelles : PRELEX, monovision laser, implants trifocaux. Quelle technique selon l'âge et le profil. Dr Serdal Sanak, CHIREC Delta.">
-<link rel="stylesheet" href="/css/base.css?v=20260816f">
+<link rel="stylesheet" href="/css/base.css?v=20260816g">
 <style>
 /* Refonte visuelle — essai sur cette page */
 .prose p, .prose li{font-size:17px;line-height:1.75;}
@@ -26,13 +26,19 @@ body{counter-reset:sec;}
   color:var(--text-muted);font-weight:500;margin-right:12px;
 }
 .section{padding-top:40px;}
+.section-faq{background:var(--blue-light);padding-top:48px;padding-bottom:48px;}
+.section-faq .prose > .section-eyebrow{border-top-color:var(--blue);}
+.section-faq .qa{border-top:.5px solid #C6DCF0;padding-top:22px;margin-top:22px;}
+.section-faq .qa:first-of-type{border-top:0;padding-top:0;margin-top:4px;}
+/* filet fin entre les techniques décrites */
+#ce-que-chaque-option-propose ~ p + p{border-top:.5px solid var(--border);padding-top:18px;}
 .prose > .cta-eyebrow{border-top:0;padding-top:0;}
 .prose > .cta-eyebrow::before{content:none;}
 .two-col.reverse{grid-template-columns:1fr 1.5fr;}
 .two-col.reverse > .prose{order:2;}
 .two-col.reverse > :not(.prose){order:1;}
-@media(max-width:900px){.two-col.reverse > .prose{order:1;}.two-col.reverse > :not(.prose){order:2;}}
-.figure-key .num{font-family:var(--font-serif);font-size:52px;line-height:1;font-weight:400;color:var(--blue);display:block;margin-bottom:10px;}
+@media(max-width:900px){.two-col.reverse{grid-template-columns:1fr;}.two-col.reverse > .prose{order:1;}.two-col.reverse > :not(.prose){order:2;}}
+.figure-key .num{font-family:var(--font-serif);font-size:clamp(38px,7vw,52px);white-space:nowrap;line-height:1;font-weight:400;color:var(--blue);display:block;margin-bottom:10px;}
 .figure-key .cap{font-size:15px;color:var(--text-mid);line-height:1.6;margin:0 0 10px;}
 .figure-key .src{font-size:13px;color:var(--text-soft);line-height:1.6;margin:0;}
 .band{background:var(--blue);color:#fff;padding:52px clamp(20px,5vw,80px);margin:0;}
@@ -358,7 +364,7 @@ body{counter-reset:sec;}
   </div>
 </section>
 
-<section class="section" style="padding-top:24px;padding-bottom:24px;">
+<section class="section section-faq" style="padding-top:24px;padding-bottom:24px;">
   <div class="inner">
     <div class="two-col">
       <div class="prose fade-in">
