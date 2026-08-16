@@ -204,3 +204,7 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 .diagram-cap{font-size:14px;line-height:1.65;color:var(--text-mid);margin:6px 0 0;}
 .diagram-cap strong{color:var(--blue);}
 @media(max-width:820px){.diagram-grid{grid-template-columns:1fr;gap:26px;}}
+
+.diagram-solo{margin:22px 0 0;}
+.diagram-solo .diagram-grid{grid-template-columns:1fr;gap:0;}
+.diagram-solo .diagram-cap{font-size:13.5px;}
