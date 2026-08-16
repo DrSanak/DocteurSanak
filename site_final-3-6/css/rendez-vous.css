@@ -6,7 +6,7 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 .nav.transparent{background:transparent;}
 .nav.scrolled{background:rgba(255,255,255,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--border),0 4px 24px rgba(20,61,107,.06);}
 .nav-logo{text-decoration:none;}
-.nav-logo-img{height:110px;width:auto;display:block;object-fit:contain;transition:opacity .2s;image-rendering:-webkit-optimize-contrast;}
+.nav-logo-img{height:110px;width:auto;display:block;object-fit:contain;transition:opacity .2s;}
 .nav-logo-img:hover{opacity:.8;}
 .nav-links{display:flex;gap:28px;list-style:none;align-items:center;}
 .nav-links>li{display:flex;align-items:center;}
