@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chirurgie de la presbytie à Bruxelles · Dr Serdal Sanak</title>
 <meta name="description" content="Chirurgie de la presbytie à Bruxelles : PRELEX, monovision laser, implants trifocaux. Quelle technique selon l'âge et le profil. Dr Serdal Sanak, CHIREC Delta.">
-<link rel="stylesheet" href="/css/base.css?v=20260816h">
+<link rel="stylesheet" href="/css/base.css?v=20260816j">
 <style>
 /* Refonte visuelle — essai sur cette page */
 .prose p, .prose li{font-size:17px;line-height:1.75;}
@@ -26,6 +26,13 @@ body{counter-reset:sec;}
   color:var(--text-muted);font-weight:500;margin-right:12px;
 }
 .section{padding-top:40px;}
+.diagram{margin:30px 0 26px;padding:0;}
+.diagram-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;}
+.diagram svg{width:100%;height:auto;display:block;}
+.diagram svg text{font-family:var(--font-sans);}
+.diagram-cap{font-size:14px;line-height:1.65;color:var(--text-mid);margin:6px 0 0;}
+.diagram-cap strong{color:var(--blue);}
+@media(max-width:820px){.diagram-grid{grid-template-columns:1fr;gap:26px;}}
 .section-faq{background:var(--blue-light);padding-top:48px;padding-bottom:48px;}
 .section-faq .prose > .section-eyebrow{border-top-color:var(--blue);}
 .section-faq .qa{border-top:.5px solid #C6DCF0;padding-top:22px;margin-top:22px;}
@@ -315,6 +322,59 @@ body{counter-reset:sec;}
         <h2 class="section-title" id="la-presbytie-cest-quoi-exactement">La presbytie, c'est quoi exactement ?</h2>
         <p>Jusqu'à 40 ans, le cristallin est souple et élastique. Il change de forme en permanence pour faire la mise au point, de près comme de loin. C'est l'accommodation : un mécanisme automatique, instantané, dont on n'a jamais conscience parce qu'il fonctionne parfaitement.</p>
         <p>Avec l'âge, le cristallin durcit progressivement. Il perd sa capacité à se déformer. La mise au point de près devient difficile, puis impossible sans correction. La presbytie est un processus biologique programmé. Elle touche tout le monde, à un rythme propre à chacun.<sup><a href="#ref1" class="sup-ref">[1]</a></sup></p>
+
+        <figure class="diagram">
+  <div class="diagram-grid">
+    <div class="diagram-panel">
+      <svg viewBox="0 0 380 264" role="img" aria-labelledby="dg1t dg1d" xmlns="http://www.w3.org/2000/svg">
+        <title id="dg1t">Accommodation vers 35 ans</title>
+        <desc id="dg1d">Coupe d'un œil : le cristallin souple se bombe et l'image d'un objet proche se forme sur la rétine.</desc>
+        <path d="M14,130 L138,102 L288,130" fill="none" stroke="var(--blue-mid)" stroke-width="1.5" opacity=".85"/>
+        <path d="M14,130 L138,158 L288,130" fill="none" stroke="var(--blue-mid)" stroke-width="1.5" opacity=".85"/>
+        <circle cx="196" cy="130" r="92" fill="none" stroke="var(--blue)" stroke-width="1.6"/>
+        <path d="M266.5,70.9 A92,92 0 0 1 266.5,189.1" fill="none" stroke="var(--blue)" stroke-width="5"/>
+        <path d="M116,94 Q84,130 116,166" fill="none" stroke="var(--blue)" stroke-width="1.8"/>
+        <line x1="130" y1="94" x2="130" y2="112" stroke="var(--blue)" stroke-width="3.5"/>
+        <line x1="130" y1="148" x2="130" y2="166" stroke="var(--blue)" stroke-width="3.5"/>
+        <ellipse cx="141" cy="130" rx="18" ry="21" fill="#DCEAF8" stroke="var(--blue)" stroke-width="1.8"/>
+        <circle cx="288" cy="130" r="5.5" fill="var(--blue)"/>
+        <circle cx="14" cy="130" r="4" fill="var(--blue)"/>
+        <line x1="141" y1="32" x2="141" y2="56" stroke="var(--text-muted)" stroke-width=".8"/>
+        <line x1="288" y1="140" x2="288" y2="240" stroke="var(--text-muted)" stroke-width=".8"/>
+        <text x="141" y="24" font-size="12" fill="var(--text-soft)" text-anchor="middle">cristallin bombé</text>
+        <text x="288" y="256" font-size="12.5" fill="var(--blue)" font-weight="700" text-anchor="middle">image nette</text>
+        <text x="8" y="112" font-size="12" fill="var(--text-soft)">objet proche</text>
+      </svg>
+      <p class="diagram-cap"><strong>Vers 35 ans.</strong> Le cristallin est souple. Il se bombe pour faire la mise au point, et l'image d'un objet proche se forme exactement sur la rétine.</p>
+    </div>
+    <div class="diagram-panel">
+      <svg viewBox="0 0 380 264" role="img" aria-labelledby="dg2t dg2d" xmlns="http://www.w3.org/2000/svg">
+        <title id="dg2t">Accommodation après 45 ans</title>
+        <desc id="dg2d">Coupe d'un œil : le cristallin rigide reste plat et l'image se forme en arrière de la rétine.</desc>
+        <path d="M14,130 L138,96 L286,116" fill="none" stroke="var(--blue-mid)" stroke-width="1.5" opacity=".85"/>
+        <path d="M14,130 L138,164 L286,144" fill="none" stroke="var(--blue-mid)" stroke-width="1.5" opacity=".85"/>
+        <path d="M286,116 L366,130" fill="none" stroke="var(--blue-mid)" stroke-width="1.4" opacity=".38" stroke-dasharray="4 4"/>
+        <path d="M286,144 L366,130" fill="none" stroke="var(--blue-mid)" stroke-width="1.4" opacity=".38" stroke-dasharray="4 4"/>
+        <circle cx="196" cy="130" r="92" fill="none" stroke="var(--blue)" stroke-width="1.6"/>
+        <path d="M266.5,70.9 A92,92 0 0 1 266.5,189.1" fill="none" stroke="var(--blue)" stroke-width="5"/>
+        <path d="M116,94 Q84,130 116,166" fill="none" stroke="var(--blue)" stroke-width="1.8"/>
+        <line x1="130" y1="94" x2="130" y2="112" stroke="var(--blue)" stroke-width="3.5"/>
+        <line x1="130" y1="148" x2="130" y2="166" stroke="var(--blue)" stroke-width="3.5"/>
+        <ellipse cx="141" cy="130" rx="6" ry="32" fill="#DCEAF8" stroke="var(--blue)" stroke-width="1.8"/>
+        <rect x="282" y="110" width="10" height="40" rx="5" fill="var(--blue)" opacity=".2"/>
+        <circle cx="366" cy="130" r="4" fill="var(--blue)" opacity=".4"/>
+        <circle cx="14" cy="130" r="4" fill="var(--blue)"/>
+        <line x1="141" y1="32" x2="141" y2="56" stroke="var(--text-muted)" stroke-width=".8"/>
+        <line x1="288" y1="152" x2="288" y2="240" stroke="var(--text-muted)" stroke-width=".8"/>
+        <text x="141" y="24" font-size="12" fill="var(--text-soft)" text-anchor="middle">cristallin rigide</text>
+        <text x="288" y="256" font-size="12.5" fill="var(--blue)" font-weight="700" text-anchor="middle">image floue</text>
+        <text x="8" y="112" font-size="12" fill="var(--text-soft)">objet proche</text>
+      </svg>
+      <p class="diagram-cap"><strong>Après 45 ans.</strong> Le cristallin a durci. Il ne se bombe plus assez, l'image se forme en arrière de la rétine, et la vision de près devient floue.</p>
+    </div>
+  </div>
+</figure>
+
         <p>La presbytie progresse jusqu'à environ 65 ans, moment où le cristallin est totalement rigide. Le moment de la correction chirurgicale se discute au cas par cas, selon l'âge, la progression de la presbytie et les besoins visuels du quotidien.</p>
 
         <h3>Ce que ça change au quotidien</h3>
