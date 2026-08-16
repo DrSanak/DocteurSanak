@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chirurgie de la presbytie à Bruxelles · Dr Serdal Sanak</title>
 <meta name="description" content="Chirurgie de la presbytie à Bruxelles : PRELEX, monovision laser, implants trifocaux. Quelle technique selon l'âge et le profil. Dr Serdal Sanak, CHIREC Delta.">
-<link rel="stylesheet" href="/css/base.css?v=20260816d">
+<link rel="stylesheet" href="/css/base.css?v=20260816e">
 <style>
 /* Refonte visuelle — essai sur cette page */
 .prose p, .prose li{font-size:17px;line-height:1.75;}
@@ -15,6 +15,19 @@
 .section-warm{background:#fff;}
 .prose .section-title + p{font-size:20px;line-height:1.6;color:var(--text-dark);margin-bottom:18px;}
 .figure-key{margin:0;}
+/* Chaque section s'ouvre sur un filet bleu, un numéro et son intitulé */
+body{counter-reset:sec;}
+.prose > .section-eyebrow{
+  border-top:1.5px solid var(--blue);padding-top:20px;margin-bottom:16px;
+  font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--blue);
+}
+.prose > .section-eyebrow::before{
+  counter-increment:sec;content:counter(sec,decimal-leading-zero);
+  color:var(--text-muted);font-weight:500;margin-right:12px;
+}
+.section{padding-top:40px;}
+.prose > .cta-eyebrow{border-top:0;padding-top:0;}
+.prose > .cta-eyebrow::before{content:none;}
 .two-col.reverse{grid-template-columns:1fr 1.5fr;}
 .two-col.reverse > .prose{order:2;}
 .two-col.reverse > :not(.prose){order:1;}
@@ -393,7 +406,7 @@
   <div class="inner">
     <div class="two-col">
       <div class="prose fade-in">
-        <div class="section-eyebrow">UNE ÉTAPE SIMPLE POUR AVANCER</div>
+        <div class="section-eyebrow cta-eyebrow">UNE ÉTAPE SIMPLE POUR AVANCER</div>
         <div style="background:var(--warm);border-radius:var(--radius-lg);padding:24px 28px;margin-top:16px;border:.5px solid var(--border);">
           <p>Si vous reconnaissez certains de ces symptômes (le bras trop court, les lunettes qu'on cherche partout, la fatigue en fin de journée), une consultation de dépistage permet d'orienter vers la solution la mieux adaptée à votre profil : lunettes de lecture, monovision par laser, ou implants multifocaux selon votre âge, votre réfraction et vos attentes.</p>
         </div>
