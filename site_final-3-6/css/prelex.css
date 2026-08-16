@@ -195,3 +195,12 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 .page-toc a:hover{color:var(--blue);text-decoration:underline;text-decoration-color:rgba(20,61,107,.35);text-underline-offset:3px;}
 @media(max-width:768px){.page-toc ol{columns:1;}.page-toc{padding:20px 22px;}}
 .section-title[id],h2[id]{scroll-margin-top:calc(var(--nav-h) + 24px);}
+
+/* Schémas */
+.diagram{margin:30px 0 26px;padding:0;}
+.diagram-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;}
+.diagram svg{width:100%;height:auto;display:block;}
+.diagram svg text{font-family:var(--font-sans);}
+.diagram-cap{font-size:14px;line-height:1.65;color:var(--text-mid);margin:6px 0 0;}
+.diagram-cap strong{color:var(--blue);}
+@media(max-width:820px){.diagram-grid{grid-template-columns:1fr;gap:26px;}}
