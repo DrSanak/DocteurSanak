@@ -111,9 +111,6 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 .quote-block{border-left:3px solid var(--blue);padding:16px 20px;background:var(--blue-light);border-radius:0 var(--radius) var(--radius) 0;margin:24px 0;}
 .quote-block p{font-family:var(--font-serif);font-size:16px;font-style:italic;color:var(--blue);line-height:1.65;margin:0;}
 .section-warm{background:var(--warm);}
-.persona-box{background:var(--warm);border-radius:var(--radius-lg);padding:28px 32px;border:.5px solid var(--border);margin-bottom:32px;}
-.persona-box p{font-size:15px;color:var(--text-mid);line-height:1.8;margin:0;}
-.persona-box p+p{margin-top:10px;}
 .refs{margin-top:40px;padding-top:20px;border-top:.5px solid var(--border);}
 .refs p{font-size:12px;color:var(--text-muted);font-weight:500;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;}
 .refs ol{list-style:decimal;padding-left:18px;}
