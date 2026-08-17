@@ -52,17 +52,149 @@
   }
  },
  "knowsAbout": [
-  "Chirurgie réfractive",
-  "Femto-LASIK",
-  "PKR (photokératectomie réfractive)",
-  "Implants ICL (Implantable Collamer Lens)",
-  "PRELEX (échange de cristallin clair)",
-  "Chirurgie de la cataracte",
-  "Presbytie",
-  "Myopie",
-  "Hypermétropie",
-  "Astigmatisme",
-  "Bilan préopératoire et topographie cornéenne"
+  {
+   "@type": "MedicalProcedure",
+   "name": "Refractieve chirurgie",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D054140"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q284411",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D054140"
+   ]
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "Femto-LASIK",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D020731"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q278846",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D020731"
+   ]
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "Fotorefractieve keratectomie (PRK)",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D018903"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q565832",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D018903"
+   ]
+  },
+  {
+   "@type": "MedicalDevice",
+   "name": "Intraoculaire lens",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D007910"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q32806",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D007910"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Presbyopie",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D011305"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q319595",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D011305"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Cataract",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D002386"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q127724",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D002386"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Bijziendheid",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D009216"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q168403",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D009216"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Verziendheid",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D006956"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q177254",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D006956"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Astigmatisme",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D001251"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q177895",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001251"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Keratoconus",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D007640"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q611984",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D007640"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Droge ogen",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D015352"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q18553790",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015352"
+   ]
+  }
  ],
  "medicalSpecialty": [
   "http://schema.org/Ophthalmology",
@@ -236,7 +368,35 @@
 }
 </script>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "MedicalWebPage", "datePublished": "2026-01-01", "dateModified": "2026-08-16", "name": "PRK laserchirurgie Brussel · Dr Serdal Sanak", "url": "https://docteursanak.com/nl/prk/", "description": "PRK in Brussel: werking, herstel, indicaties.", "inLanguage": "nl-BE", "author": {"@type": "Physician", "@id": "https://docteursanak.com/#physician", "name": "Dr Serdal Sanak", "medicalSpecialty": "Ophthalmology"}}
+{
+ "@context": "https://schema.org",
+ "@type": "MedicalWebPage",
+ "datePublished": "2026-01-01",
+ "dateModified": "2026-08-16",
+ "name": "PRK laserchirurgie Brussel · Dr Serdal Sanak",
+ "url": "https://docteursanak.com/nl/prk/",
+ "description": "PRK in Brussel: werking, herstel, indicaties.",
+ "inLanguage": "nl-BE",
+ "author": {
+  "@type": "Physician",
+  "@id": "https://docteursanak.com/#physician",
+  "name": "Dr Serdal Sanak",
+  "medicalSpecialty": "Ophthalmology"
+ },
+ "about": {
+  "@type": "MedicalProcedure",
+  "name": "Fotorefractieve keratectomie (PRK)",
+  "code": {
+   "@type": "MedicalCode",
+   "codingSystem": "MeSH",
+   "codeValue": "D018903"
+  },
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q565832",
+   "https://meshb.nlm.nih.gov/record/ui?ui=D018903"
+  ]
+ }
+}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is PRK veiliger dan Femto-LASIK?","acceptedAnswer":{"@type":"Answer","text":"Op zichzelf niet veiliger, maar beter geschikt voor bepaalde profielen. Ze wordt aanbevolen voor dunne hoornvliezen, contactsporten en bestaande droogheid."}},

@@ -50,17 +50,149 @@
   }
  },
  "knowsAbout": [
-  "Chirurgie réfractive",
-  "Femto-LASIK",
-  "PKR (photokératectomie réfractive)",
-  "Implants ICL (Implantable Collamer Lens)",
-  "PRELEX (échange de cristallin clair)",
-  "Chirurgie de la cataracte",
-  "Presbytie",
-  "Myopie",
-  "Hypermétropie",
-  "Astigmatisme",
-  "Bilan préopératoire et topographie cornéenne"
+  {
+   "@type": "MedicalProcedure",
+   "name": "Refractive surgery",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D054140"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q284411",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D054140"
+   ]
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "Femto-LASIK",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D020731"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q278846",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D020731"
+   ]
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "Photorefractive keratectomy (PRK)",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D018903"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q565832",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D018903"
+   ]
+  },
+  {
+   "@type": "MedicalDevice",
+   "name": "Intraocular lens",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D007910"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q32806",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D007910"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Presbyopia",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D011305"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q319595",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D011305"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Cataract",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D002386"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q127724",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D002386"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Myopia",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D009216"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q168403",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D009216"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Hyperopia",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D006956"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q177254",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D006956"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Astigmatism",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D001251"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q177895",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D001251"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Keratoconus",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D007640"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q611984",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D007640"
+   ]
+  },
+  {
+   "@type": "MedicalCondition",
+   "name": "Dry eye syndrome",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D015352"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q18553790",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015352"
+   ]
+  }
  ],
  "medicalSpecialty": [
   "http://schema.org/Ophthalmology",
@@ -274,7 +406,50 @@
 }
 </script>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "MedicalWebPage", "datePublished": "2026-08-14", "dateModified": "2026-08-16", "name": "Dry eye and refractive surgery — Dr Serdal Sanak", "url": "https://docteursanak.com/en/dry-eye-and-refractive-surgery/", "description": "Dry eye before refractive surgery: how common it is, screening, treating first, and choosing the technique.", "inLanguage": "en", "author": {"@type": "Physician", "@id": "https://docteursanak.com/#physician", "name": "Dr Serdal Sanak", "medicalSpecialty": "Ophthalmology"}}
+{
+ "@context": "https://schema.org",
+ "@type": "MedicalWebPage",
+ "datePublished": "2026-08-14",
+ "dateModified": "2026-08-16",
+ "name": "Dry eye and refractive surgery — Dr Serdal Sanak",
+ "url": "https://docteursanak.com/en/dry-eye-and-refractive-surgery/",
+ "description": "Dry eye before refractive surgery: how common it is, screening, treating first, and choosing the technique.",
+ "inLanguage": "en",
+ "author": {
+  "@type": "Physician",
+  "@id": "https://docteursanak.com/#physician",
+  "name": "Dr Serdal Sanak",
+  "medicalSpecialty": "Ophthalmology"
+ },
+ "about": [
+  {
+   "@type": "MedicalCondition",
+   "name": "Dry eye syndrome",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D015352"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q18553790",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D015352"
+   ]
+  },
+  {
+   "@type": "MedicalProcedure",
+   "name": "Refractive surgery",
+   "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "MeSH",
+    "codeValue": "D054140"
+   },
+   "sameAs": [
+    "https://www.wikidata.org/wiki/Q284411",
+    "https://meshb.nlm.nih.gov/record/ui?ui=D054140"
+   ]
+  }
+ ]
+}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "I have dry eyes, can I still have surgery?", "acceptedAnswer": {"@type": "Answer", "text": "In the great majority of cases, yes. Dry eye affects roughly four candidates in ten before any intervention. It changes the preparation and sometimes the choice of technique. The preoperative exam measures its severity and mechanism, treatment is started, then the measurements are repeated."}}, {"@type": "Question", "name": "Will laser surgery make my dryness permanent?", "acceptedAnswer": {"@type": "Answer", "text": "Discomfort increases over the first months, then settles. In a randomised trial comparing LASIK and PRK within the same patients, reported dryness had returned to its preoperative level at 12 months. Chronic dry eye affects a small minority of patients."}}, {"@type": "Question", "name": "Which technique should I choose with dry eyes?", "acceptedAnswer": {"@type": "Answer", "text": "Severity measured at the preoperative exam guides the choice. Mild dryness, once treated, leaves all options open. Moderate dryness points towards PRK. Marked dryness brings the ICL into discussion, since it preserves corneal innervation."}}, {"@type": "Question", "name": "Should dryness be treated before surgery?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and this is set out in the ASCRS preoperative algorithm. Treatment improves postoperative comfort and makes the measurements used for surgical planning more reliable, since an irregular surface distorts topography and keratometry."}}, {"@type": "Question", "name": "Are my contact lenses responsible for my dry eyes?", "acceptedAnswer": {"@type": "Answer", "text": "They often contribute. Dry eye affected 54.1% of contact lens wearers against 35.2% of non-wearers in a series of 1,849 refractive surgery candidates."}}, {"@type": "Question", "name": "Do ICL implants avoid dry eye completely?", "acceptedAnswer": {"@type": "Answer", "text": "They reduce it. A series of 117 eyes showed a deterioration in surface parameters at 1 month with partial recovery at 3 months. At 5 to 15 years, tear film metrics in ICL patients match those of unoperated controls."}}]}
