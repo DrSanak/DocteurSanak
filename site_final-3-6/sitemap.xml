@@ -571,14 +571,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://docteursanak.com/tr/</loc>
-    <lastmod>2026-08-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://docteursanak.com/tr/"/>
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/"/>
-    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
 </urlset>
