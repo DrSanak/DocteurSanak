@@ -104,10 +104,10 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 .card-item-text{font-size:13px;color:var(--text-soft);line-height:1.6;}
 .highlight-box{background:var(--blue);border-radius:var(--radius-lg);padding:28px 32px;color:var(--white);}
 .highlight-box h3{font-family:var(--font-serif);font-size:20px;font-weight:400;margin-bottom:14px;}
-.highlight-box p{font-size:13px;color:rgba(255,255,255,.82);line-height:1.75;margin-bottom:0;}
+.highlight-box p{font-size:15px;color:rgba(255,255,255,.82);line-height:1.75;margin-bottom:0;}
 .highlight-box p+p{margin-top:12px;}
 .info-box{background:var(--blue-light);border:.5px solid var(--blue-border);border-radius:var(--radius);padding:18px 22px;margin-top:16px;}
-.info-box p{font-size:13px;color:var(--blue);line-height:1.7;margin:0;}
+.info-box p{font-size:15px;color:var(--blue);line-height:1.7;margin:0;}
 .quote-block{border-left:3px solid var(--blue);padding:16px 20px;background:var(--blue-light);border-radius:0 var(--radius) var(--radius) 0;margin:24px 0;}
 .quote-block p{font-family:var(--font-serif);font-size:16px;font-style:italic;color:var(--blue);line-height:1.65;margin:0;}
 .section-warm{background:var(--warm);}
@@ -167,14 +167,17 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 .lang-switcher .lang-sep{color:var(--text-muted);font-size:11px;padding:0 1px;}
 @media(max-width:960px){.lang-switcher{display:none;}}
 
-/* ── Liens dans le corps de texte : couleur du texte, soulignement discret ── */
-.prose a:not(.sup-ref):not(.card-item),.qa a,.sidenote a,.page-toc a,td a,.faq a{
-  color:inherit;text-decoration:underline;text-decoration-thickness:1px;
-  text-underline-offset:3px;text-decoration-color:rgba(20,61,107,.25);
-  transition:color .15s,text-decoration-color .15s;
+/* ── Liens dans le corps de texte : noir souligne, sur tout le site ── */
+a{color:inherit;}
+.prose a:not(.sup-ref):not(.card-item),.qa a,.sidenote a,.page-toc a,td a,.faq a,
+.about-qui-text a,.about-who a,.info-box a,.quote-block p a,.figure-key a{
+  color:var(--text-dark);text-decoration:underline;text-decoration-thickness:1px;
+  text-underline-offset:3px;text-decoration-color:var(--text-dark);
+  transition:text-decoration-thickness .15s;
 }
-.prose a:not(.sup-ref):not(.card-item):hover,.qa a:hover,.sidenote a:hover,td a:hover{
-  color:var(--blue);text-decoration-color:var(--blue);
+.prose a:not(.sup-ref):not(.card-item):hover,.qa a:hover,.sidenote a:hover,td a:hover,
+.about-qui-text a:hover,.about-who a:hover,.info-box a:hover,.quote-block p a:hover{
+  color:var(--text-dark);text-decoration-thickness:2px;
 }
 /* ── Liens sur fond bleu foncé : clairs et lisibles ── */
 .highlight-box a{color:#fff;text-decoration:underline;text-decoration-thickness:1px;
@@ -203,12 +206,14 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 
 .diagram-solo{margin:22px 0 0;}
 .diagram-solo .diagram-grid{grid-template-columns:1fr;gap:0;}
-.diagram-solo .diagram-cap{font-size:13.5px;}
+.diagram-solo .diagram-cap{font-size:14px;}
 
 /* ── Échelle typographique commune à tout le site ────────────────────── */
 .prose p,.prose li{font-size:17px;line-height:1.75;}
-.prose .section-title + p{font-size:20px;line-height:1.6;color:var(--text-dark);margin-bottom:18px;}
+.prose .section-title + p{font-size:17px;line-height:1.75;color:var(--text-dark);margin-bottom:18px;}
 .prose h3{font-size:19px;margin-top:32px;}
+/* Titre d'encadre bleu fonce : lisible sur son fond (sinon .prose h3 le peint en bleu) */
+.prose .highlight-box h3{color:var(--white);margin-top:0;}
 .section{padding-top:40px;}
 .section-warm + .section{padding-top:8px;}
 :root{--radius:8px;--radius-lg:8px;}
@@ -219,14 +224,14 @@ body{font-family:var(--font-sans);color:var(--text-dark);background:var(--white)
 .prose > .cta-eyebrow{border-top:0;padding-top:0;}
 /* Note de marge */
 .sidenote{border-left:2px solid var(--border);padding-left:22px;}
-.sidenote h3{font-family:var(--font-serif);font-size:18px;font-weight:400;color:var(--blue);margin:0 0 10px;}
+.sidenote h3{font-family:var(--font-serif);font-size:17px;font-weight:400;color:var(--blue);margin:0 0 10px;}
 .sidenote p{font-size:15px;color:var(--text-mid);line-height:1.7;margin:0 0 10px;}
 .sidenote p:last-child{margin-bottom:0;}
 /* Question / réponse au filet */
 .qa{border-top:.5px solid var(--border);padding-top:20px;margin-top:20px;}
 .qa:first-of-type{border-top:0;padding-top:0;}
 .qa p:first-child{font-size:17px;color:var(--blue);margin-bottom:6px;}
-.qa p+p{font-size:16px;color:var(--text-mid);line-height:1.75;margin:0;}
+.qa p+p{font-size:17px;color:var(--text-mid);line-height:1.75;margin:0;}
 /* Section des questions fréquentes */
 .section-faq{background:var(--blue-light);padding-top:48px;padding-bottom:48px;}
 .section-faq .qa{border-top:.5px solid #C6DCF0;padding-top:22px;margin-top:22px;}
