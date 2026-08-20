@@ -10,3 +10,21 @@ if(menuBtn&&mobileMenu){
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting){el.target.classList.add('visible');obs.unobserve(el.target);}});},{threshold:.1});
 document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 document.querySelectorAll('.hero-page .fade-in').forEach(el=>setTimeout(()=>el.classList.add('visible'),80));
+
+/* Menu mobile : un seul volet ouvert a la fois */
+var mmBtns=document.querySelectorAll('.mobile-menu button.mobile-section-title');
+mmBtns.forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var panel=document.getElementById(btn.getAttribute('aria-controls'));
+    var open=btn.getAttribute('aria-expanded')==='true';
+    mmBtns.forEach(function(other){
+      if(other!==btn){
+        other.setAttribute('aria-expanded','false');
+        var p=document.getElementById(other.getAttribute('aria-controls'));
+        if(p){p.hidden=true;}
+      }
+    });
+    btn.setAttribute('aria-expanded',open?'false':'true');
+    if(panel){panel.hidden=open;}
+  });
+});

@@ -273,6 +273,25 @@ a{color:inherit;}
 .diagram-solo .diagram-grid{grid-template-columns:1fr;gap:0;}
 .diagram-solo .diagram-cap{font-size:14px;}
 
+/* ── Menu mobile : sections repliables ───────────────────────────────── */
+.mobile-links[hidden]{display:none;}
+button.mobile-section-title{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  width:100%;border-left:0;border-right:0;border-radius:0;
+  font-family:inherit;text-align:left;cursor:pointer;
+  -webkit-appearance:none;appearance:none;
+}
+button.mobile-section-title::after{
+  content:"";width:7px;height:7px;flex-shrink:0;margin-top:-3px;
+  border-right:1.5px solid var(--blue);border-bottom:1.5px solid var(--blue);
+  transform:rotate(45deg);transition:transform .2s ease;
+}
+button.mobile-section-title[aria-expanded="true"]::after{transform:rotate(-135deg);margin-top:2px;}
+button.mobile-section-title:focus-visible{outline:2px solid var(--blue);outline-offset:-2px;}
+.mobile-section .mobile-links{padding-bottom:10px;}
+.mobile-direct-end{padding-top:4px;}
+.mobile-section-lang{margin-top:4px;}
+
 /* ── Échelle typographique commune à tout le site ────────────────────── */
 .prose p,.prose li{font-size:17px;line-height:1.75;}
 .prose .section-title + p{font-size:17px;line-height:1.75;color:var(--text-dark);margin-bottom:18px;}
