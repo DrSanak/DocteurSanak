@@ -75,6 +75,7 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 
 ### Pages informatives
 - https://docteursanak.com/bilan/ — Bilan préopératoire
+- https://docteursanak.com/bilan/questionnaire/ — Questionnaire pré-opératoire à remplir avant le bilan (réponses transmises au Dr Sanak, rien n'est conservé sur le site)
 - https://docteursanak.com/tarifs/ — Tarifs et modalités financières
 - https://docteursanak.com/risques-laser/ — Effets secondaires et risques de la chirurgie laser
 - https://docteursanak.com/pkr-vs-femtolasik/ — Comparatif PKR vs Femto-LASIK
