@@ -97,7 +97,7 @@ export default {
     headlights: { label: 'How do you perceive headlights at night today?', options: { ok: 'no problem', some: 'somewhat dazzling', very: 'very dazzling' } },
     work_env: { label: 'You work mostly', options: { bright: 'in a bright office', dim: 'in low lighting', outdoor: 'outdoors', varies: 'it varies' } },
     progressives: { label: 'Have you ever worn progressive glasses or multifocal lenses?', options: { ok: 'yes, comfortably', never_used_to: 'yes, never got used to them', no: 'no' } },
-    temperament: { label: 'You recognise yourself most in', options: { adapt: 'I adapt quickly to change', time: 'I need a little time', detail: 'I notice the smallest detail straight away' } },
+    temperament: { label: 'You recognise yourself most in', options: { adapt: 'I adapt quickly to change', time: 'I take a little time', detail: 'I notice the smallest detail straight away' } },
     night_vs_read: { label: 'Between very sharp night vision and very fine reading, which would you put first?', options: { night: 'night vision', read: 'fine reading', dk: 'I don’t know' } },
     entourage: { label: 'Has someone around you had the operation? Did their experience mostly reassure or worry you?', options: { no: 'no, nobody', reassured: 'yes, mostly reassured', worried: 'yes, mostly worried', mixed: 'yes, both' } },
     entourage_detail: { label: 'A few words if you wish' },

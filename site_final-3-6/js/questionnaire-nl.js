@@ -97,7 +97,7 @@ export default {
     headlights: { label: 'Hoe ervaart u vandaag de koplampen ’s nachts?', options: { ok: 'zonder probleem', some: 'wat verblindend', very: 'sterk verblindend' } },
     work_env: { label: 'U werkt vooral', options: { bright: 'in een goed verlicht kantoor', dim: 'bij weinig licht', outdoor: 'buiten', varies: 'dat wisselt' } },
     progressives: { label: 'Heeft u al een multifocale bril of multifocale lenzen gedragen?', options: { ok: 'ja, zonder moeite', never_used_to: 'ja, nooit aan gewend', no: 'nee' } },
-    temperament: { label: 'U herkent zich het meest in', options: { adapt: 'ik pas me snel aan een verandering aan', time: 'ik heb wat tijd nodig', detail: 'ik merk meteen het kleinste detail op' } },
+    temperament: { label: 'U herkent zich het meest in', options: { adapt: 'ik pas me snel aan een verandering aan', time: 'het duurt bij mij even', detail: 'ik merk meteen het kleinste detail op' } },
     night_vs_read: { label: 'Tussen een heel scherp nachtzicht en heel fijn lezen, wat zet u op de eerste plaats?', options: { night: 'nachtzicht', read: 'fijn lezen', dk: 'ik weet het niet' } },
     entourage: { label: 'Is iemand uit uw omgeving geopereerd? Heeft die ervaring u eerder gerustgesteld of verontrust?', options: { no: 'nee, niemand', reassured: 'ja, eerder gerustgesteld', worried: 'ja, eerder verontrust', mixed: 'ja, allebei' } },
     entourage_detail: { label: 'Enkele woorden als u wilt' },
