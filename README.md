@@ -1,6 +1,6 @@
 # docteursanak.com
 
-Site statique déployé sur Netlify (base directory `site_final-3-6`, publish `.`). Une seule fonction serverless : le questionnaire pré-opératoire.
+Site statique déployé sur Netlify. Dossier publié : `site_final-3-6/` (réglé dans `netlify.toml` à la racine). Une seule fonction serverless : le questionnaire pré-opératoire, dans `netlify/functions/` à la racine, hors du dossier publié.
 
 ## Questionnaire pré-opératoire
 
@@ -8,10 +8,10 @@ Pages : `/bilan/questionnaire/`, `/nl/vooronderzoek/vragenlijst/`, `/en/preopera
 
 | Fichier | Rôle |
 |---|---|
-| `js/questionnaire-schema.js` | Étapes, questions, codes des options, libellés FR. Partagé entre le navigateur et la fonction. |
-| `js/questionnaire-nl.js`, `js/questionnaire-en.js` | Libellés NL et EN (mêmes codes). |
-| `js/questionnaire.js` | Moteur du formulaire : une étape par écran, aiguillage par l'âge, consigne lentilles, écran de fin, fichier `.ics`. |
-| `css/questionnaire.css` | Styles, chargés uniquement sur ces pages. |
+| `site_final-3-6/js/questionnaire-schema.js` | Étapes, questions, codes des options, libellés FR. Partagé entre le navigateur et la fonction. |
+| `site_final-3-6/js/questionnaire-nl.js`, `questionnaire-en.js` | Libellés NL et EN (mêmes codes). |
+| `site_final-3-6/js/questionnaire.js` | Moteur du formulaire : une étape par écran, aiguillage par l'âge, consigne lentilles, écran de fin, fichier `.ics`. |
+| `site_final-3-6/css/questionnaire.css` | Styles, chargés uniquement sur ces pages. |
 | `netlify/functions/questionnaire.js` | Réception : antispam, limite d'envois, validation, score SPEED, drapeaux, PDF, envoi par mail. |
 | `netlify/functions/lib/` | `validate.js`, `analyse.js`, `pdf.js`, `logo.js`. |
 
@@ -30,7 +30,7 @@ Rien n'est stocké : la fonction génère le PDF en mémoire, l'envoie, puis ré
 
 - Functions > Region : choisir une région européenne (`eu-central-1` Francfort ou `eu-west-1` Irlande). Le réglage n'est pas disponible sur tous les plans ; à vérifier.
 - Le compteur d'envois utilise Netlify Blobs (store lié au déploiement, région `eu-central-1`). Il ne contient que des empreintes SHA-256 salées, effacées après deux heures.
-- `netlify.toml` renvoie 404 sur `/netlify/*`, `/node_modules/*`, `/package.json`, `/package-lock.json` et `/README.md`, car le dossier publié est la racine.
+- La fonction, `package.json` et `node_modules` sont à la racine du dépôt, en dehors du dossier publié : rien de tout cela n'est servi.
 
 ### Brevo
 
@@ -41,8 +41,8 @@ Rien n'est stocké : la fonction génère le PDF en mémoire, l'envoie, puis ré
 ### Test local
 
 ```
-cd site_final-3-6 && npm install
-node ../scripts/questionnaire-dev-server.mjs
+npm install
+node scripts/questionnaire-dev-server.mjs
 ```
 
 Le serveur sert le site sur `http://localhost:8765` et exécute la fonction. Sans `BREVO_API_KEY`, le mail n'est pas envoyé : le PDF est écrit dans `scripts/out/`. Avec les quatre variables définies dans l'environnement, l'envoi réel est effectué. `netlify dev` fonctionne aussi, avec les variables dans un fichier `.env`.

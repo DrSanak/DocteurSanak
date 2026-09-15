@@ -1,40 +1,6 @@
 [build]
   publish = "."
 
-# Fonction du questionnaire préopératoire (netlify/functions/questionnaire.js).
-# Le bundler esbuild permet d'importer js/questionnaire-schema.js, partagé avec le navigateur.
-[functions]
-  directory = "netlify/functions"
-  node_bundler = "esbuild"
-
-# Le dossier publié est la racine : le code de la fonction et les dépendances
-# ne doivent pas être servis comme fichiers statiques.
-[[redirects]]
-  from = "/netlify/*"
-  to = "/"
-  status = 404
-  force = true
-[[redirects]]
-  from = "/node_modules/*"
-  to = "/"
-  status = 404
-  force = true
-[[redirects]]
-  from = "/package.json"
-  to = "/"
-  status = 404
-  force = true
-[[redirects]]
-  from = "/package-lock.json"
-  to = "/"
-  status = 404
-  force = true
-[[redirects]]
-  from = "/README.md"
-  to = "/"
-  status = 404
-  force = true
-
 # Security headers applied to all responses.
 [[headers]]
   for = "/*"

@@ -1,0 +1,10 @@
+# Configuration de build. Les en-têtes et redirections restent dans
+# site_final-3-6/netlify.toml et site_final-3-6/_redirects (dossier publié).
+[build]
+  publish = "site_final-3-6"
+
+# Fonction du questionnaire préopératoire, hors du dossier publié.
+# esbuild permet d'importer site_final-3-6/js/questionnaire-schema.js, partagé avec le navigateur.
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

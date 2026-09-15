@@ -2,7 +2,7 @@
    du PDF (Helvetica) : les réponses libres sont reproduites mot pour mot, seuls
    les caractères hors Latin-1 (emoji, etc.) sont remplacés par « ? ». */
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
-import { STEPS, SITES, fieldById, optionLabel } from '../../../js/questionnaire-schema.js';
+import { STEPS, SITES, fieldById, optionLabel } from '../../../site_final-3-6/js/questionnaire-schema.js';
 import { LOGO_PNG_BASE64 } from './logo.js';
 
 const A4 = [595.28, 841.89];

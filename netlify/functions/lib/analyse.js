@@ -1,6 +1,6 @@
 /* Score SPEED, drapeaux et grille d'orientation. Calculés uniquement ici,
    côté fonction ; rien de tout cela n'est renvoyé au navigateur. */
-import { LENS_STOP, daysUntil } from '../../../js/questionnaire-schema.js';
+import { LENS_STOP, daysUntil } from '../../../site_final-3-6/js/questionnaire-schema.js';
 
 export const SPEED_MAX = 28;
 

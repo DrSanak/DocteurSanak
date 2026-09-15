@@ -4,14 +4,15 @@
    envoyé : le PDF est écrit dans scripts/out/ à la place.
 
    Usage : node scripts/questionnaire-dev-server.mjs
-   (npm install doit avoir été lancé dans site_final-3-6/) */
+   (npm install doit avoir été lancé à la racine du dépôt) */
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.join(HERE, '..', 'site_final-3-6');
+const REPO = path.join(HERE, '..');
+const ROOT = path.join(REPO, 'site_final-3-6');
 const OUT = path.join(HERE, 'out');
 const PORT = Number(process.env.PORT || 8765);
 
@@ -32,7 +33,7 @@ if (!process.env.BREVO_API_KEY) {
   };
 }
 
-const fn = (await import(path.join(ROOT, 'netlify/functions/questionnaire.js'))).default;
+const fn = (await import(path.join(REPO, 'netlify/functions/questionnaire.js'))).default;
 const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.webp': 'image/webp', '.woff2': 'font/woff2', '.jpg': 'image/jpeg', '.png': 'image/png', '.xml': 'application/xml', '.txt': 'text/plain' };
 
 http.createServer(async (req, res) => {
