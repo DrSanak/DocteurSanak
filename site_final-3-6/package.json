@@ -1,0 +1,11 @@
+{
+  "name": "docteursanak-site",
+  "private": true,
+  "description": "Site docteursanak.com. Les dépendances servent uniquement à la fonction Netlify du questionnaire préopératoire.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@netlify/blobs": "^8.2.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
