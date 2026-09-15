@@ -70,7 +70,7 @@ function labelNode(field, tag, forId) {
 }
 
 function renderField(field) {
-  const wrap = el(field.type === 'radio' || field.type === 'checks' ? 'fieldset' : 'div', { class: 'q-field', 'data-field': field.id });
+  const wrap = el('div', { class: 'q-field', 'data-field': field.id });
   if (field.sub && !field.heading) wrap.classList.add('q-field--sub');
   if (field.heading) wrap.appendChild(el('div', { class: 'q-group-title', text: tf(field, 'heading') }));
   const help = tf(field, 'help');
@@ -95,11 +95,13 @@ function renderField(field) {
   }
 
   if (field.type === 'radio' || field.type === 'checks') {
-    const legendText = field.sub ? tf(field, 'sub') : null;
-    if (legendText) wrap.appendChild(el('legend', { class: 'q-sub-label', text: legendText }));
-    else wrap.appendChild(labelNode(field, 'legend'));
+    const labId = 'q-lab-' + field.id;
+    wrap.setAttribute('role', 'group');
+    wrap.setAttribute('aria-labelledby', labId);
+    if (field.sub) wrap.appendChild(el('div', { class: 'q-sub-label', id: labId, text: tf(field, 'sub') }));
+    else { const l = labelNode(field, 'div'); l.id = labId; wrap.appendChild(l); }
     if (help) wrap.appendChild(el('p', { class: 'q-help', text: help }));
-    const grid = el('div', { class: 'q-options' + (field.cols ? ' cols-' + field.cols : '') });
+    const grid = el('div', { class: 'q-options' + (field.cols ? ' cols-' + field.cols : '') + (field.keep ? ' keep' : '') });
     for (const o of field.options) {
       const input = el('input', { type: field.type === 'radio' ? 'radio' : 'checkbox', name: field.id, value: o[0] });
       grid.appendChild(el('label', { class: 'q-opt' + (field.type === 'checks' ? ' is-check' : '') }, [input, el('span', { text: to(field, o[0]) })]));
@@ -162,25 +164,27 @@ function rankItem(field, code) {
     if (e.target.closest('button')) return;
     const list = li.parentNode;
     li.classList.add('dragging');
-    li.setPointerCapture(e.pointerId);
+    try { li.setPointerCapture(e.pointerId); } catch (err) { /* capture facultative */ }
+    e.preventDefault();
     const move = (ev) => {
       const items = Array.from(list.children).filter((x) => x !== li);
       for (const other of items) {
         const r = other.getBoundingClientRect();
-        if (ev.clientY < r.top + r.height / 2 && other.compareDocumentPosition(li) & Node.DOCUMENT_POSITION_FOLLOWING) { list.insertBefore(li, other); renumber(list); return; }
-        if (ev.clientY > r.top + r.height / 2 && other.compareDocumentPosition(li) & Node.DOCUMENT_POSITION_PRECEDING) { list.insertBefore(li, other.nextSibling); renumber(list); return; }
+        const liFollows = !!(other.compareDocumentPosition(li) & Node.DOCUMENT_POSITION_FOLLOWING);
+        if (liFollows && ev.clientY < r.top + r.height / 2) { list.insertBefore(li, other); renumber(list); return; }
+        if (!liFollows && ev.clientY > r.top + r.height / 2) { list.insertBefore(li, other.nextSibling); renumber(list); return; }
       }
     };
     const end = () => {
       li.classList.remove('dragging');
-      li.removeEventListener('pointermove', move);
-      li.removeEventListener('pointerup', end);
-      li.removeEventListener('pointercancel', end);
+      document.removeEventListener('pointermove', move);
+      document.removeEventListener('pointerup', end);
+      document.removeEventListener('pointercancel', end);
       rankChanged(list, field);
     };
-    li.addEventListener('pointermove', move);
-    li.addEventListener('pointerup', end);
-    li.addEventListener('pointercancel', end);
+    document.addEventListener('pointermove', move);
+    document.addEventListener('pointerup', end);
+    document.addEventListener('pointercancel', end);
   });
   return li;
 }
@@ -232,6 +236,7 @@ function onChange(e) {
   readField(field, wrap);
   if (field.type === 'radio' || field.type === 'checks' || field.type === 'consent') paintOptions(wrap);
   if (wrap.classList.contains('has-error')) wrap.classList.remove('has-error');
+  if (!form.querySelector('.q-field.has-error')) alertEl.hidden = true;
   applyConds();
 }
 

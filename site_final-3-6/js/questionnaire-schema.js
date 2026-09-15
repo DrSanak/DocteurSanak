@@ -26,7 +26,7 @@ export const LENS_STOP = { daily: 2, monthly: 2, toric: 7, rigid: 7, ortho: 7 };
 
 function speed(n, heading) {
   return [
-    { id: 's' + n + '_freq', type: 'radio', heading: heading, sub: 'À quelle fréquence ?', options: FREQ, required: true, cols: 2 },
+    { id: 's' + n + '_freq', type: 'radio', heading: heading, sub: 'À quelle fréquence ?', options: FREQ, required: true, cols: 2, keep: true },
     { id: 's' + n + '_sev', type: 'radio', sub: 'Quelle gêne cela représente-t-il ?', options: SEV, required: true },
   ];
 }

@@ -26,7 +26,7 @@
 .q-label{display:block;font-size:17px;line-height:1.5;color:var(--text-dark);margin-bottom:6px;}
 .q-label .q-req{color:var(--blue-mid);margin-left:3px;}
 .q-help{font-size:14px;line-height:1.6;color:var(--text-soft);margin:0 0 12px;}
-.q-group-title{font-size:15px;font-weight:600;color:var(--blue);margin:16px 0 8px;}
+.q-group-title{font-size:16px;font-weight:600;color:var(--blue);margin:0 0 10px;}
 .q-sub{margin-top:12px;}
 .q-sub-label{display:block;font-size:15px;color:var(--text-mid);margin-bottom:8px;}
 
@@ -102,10 +102,9 @@
 .q-hp{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;}
 
 @media(max-width:560px){
-  .q-options.cols-2,.q-options.cols-3{grid-template-columns:1fr;}
+  .q-options.cols-2:not(.keep),.q-options.cols-3{grid-template-columns:1fr;}
   .q-nav{flex-direction:column-reverse;align-items:stretch;}
   .q-btn{width:100%;}
-  .q-input.short{max-width:100%;}
 }
 @media(prefers-reduced-motion:reduce){.q-opt,.q-input,.q-btn,.q-progress-bar span{transition:none;}}
 .q-field.q-field--sub{border-top:0;padding-top:0;}
