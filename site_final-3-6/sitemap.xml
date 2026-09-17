@@ -357,7 +357,7 @@
   </url>
   <url>
     <loc>https://docteursanak.com/bilan/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/"/>
     <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/"/>
@@ -366,7 +366,7 @@
   </url>
   <url>
     <loc>https://docteursanak.com/nl/vooronderzoek/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/"/>
     <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/"/>
@@ -375,12 +375,42 @@
   </url>
   <url>
     <loc>https://docteursanak.com/en/preoperative-exam/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/"/>
     <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/bilan/questionnaire/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/questionnaire/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/vragenlijst/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/questionnaire/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/bilan/questionnaire/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/nl/vooronderzoek/vragenlijst/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/questionnaire/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/vragenlijst/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/questionnaire/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/bilan/questionnaire/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/en/preoperative-exam/questionnaire/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/bilan/questionnaire/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/vooronderzoek/vragenlijst/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/preoperative-exam/questionnaire/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/bilan/questionnaire/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://docteursanak.com/tarifs/</loc>
@@ -454,7 +484,7 @@
   </url>
   <url>
     <loc>https://docteursanak.com/confidentialite/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/confidentialite/"/>
     <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/privacy/"/>
@@ -463,7 +493,7 @@
   </url>
   <url>
     <loc>https://docteursanak.com/nl/privacy/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/confidentialite/"/>
     <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/privacy/"/>
@@ -472,7 +502,7 @@
   </url>
   <url>
     <loc>https://docteursanak.com/en/privacy/</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/confidentialite/"/>
     <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/privacy/"/>
