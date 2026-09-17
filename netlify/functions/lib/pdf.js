@@ -261,9 +261,7 @@ export async function buildPdf(input) {
   L.kv('Maladie de la cornée dans la famille', display('family_cornea', a), { color: a.family_cornea === 'yes' ? RED : TEXT });
   L.kv('Décollement, déchirure ou laser rétine', display('retina', a));
   L.kv('Décollement de rétine dans la famille', display('family_retina', a));
-  L.kv('Mouches volantes ou éclairs récents', display('floaters', a), { color: a.floaters === 'yes' ? RED : TEXT });
   L.kv('Sans lunettes, voit mieux', display('better_without', a));
-  L.kv('Correction recopiée', a.prescription || 'non renseignée');
   L.kv('Correction modifiée en 12 mois', display('rx_changed', a), { color: a.rx_changed === 'yes' ? RED : TEXT });
   L.kv('Traitements', display('meds', a));
   L.kv('Affections', display('conditions', a));
@@ -276,7 +274,7 @@ export async function buildPdf(input) {
     L.kv('Temps d’écran', display('screen', a));
     L.kv('Air sec ou climatisé', display('dry_air', a));
     L.kv('Larmoiement au vent, froid, écran', display('wind', a));
-    L.kv('Sport de contact ou aquatique', display('sports', a));
+    L.kv('Sport de contact', display('sports', a));
     L.kv('Poussière ou projections', display('dust', a));
     L.kv('Arrêt de travail envisageable', display('work_off', a));
   } else {

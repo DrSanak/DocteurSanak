@@ -74,9 +74,7 @@ export const STEPS = [
       { id: 'family_cornea', type: 'radio', label: 'Dans votre famille proche (parents, frères, sœurs, enfants), quelqu’un a-t-il une maladie de la cornée ?', help: 'Par exemple un kératocône, une cornée déformée, des lentilles rigides prescrites pour cette raison, une greffe de cornée, ou une chirurgie au laser refusée pour un problème de cornée.', options: YNDK, required: true, cols: 3 },
       { id: 'retina', type: 'radio', label: 'Avez-vous déjà eu un décollement de rétine, une déchirure de la rétine ou un traitement au laser de la rétine ?', options: YN, required: true, cols: 2 },
       { id: 'family_retina', type: 'radio', label: 'Quelqu’un de votre famille proche a-t-il eu un décollement de rétine ?', options: YNDK, required: true, cols: 3 },
-      { id: 'floaters', type: 'radio', label: 'Avez-vous remarqué récemment des mouches volantes nouvelles ou des éclairs lumineux ?', options: YN, required: true, cols: 2 },
       { id: 'better_without', type: 'radio', label: 'Sans lunettes, voyez-vous mieux de loin ou de près ?', options: [['far', 'de loin'], ['near', 'de près'], ['neither', 'ni l’un ni l’autre'], ['dk', 'je ne sais pas']], required: true, cols: 2 },
-      { id: 'prescription', type: 'text', label: 'Si vous avez votre ordonnance de lunettes sous la main, vous pouvez recopier la correction ici', optional: true, maxlen: 120 },
       { id: 'rx_changed', type: 'radio', label: 'Votre correction a-t-elle changé au cours des 12 derniers mois ?', options: YNDK, required: true, cols: 3 },
       { id: 'meds', type: 'checks', label: 'Prenez-vous un des traitements suivants ?', required: true, none: 'none', options: [
         ['isotretinoin', 'isotrétinoïne (Roaccutane)'], ['antihist', 'antihistaminiques réguliers'], ['antidep', 'antidépresseurs'], ['hormones', 'traitement hormonal ou contraception'], ['immuno', 'immunosuppresseurs ou cortisone'], ['none', 'aucun'],
@@ -99,7 +97,7 @@ export const STEPS = [
       { id: 'screen', type: 'radio', label: 'Temps d’écran par jour', options: [['lt2', 'moins de 2 h'], ['2-5', '2 à 5 h'], ['5-8', '5 à 8 h'], ['gt8', 'plus de 8 h']], required: true, cols: 2 },
       { id: 'dry_air', type: 'radio', label: 'Travaillez-vous dans un air sec ou climatisé ?', options: [['yes', 'oui'], ['no', 'non'], ['varies', 'cela varie']], required: true, cols: 3 },
       { id: 'wind', type: 'radio', label: 'Vos yeux larmoient-ils ou piquent-ils au vent, au froid ou devant un écran ?', options: [['never', 'jamais'], ['sometimes', 'parfois'], ['often', 'souvent']], required: true, cols: 3 },
-      { id: 'sports', type: 'checks', label: 'Pratiquez-vous un sport de contact ou aquatique ?', required: true, none: 'none', options: [['combat', 'sports de combat'], ['rugby_football', 'rugby ou football'], ['swim_dive', 'natation ou plongée'], ['none', 'aucun']] },
+      { id: 'sports', type: 'checks', label: 'Pratiquez-vous un sport de contact ?', required: true, none: 'none', options: [['combat', 'sports de combat'], ['rugby_football', 'rugby ou football'], ['none', 'aucun']] },
       { id: 'dust', type: 'radio', label: 'Votre métier vous expose-t-il à la poussière ou aux projections ?', options: YN, required: true, cols: 2 },
       { id: 'work_off', type: 'radio', label: 'Combien de jours d’arrêt de travail seraient envisageables après l’intervention ?', options: [['1-2', '1 à 2 jours'], ['week', 'une semaine'], ['more', 'plus']], required: true, cols: 3 },
       { id: 'night_drive', type: 'radio', label: 'Conduisez-vous la nuit ?', options: [['never', 'jamais'], ['rarely', 'rarement'], ['regularly', 'régulièrement'], ['often', 'souvent']], required: true, cols: 2 },

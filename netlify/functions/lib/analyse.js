@@ -34,7 +34,6 @@ export function analyse(a, branch, now) {
 
   if (score >= 12) red.push('Score SPEED de ' + score + ' sur 28 (12 ou plus)');
   if (a.pain === 'yes') red.push('Douleurs oculaires marquées sans cause trouvée');
-  if (a.floaters === 'yes') red.push('Mouches volantes nouvelles ou éclairs lumineux : examen du fond d’œil prioritaire');
   if (has(a.conditions, 'autoimmune')) red.push('Maladie auto-immune déclarée (Sjögren, polyarthrite, lupus)');
   if (has(a.meds, 'isotretinoin')) red.push('Isotrétinoïne (Roaccutane) en cours');
   if (has(a.conditions, 'rosacea')) red.push('Rosacée déclarée');
@@ -70,7 +69,7 @@ export function analyse(a, branch, now) {
     if (a.progressives === 'never_used_to') orientation.push(['Progressives jamais supportées', 'Signal défavorable pour multifocale']);
   }
   if (branch === 'A') {
-    if (Array.isArray(a.sports) && a.sports.some((s) => s !== 'none')) orientation.push(['Sport de contact ou aquatique', 'SMILE ou PRK plutôt que LASIK']);
+    if (Array.isArray(a.sports) && a.sports.some((s) => s !== 'none')) orientation.push(['Sport de contact', 'SMILE ou PRK plutôt que LASIK']);
     if (a.work_off === '1-2') orientation.push(['Arrêt de travail 1 à 2 jours seulement', 'LASIK ou SMILE plutôt que PRK']);
   }
   if (a.pregnancy === 'yes') orientation.push(['Projet de grossesse dans l’année', 'Reporter']);
