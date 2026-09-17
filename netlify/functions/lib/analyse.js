@@ -26,6 +26,20 @@ export function lensPlan(a, now) {
   return { days: days, label: days === 2 ? '48 heures' : 'une semaine', until: until, tooClose: until != null && until < days };
 }
 
+/* Ordre des priorités visuelles (loin, intermédiaire, près) déduit des
+   questions de situation et des activités, sans classement demandé au patient. */
+const ACTIVITY_DIST = { golf: 'far', tennis: 'far', bike: 'far', shooting: 'far', cinema: 'far', screen: 'mid', gaming: 'mid', diy: 'mid', reading: 'near', sewing: 'near', music: 'near' };
+export function derivePriorities(a) {
+  const pts = { far: 0, mid: 0, near: 0 };
+  for (const q of ['sunday', 'evening', 'occupation']) if (pts[a[q]] != null) pts[a[q]] += 1;
+  for (const act of (a.activities || [])) if (ACTIVITY_DIST[act]) pts[ACTIVITY_DIST[act]] += 1;
+  if (a.near_time === 'gt3') pts.near += 1;
+  if (a.near_time === 'lt1') pts.far += 1;
+  if (a.night_drive_b === 'often' || a.night_drive_b === 'regularly') pts.far += 1;
+  const order = ['far', 'mid', 'near'].sort((x, y) => pts[y] - pts[x]);
+  return { order: order, points: pts };
+}
+
 export function analyse(a, branch, now) {
   const score = speedScore(a);
   const red = [];
@@ -59,7 +73,8 @@ export function analyse(a, branch, now) {
   }
 
   /* Grille d'orientation : éléments à aborder en consultation. */
-  const first = Array.isArray(a.priorities) ? a.priorities[0] : null;
+  const prio = branch === 'B' ? derivePriorities(a) : null;
+  const first = prio && prio.points[prio.order[0]] > 0 ? prio.order[0] : null;
   if (branch === 'B') {
     if (a.night_drive_b === 'often' || a.headlights === 'very') orientation.push(['Conduite de nuit importante ou phares très éblouissants', 'Éviter la trifocale, discuter EDOF ou monofocale']);
     if (first === 'far' && a.near_time === 'lt1') orientation.push(['Priorité loin en premier, lecture peu fréquente', 'Monofocale ou EDOF']);
@@ -79,5 +94,5 @@ export function analyse(a, branch, now) {
     if (a.retina === 'yes' || a.family_retina === 'yes') orientation.push(['Antécédent rétinien personnel ou familial', 'Prudence CLE, avis rétine si doute']);
   }
 
-  return { score: score, level: speedLevel(score), red: red, orange: orange, orientation: orientation, lens: lens };
+  return { score: score, level: speedLevel(score), red: red, orange: orange, orientation: orientation, lens: lens, priorities: prio };
 }

@@ -87,7 +87,9 @@ export default {
     work_off: { label: 'Hoeveel dagen werkonderbreking zijn denkbaar na de ingreep?', options: { '1-2': '1 tot 2 dagen', week: 'een week', more: 'meer' } },
     night_drive: { label: 'Rijdt u ’s nachts met de auto?', options: { never: 'nooit', rarely: 'zelden', regularly: 'regelmatig', often: 'vaak' } },
 
-    priorities: { label: 'In welke situaties telt uw zicht het meest?', help: 'Rangschik van het belangrijkste naar het minst belangrijke. U kunt de regels verslepen of de pijltjes gebruiken.', options: { far: 'autorijden en buiten', mid: 'scherm, keuken, dashboard', near: 'lezen, telefoon, fijn werk' } },
+    sunday: { label: 'Een vrije zondag brengt u vooral door', options: { far: 'buiten, met wandelen, sport of autorijden', mid: 'met koken, klussen of achter de computer', near: 'met lezen, op de telefoon of met fijn werk' } },
+    evening: { label: '\u2019s Avonds doet u meestal', options: { far: 'televisie kijken of uitgaan', mid: 'computer, tablet of games', near: 'een boek, de telefoon of naaiwerk' } },
+    occupation: { label: 'In uw voornaamste bezigheden bent u vooral', options: { far: 'buiten of onderweg', mid: 'aan een bureau achter een scherm', near: 'bezig met precisiewerk of kleine letters' } },
     activities: { label: 'Uw activiteiten waarbij het zicht het meest telt', options: { reading: 'lezen', screen: 'scherm', golf: 'golf', tennis: 'tennis', bike: 'fietsen', shooting: 'schieten of jagen', diy: 'klussen', sewing: 'naaien', music: 'muziek van partituur', gaming: 'videogames', cinema: 'film', other: 'andere' } },
     near_time: { label: 'Tijd voor lezen of werk dichtbij per dag', options: { lt1: 'minder dan 1 u', '1-3': '1 tot 3 u', gt3: 'meer dan 3 u' } },
     night_drive_b: { label: 'Rijdt u ’s nachts met de auto?', options: { never: 'nooit', rarely: 'zelden', regularly: 'regelmatig', often: 'vaak, het is een belangrijk deel van mijn activiteit' } },

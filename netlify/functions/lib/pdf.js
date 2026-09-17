@@ -289,7 +289,13 @@ export async function buildPdf(input) {
   if (branch === 'A') {
     L.kv('Conduite de nuit', display('night_drive', a));
   } else {
-    L.kv('Priorités (classement)', display('priorities', a));
+    if (result.priorities) {
+      const P = result.priorities, N = { far: 'loin', mid: 'intermédiaire', near: 'près' };
+      L.kv('Priorités déduites', P.order.map((k) => N[k] + ' ' + P.points[k]).join('  ·  ') + '   (situations, activités, lecture, conduite de nuit)');
+    }
+    L.kv('Dimanche libre', display('sunday', a));
+    L.kv('Le soir', display('evening', a));
+    L.kv('Occupations principales', display('occupation', a));
     L.kv('Conduite de nuit', display('night_drive_b', a));
     L.kv('Phares la nuit', display('headlights', a));
     L.kv('Progressives ou multifocales', display('progressives', a));

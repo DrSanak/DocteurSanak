@@ -109,7 +109,9 @@ export const STEPS = [
     title: 'Votre vision au quotidien',
     intro: 'Il existe plusieurs façons de corriger la vue. Ces questions servent à choisir celle qui correspond à votre façon de vivre. Le choix final se fait en consultation, après examen.',
     fields: [
-      { id: 'priorities', type: 'rank', label: 'Dans quelles situations la vue compte-t-elle le plus pour vous ?', help: 'Classez de la plus importante à la moins importante. Vous pouvez glisser les lignes ou utiliser les flèches.', required: true, options: [['far', 'conduite et extérieur'], ['mid', 'écran, cuisine, tableau de bord'], ['near', 'lecture, téléphone, travaux fins']] },
+      { id: 'sunday', type: 'radio', label: 'Un dimanche libre, vous le passez plutôt', options: [['far', 'dehors, à marcher, à faire du sport ou à conduire'], ['mid', 'à cuisiner, bricoler ou devant l\u2019ordinateur'], ['near', 'à lire, sur le téléphone ou à des travaux minutieux']], required: true },
+      { id: 'evening', type: 'radio', label: 'Le soir, le plus souvent', options: [['far', 'télévision ou sortie'], ['mid', 'ordinateur, tablette ou jeux'], ['near', 'livre, téléphone ou couture']], required: true },
+      { id: 'occupation', type: 'radio', label: 'Dans vos occupations principales, vous êtes surtout', options: [['far', 'à l\u2019extérieur ou en déplacement'], ['mid', 'à un bureau devant un écran'], ['near', 'sur des tâches de précision ou des petits caractères']], required: true },
       { id: 'activities', type: 'checks', label: 'Vos activités où la vue compte le plus', required: true, cols: 2, options: [
         ['reading', 'lecture'], ['screen', 'écran'], ['golf', 'golf'], ['tennis', 'tennis'], ['bike', 'vélo'], ['shooting', 'tir ou chasse'], ['diy', 'bricolage'], ['sewing', 'couture'], ['music', 'musique sur partition'], ['gaming', 'jeux vidéo'], ['cinema', 'cinéma'], ['other', 'autre'],
       ] },

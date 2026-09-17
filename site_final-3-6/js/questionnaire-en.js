@@ -87,7 +87,9 @@ export default {
     work_off: { label: 'How many days off work would be workable after the procedure?', options: { '1-2': '1 to 2 days', week: 'one week', more: 'more' } },
     night_drive: { label: 'Do you drive at night?', options: { never: 'never', rarely: 'rarely', regularly: 'regularly', often: 'often' } },
 
-    priorities: { label: 'In which situations does your eyesight matter most to you?', help: 'Rank from most to least important. You can drag the rows or use the arrows.', options: { far: 'driving and outdoors', mid: 'screen, kitchen, dashboard', near: 'reading, phone, fine work' } },
+    sunday: { label: 'A free Sunday, you mostly spend it', options: { far: 'outdoors, walking, doing sport or driving', mid: 'cooking, doing DIY or at the computer', near: 'reading, on the phone or doing detailed work' } },
+    evening: { label: 'In the evening, most often', options: { far: 'television or going out', mid: 'computer, tablet or games', near: 'a book, the phone or sewing' } },
+    occupation: { label: 'In your main occupations, you are mostly', options: { far: 'outdoors or on the move', mid: 'at a desk in front of a screen', near: 'on precision tasks or small print' } },
     activities: { label: 'Your activities where eyesight matters most', options: { reading: 'reading', screen: 'screen', golf: 'golf', tennis: 'tennis', bike: 'cycling', shooting: 'shooting or hunting', diy: 'DIY', sewing: 'sewing', music: 'music from a score', gaming: 'video games', cinema: 'cinema', other: 'other' } },
     near_time: { label: 'Time spent reading or working up close per day', options: { lt1: 'less than 1 h', '1-3': '1 to 3 h', gt3: 'more than 3 h' } },
     night_drive_b: { label: 'Do you drive at night?', options: { never: 'never', rarely: 'rarely', regularly: 'regularly', often: 'often, it is a major part of my activity' } },
