@@ -74,7 +74,7 @@ export function analyse(a, branch, now) {
   }
   if (a.pregnancy === 'yes') orientation.push(['Projet de grossesse dans l’année', 'Reporter']);
   if (branch === 'B') {
-    if (a.better_without === 'near') orientation.push(['Voit mieux de près sans lunettes (myope)', 'Vérifier longueur axiale au bilan ; si supérieure à 26 mm et moins de 55 ans, ICL ou laser plutôt que CLE (risque rétinien)']);
+    if (a.better_without === 'near') orientation.push(['Voit mieux de près sans lunettes (myope)', 'Vérifier la longueur axiale au bilan ; si supérieure à 26 mm, risque rétinien accru, prudence avant CLE']);
     if (a.better_without === 'far') orientation.push(['Voit mieux de loin sans lunettes (hypermétrope) et presbyte', 'CLE, candidat favorable']);
     if (a.retina === 'yes' || a.family_retina === 'yes') orientation.push(['Antécédent rétinien personnel ou familial', 'Prudence CLE, avis rétine si doute']);
   }
