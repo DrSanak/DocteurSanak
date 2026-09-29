@@ -601,4 +601,34 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://docteursanak.com/dr-serdal-sanak/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/dr-serdal-sanak/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/nl/dr-serdal-sanak/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/dr-serdal-sanak/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/en/dr-serdal-sanak/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/dr-serdal-sanak/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/dr-serdal-sanak/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
