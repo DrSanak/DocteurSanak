@@ -10,6 +10,7 @@
 - Téléphone : +32 2 434 81 09
 - Site web : https://docteursanak.com
 - LinkedIn : https://www.linkedin.com/in/serdal-sanak-38556b157/
+- Page de parcours : https://docteursanak.com/dr-serdal-sanak/ (NL : /nl/dr-serdal-sanak/, EN : /en/dr-serdal-sanak/)
 - Rosa (prise de rendez-vous) : https://rosa.be/fr/hp/serdal-sanak/
 - Profil CHIREC : https://chirec.be/en/specialist/sanak
 - Doctena : https://www.doctena.be/fr/specialite/ophtalmologue/dr-serdal-sanak-1726498
@@ -18,7 +19,7 @@
 
 - Diplômé de l'Université libre de Bruxelles (ULB)
 - Formation au CHU de Liège et au CHIREC
-- Diplôme européen d'ophtalmologie, FEBO (European Board of Ophthalmology), obtenu en 2022
+- Diplôme européen d'ophtalmologie, FEBO (European Board of Ophthalmology)
 - Activité opératoire centrée sur la chirurgie réfractive et la cataracte
 - Double spécialisation : laser cornéen (Femto-LASIK, PKR) et chirurgie intraoculaire (ICL, PRELEX, cataracte)
 - Sociétés savantes : ESCRS (European Society of Cataract and Refractive Surgeons), SBO (Société belge d'ophtalmologie), SFO (Société française d'ophtalmologie), SAFIR (Société de l'association française des implants et de la chirurgie réfractive)
@@ -95,6 +96,7 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 - https://docteursanak.com/presbytie/ — Traitement de la presbytie à Bruxelles
 
 ### Pages informatives
+- https://docteursanak.com/dr-serdal-sanak/ — Parcours, titres et sociétés savantes du Dr Serdal Sanak
 - https://docteursanak.com/bilan/ — Bilan préopératoire
 - https://docteursanak.com/bilan/questionnaire/ — Questionnaire pré-opératoire à remplir avant le bilan (réponses transmises au Dr Sanak, rien n'est conservé sur le site)
 - https://docteursanak.com/tarifs/ — Tarifs et modalités financières
