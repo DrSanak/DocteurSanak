@@ -631,4 +631,34 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://docteursanak.com/questions-frequentes/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/questions-frequentes/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/veelgestelde-vragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/frequently-asked-questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/questions-frequentes/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/nl/veelgestelde-vragen/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/questions-frequentes/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/veelgestelde-vragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/frequently-asked-questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/questions-frequentes/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://docteursanak.com/en/frequently-asked-questions/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://docteursanak.com/questions-frequentes/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://docteursanak.com/nl/veelgestelde-vragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://docteursanak.com/en/frequently-asked-questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://docteursanak.com/questions-frequentes/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
