@@ -26,7 +26,6 @@
 - Double spécialisation : laser cornéen (Femto-LASIK, PKR) et chirurgie intraoculaire (ICL, PRELEX, cataracte)
 - Sociétés savantes : ESCRS (European Society of Cataract and Refractive Surgeons), SBO (Société belge d'ophtalmologie), SFO (Société française d'ophtalmologie), SAFIR (Société de l'association française des implants et de la chirurgie réfractive)
 - Langues de consultation : français, néerlandais, anglais, turc, kurde, persan, italien
-- Volume opératoire : des milliers d'interventions de chirurgie oculaire
 - Plateformes laser : Ziemer FEMTO LDV Z8 (laser femtoseconde, découpe du volet en Femto-LASIK) et Alcon WaveLight EX500 (laser excimer, remodelage cornéen en Femto-LASIK et en PKR)
 
 ## Lieux de consultation
@@ -102,6 +101,7 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 ### Pages informatives
 - https://docteursanak.com/dr-serdal-sanak/ — Parcours, titres et sociétés savantes du Dr Serdal Sanak
 - https://docteursanak.com/bilan/ — Bilan préopératoire
+- https://docteursanak.com/questions-frequentes/ — Index des questions posées en consultation, par thème
 - https://docteursanak.com/bilan/questionnaire/ — Questionnaire pré-opératoire à remplir avant le bilan (réponses transmises au Dr Sanak, rien n'est conservé sur le site)
 - https://docteursanak.com/tarifs/ — Tarifs et modalités financières
 - https://docteursanak.com/risques-laser/ — Effets secondaires et risques de la chirurgie laser
