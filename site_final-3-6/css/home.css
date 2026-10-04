@@ -492,7 +492,7 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
 
 /* ─── NAV LOGO ───────────────────────────────────────────────────────── */
 .nav-logo-img {
-  height: 40px; width: auto; display: block;
+  height: 58px; width: auto; display: block;
   object-fit: contain; transition: opacity .2s;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
@@ -559,7 +559,7 @@ body { font-family: var(--font-sans); color: var(--text-dark); background: var(-
 @media(max-width:1100px){
   .nav{flex-wrap:wrap;height:auto !important;padding:8px 16px;overflow:visible;}
   .nav-logo{width:100%;margin-bottom:6px;}
-  .nav-logo-img{height:36px !important;}
+  .nav-logo-img{height:52px !important;}
   .nav-rdv-mobile{
     display:block;
     width:100%;
