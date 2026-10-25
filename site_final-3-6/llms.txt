@@ -138,6 +138,22 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 
 - **Femto-LASIK ou ICL, comment choisir ?** Le choix repose sur des critères objectifs mesurés au bilan : épaisseur cornéenne, degré de myopie, topographie. Le Femto-LASIK est indiqué pour les myopies faibles à moyennes avec cornée suffisante. L'ICL est indiqué pour les fortes myopies (au-delà de -8 D) et les cornées contre-indiquées au laser. Voir https://docteursanak.com/femtolasik-vs-icl/.
 
+- **Est-ce que le Femto-LASIK fait mal ?** L'intervention est indolore grâce aux gouttes anesthésiantes ; le patient sent surtout une pression de quelques secondes. Ensuite, l'œil pique ou larmoie quelques heures. Le Dr Sanak ne prescrit pas d'antalgique : un paracétamol suffit si besoin. Voir https://docteursanak.com/femtolasik/#femto-lasik-douleur.
+
+- **Est-on endormi pendant une opération des yeux au laser ?** Le patient reste éveillé. L'anesthésie se fait par gouttes, avec un léger calmant par la bouche si nécessaire, pour le Femto-LASIK comme pour l'implant ICL. Voir https://docteursanak.com/femtolasik/#femto-lasik-eveille.
+
+- **Que se passe-t-il si on bouge l'œil ou si on cligne pendant le laser ?** Un écarteur empêche de cligner. Le laser excimer Alcon WaveLight EX500 suit la position de l'œil et interrompt le tir s'il s'écarte trop ; pendant la découpe du volet au Ziemer FEMTO LDV Z8, l'œil est maintenu par un anneau de succion. Voir https://docteursanak.com/femtolasik/#femto-lasik-bouger-cligner.
+
+- **Opère-t-on les deux yeux le même jour ?** Oui. Pour le Femto-LASIK, le Dr Sanak opère les deux yeux dans la même séance, en une vingtaine de minutes au total, préparation comprise, avec un contrôle le lendemain. Pour l'implant ICL aussi, les deux yeux sont opérés le même jour. Voir https://docteursanak.com/femtolasik/#femto-lasik-deux-yeux et https://docteursanak.com/icl/.
+
+- **Faudra-t-il des lunettes pour lire après une opération de la myopie ?** Le plus souvent oui, vers 45 ans : le laser et l'implant ICL corrigent la vision de loin, sans freiner la presbytie. Le sujet est abordé au bilan après 40 ans. Voir https://docteursanak.com/presbytie/#lunettes-lecture-apres-myopie.
+
+- **Ma vue a baissé des années après un LASIK, que faire ?** Il faut d'abord identifier la cause : régression de la correction, presbytie, cataracte débutante ou sécheresse oculaire. Une retouche au laser est possible si la cornée le permet, au plus tôt six mois après la première intervention. Voir https://docteursanak.com/risques-laser/#vue-baisse-apres-laser.
+
+- **Les implants ICL donnent-ils des halos la nuit ?** Ils sont fréquents les premières semaines et s'atténuent chez la grande majorité des patients. La taille des pupilles en faible lumière est mesurée au bilan. Voir https://docteursanak.com/icl/#icl-halos.
+
+- **Un implant ICL augmente-t-il le risque de cataracte ou de glaucome ?** Le risque est faible avec les EVO ICL actuels, bien dimensionnés et surveillés : le vault et la pression oculaire sont contrôlés à chaque suivi. Voir https://docteursanak.com/icl/#icl-cataracte-glaucome.
+
 ## Versions linguistiques
 
 - Français (langue principale) : https://docteursanak.com/
@@ -146,4 +162,4 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 
 ## Mise à jour
 
-Ce fichier a été mis à jour pour la dernière fois en août 2026. Le site est mis à jour régulièrement avec les évolutions des techniques et des indications.
+Ce fichier a été mis à jour pour la dernière fois en octobre 2026. Le site est mis à jour régulièrement avec les évolutions des techniques et des indications.
