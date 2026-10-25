@@ -152,7 +152,7 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 
 - **Les implants ICL donnent-ils des halos la nuit ?** Ils sont fréquents les premières semaines et s'atténuent chez la grande majorité des patients. La taille des pupilles en faible lumière est mesurée au bilan. Voir https://docteursanak.com/icl/#icl-halos.
 
-- **Un implant ICL augmente-t-il le risque de cataracte ou de glaucome ?** Le risque est faible avec les EVO ICL actuels, bien dimensionnés et surveillés : le vault et la pression oculaire sont contrôlés à chaque suivi. Voir https://docteursanak.com/icl/#icl-cataracte-glaucome.
+- **Un implant ICL augmente-t-il le risque de cataracte ou de glaucome ?** Le risque est faible avec les EVO ICL actuels, bien dimensionnés et surveillés : le vault et la pression oculaire sont contrôlés à J1, J7, J30 et 6 mois, puis une fois par an. Voir https://docteursanak.com/icl/#icl-cataracte-glaucome.
 
 ## Versions linguistiques
 
