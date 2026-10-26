@@ -331,3 +331,8 @@ button.mobile-section-title:focus-visible{outline:2px solid var(--blue);outline-
 .two-col.reverse > .prose{order:2;}
 .two-col.reverse > :not(.prose){order:1;}
 @media(max-width:900px){.two-col.reverse{grid-template-columns:1fr;}.two-col.reverse > .prose{order:1;}.two-col.reverse > :not(.prose){order:2;}}
+/* Photo d'appoint à côté du texte : affichée petite pour rester nette sur écran haute densité */
+.photo-side{float:right;width:190px;margin:6px 0 18px 28px;}
+.photo-side img{width:100%;height:auto;display:block;border-radius:var(--radius-lg);box-shadow:0 10px 28px rgba(20,61,107,.14);}
+.prose h2,.prose h3{clear:both;}
+@media(max-width:600px){.photo-side{float:none;width:56%;max-width:200px;margin:4px auto 20px;}}
