@@ -105,6 +105,7 @@ Bilan préopératoire facturé à part, partiellement remboursé selon la mutuel
 - https://docteursanak.com/bilan/questionnaire/ : Questionnaire pré-opératoire à remplir avant le bilan (réponses transmises au Dr Sanak, rien n'est conservé sur le site)
 - https://docteursanak.com/tarifs/ : Tarifs et modalités financières
 - https://docteursanak.com/risques-laser/ : Effets secondaires et risques de la chirurgie laser
+- https://docteursanak.com/peur-operation-yeux/ : Peur de l'opération des yeux : mouvements de l'œil et suivi du laser, clignement, douleur, calmant, risque de complication grave
 - https://docteursanak.com/pkr-vs-femtolasik/ : Comparatif PKR vs Femto-LASIK
 - https://docteursanak.com/sports-de-contact-et-laser/ : Boxe, MMA, judo, rugby et chirurgie laser
 - https://docteursanak.com/femtolasik-vs-icl/ : Femto-LASIK vs ICL : indications, critères de décision, forte myopie, récupération, coût
